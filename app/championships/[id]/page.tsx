@@ -122,9 +122,15 @@ export default async function ChampionshipPage({ params }: { params: Promise<{ i
             return (
               <Glass key={r.id} cut={14} pad={16}>
                 <div style={{ display: "grid", gridTemplateColumns: "48px 1fr auto", gap: 16, alignItems: "center" }}>
-                  <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 30, color: r.status === "done" ? "var(--text-primary)" : "var(--text-tertiary)", fontVariantNumeric: "tabular-nums" }}>
-                    {String(r.index).padStart(2, "0")}
-                  </span>
+                  {r.status === "done" ? (
+                    <Link href={`/rounds/${r.id}`} style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 30, color: "var(--text-primary)", fontVariantNumeric: "tabular-nums", textDecoration: "none" }}>
+                      {String(r.index).padStart(2, "0")}
+                    </Link>
+                  ) : (
+                    <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 30, color: "var(--text-tertiary)", fontVariantNumeric: "tabular-nums" }}>
+                      {String(r.index).padStart(2, "0")}
+                    </span>
+                  )}
                   <div>
                     <div style={{ fontFamily: "var(--font-body)", fontWeight: 500, fontSize: 16, color: "var(--text-primary)" }}>{r.track.name}</div>
                     <div style={{ display: "flex", gap: 14, marginTop: 3 }}>
