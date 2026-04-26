@@ -1,0 +1,5796 @@
+{
+  "id": "cnsrc-s02",
+  "season": "S02",
+  "year": 2025,
+  "name": "Campeonato Nacional Simracing Cuba 2025",
+  "classes": [
+    {
+      "id": "indycar",
+      "label": "Indycar PRO",
+      "car": "rss_formula_americas_2020"
+    },
+    {
+      "id": "am",
+      "label": "Indycar AM",
+      "car": "rss_formula_americas_2020"
+    }
+  ],
+  "rounds": [
+    {
+      "id": "cnsrc-s02-r01",
+      "index": 1,
+      "track": {
+        "id": "singapore",
+        "name": "Circuito Marina Bay",
+        "short": "SGP",
+        "country": "Singapur",
+        "layout": "Callejero",
+        "lengthKm": 5.063,
+        "turns": 23
+      },
+      "date": "15 feb 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r01-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.759",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.633",
+              "gap": "+2.874",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.481",
+              "gap": "+3.722",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.571",
+              "gap": "+3.812",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.930",
+              "gap": "+4.171",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:50.974",
+              "gap": "+5.215",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:50.549",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:51.799",
+              "gap": "+1.250",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d10",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:53.624",
+              "gap": "+3.075",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d24",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "16666:39.999",
+              "gap": "+16664:49",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r01-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 26,
+            "trackTemp": 38,
+            "weather": "Despejado",
+            "windKph": 10
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "1:45.071",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 6,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "1:48.930",
+              "gap": "+29.258",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "1:49.494",
+              "gap": "+46.160",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 2,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "1:48.727",
+              "gap": "+46.257",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "1:50.984",
+              "gap": "+55.054",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 5,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "1:51.272",
+              "gap": "+1:03.200",
+              "points": 8,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 11,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "1:53.039",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 12,
+              "driverId": "d10",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "1:55.768",
+              "gap": "+42.378",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 10,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "1:51.236",
+              "gap": "+47.467",
+              "points": 16,
+              "status": "finished"
+            }
+          ],
+          "laps": [
+            {
+              "driverId": "d01",
+              "lapNo": 1,
+              "time": "1:48.775",
+              "sectors": [
+                "35.308",
+                "44.204",
+                "29.263"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 2,
+              "time": "1:46.628",
+              "sectors": [
+                "33.413",
+                "43.714",
+                "29.501"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 3,
+              "time": "1:45.213",
+              "sectors": [
+                "32.412",
+                "43.659",
+                "29.142"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 4,
+              "time": "1:46.186",
+              "sectors": [
+                "32.647",
+                "44.365",
+                "29.174"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 5,
+              "time": "1:45.800",
+              "sectors": [
+                "32.342",
+                "44.461",
+                "28.997"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 6,
+              "time": "1:45.820",
+              "sectors": [
+                "32.209",
+                "44.267",
+                "29.344"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 7,
+              "time": "1:45.071",
+              "sectors": [
+                "32.572",
+                "43.479",
+                "29.020"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 1,
+              "time": "1:53.731",
+              "sectors": [
+                "37.537",
+                "46.094",
+                "30.100"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 2,
+              "time": "1:49.131",
+              "sectors": [
+                "33.819",
+                "45.562",
+                "29.750"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 3,
+              "time": "1:49.152",
+              "sectors": [
+                "33.479",
+                "45.703",
+                "29.970"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 4,
+              "time": "1:50.429",
+              "sectors": [
+                "34.182",
+                "46.044",
+                "30.203"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 5,
+              "time": "1:48.727",
+              "sectors": [
+                "34.103",
+                "44.834",
+                "29.790"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 6,
+              "time": "1:57.888",
+              "sectors": [
+                "33.305",
+                "54.410",
+                "30.173"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 7,
+              "time": "2:00.726",
+              "sectors": [
+                "42.997",
+                "46.193",
+                "31.536"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 1,
+              "time": "1:54.339",
+              "sectors": [
+                "37.775",
+                "46.427",
+                "30.137"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 2,
+              "time": "1:51.492",
+              "sectors": [
+                "33.417",
+                "45.666",
+                "32.409"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 3,
+              "time": "1:55.487",
+              "sectors": [
+                "37.651",
+                "47.412",
+                "30.424"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 4,
+              "time": "1:50.630",
+              "sectors": [
+                "33.527",
+                "46.963",
+                "30.140"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 5,
+              "time": "1:58.272",
+              "sectors": [
+                "34.265",
+                "45.892",
+                "38.115"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 6,
+              "time": "1:49.494",
+              "sectors": [
+                "33.889",
+                "45.481",
+                "30.124"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 7,
+              "time": "1:49.962",
+              "sectors": [
+                "33.264",
+                "45.828",
+                "30.870"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d05",
+              "lapNo": 1,
+              "time": "1:55.310",
+              "sectors": [
+                "39.022",
+                "46.543",
+                "29.745"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d05",
+              "lapNo": 2,
+              "time": "1:49.578",
+              "sectors": [
+                "33.635",
+                "45.675",
+                "30.268"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d05",
+              "lapNo": 3,
+              "time": "1:50.132",
+              "sectors": [
+                "34.073",
+                "45.909",
+                "30.150"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d05",
+              "lapNo": 4,
+              "time": "1:48.930",
+              "sectors": [
+                "33.429",
+                "45.670",
+                "29.831"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d05",
+              "lapNo": 5,
+              "time": "1:49.259",
+              "sectors": [
+                "33.407",
+                "45.518",
+                "30.334"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d05",
+              "lapNo": 6,
+              "time": "1:49.379",
+              "sectors": [
+                "33.428",
+                "46.152",
+                "29.799"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d05",
+              "lapNo": 7,
+              "time": "1:50.271",
+              "sectors": [
+                "33.951",
+                "45.787",
+                "30.533"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 1,
+              "time": "1:57.493",
+              "sectors": [
+                "38.797",
+                "48.334",
+                "30.362"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 2,
+              "time": "1:50.984",
+              "sectors": [
+                "34.934",
+                "45.770",
+                "30.280"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 3,
+              "time": "1:52.197",
+              "sectors": [
+                "35.031",
+                "46.777",
+                "30.389"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 4,
+              "time": "1:53.026",
+              "sectors": [
+                "34.227",
+                "48.212",
+                "30.587"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 5,
+              "time": "2:00.232",
+              "sectors": [
+                "33.958",
+                "51.048",
+                "35.226"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 6,
+              "time": "1:53.099",
+              "sectors": [
+                "34.062",
+                "46.521",
+                "32.516"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 7,
+              "time": "1:51.530",
+              "sectors": [
+                "34.198",
+                "46.643",
+                "30.689"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d09",
+              "lapNo": 1,
+              "time": "2:00.971",
+              "sectors": [
+                "40.894",
+                "48.263",
+                "31.814"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d09",
+              "lapNo": 2,
+              "time": "1:53.943",
+              "sectors": [
+                "34.576",
+                "47.741",
+                "31.626"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d09",
+              "lapNo": 3,
+              "time": "1:53.039",
+              "sectors": [
+                "34.361",
+                "47.782",
+                "30.896"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d09",
+              "lapNo": 4,
+              "time": "1:53.560",
+              "sectors": [
+                "34.972",
+                "47.435",
+                "31.153"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d09",
+              "lapNo": 5,
+              "time": "1:54.832",
+              "sectors": [
+                "34.628",
+                "48.313",
+                "31.891"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d09",
+              "lapNo": 6,
+              "time": "1:53.757",
+              "sectors": [
+                "34.354",
+                "47.830",
+                "31.573"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d09",
+              "lapNo": 7,
+              "time": "1:53.845",
+              "sectors": [
+                "34.640",
+                "47.916",
+                "31.289"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 1,
+              "time": "2:06.305",
+              "sectors": [
+                "47.191",
+                "48.447",
+                "30.667"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 2,
+              "time": "1:52.115",
+              "sectors": [
+                "34.562",
+                "46.436",
+                "31.117"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 3,
+              "time": "1:58.793",
+              "sectors": [
+                "34.477",
+                "53.010",
+                "31.306"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 4,
+              "time": "1:51.913",
+              "sectors": [
+                "34.396",
+                "46.890",
+                "30.627"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 5,
+              "time": "1:51.272",
+              "sectors": [
+                "34.043",
+                "47.187",
+                "30.042"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 6,
+              "time": "1:54.725",
+              "sectors": [
+                "38.748",
+                "45.738",
+                "30.239"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 7,
+              "time": "1:51.580",
+              "sectors": [
+                "33.914",
+                "47.088",
+                "30.578"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d08",
+              "lapNo": 1,
+              "time": "2:07.200",
+              "sectors": [
+                "39.233",
+                "51.449",
+                "36.518"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d08",
+              "lapNo": 2,
+              "time": "2:21.898",
+              "sectors": [
+                "1:04.601",
+                "47.098",
+                "30.199"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d08",
+              "lapNo": 3,
+              "time": "1:51.236",
+              "sectors": [
+                "34.498",
+                "46.287",
+                "30.451"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d08",
+              "lapNo": 4,
+              "time": "1:51.949",
+              "sectors": [
+                "34.896",
+                "46.192",
+                "30.861"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d08",
+              "lapNo": 5,
+              "time": "1:56.565",
+              "sectors": [
+                "37.319",
+                "47.912",
+                "31.334"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d08",
+              "lapNo": 6,
+              "time": "1:58.899",
+              "sectors": [
+                "35.937",
+                "50.877",
+                "32.085"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d08",
+              "lapNo": 7,
+              "time": "2:03.673",
+              "sectors": [
+                "36.054",
+                "55.755",
+                "31.864"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d10",
+              "lapNo": 1,
+              "time": "2:11.832",
+              "sectors": [
+                "40.950",
+                "52.802",
+                "38.080"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d10",
+              "lapNo": 2,
+              "time": "1:56.041",
+              "sectors": [
+                "35.761",
+                "47.300",
+                "32.980"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d10",
+              "lapNo": 3,
+              "time": "1:55.768",
+              "sectors": [
+                "34.831",
+                "49.991",
+                "30.946"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d10",
+              "lapNo": 4,
+              "time": "2:07.985",
+              "sectors": [
+                "46.518",
+                "49.626",
+                "31.841"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d10",
+              "lapNo": 5,
+              "time": "1:57.921",
+              "sectors": [
+                "35.903",
+                "50.418",
+                "31.600"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d10",
+              "lapNo": 6,
+              "time": "1:57.490",
+              "sectors": [
+                "35.113",
+                "50.652",
+                "31.725"
+              ],
+              "compound": "S",
+              "cut": false
+            },
+            {
+              "driverId": "d10",
+              "lapNo": 7,
+              "time": "1:59.301",
+              "sectors": [
+                "35.501",
+                "48.897",
+                "34.903"
+              ],
+              "compound": "S",
+              "cut": false
+            }
+          ],
+          "incidents": [
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d06"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Ivan Enriquez"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d02"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Ameg Sanchez"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d06"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Ivan Enriquez"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d02"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ameg Sanchez"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d01"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Samir Kaddoura"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d08"
+              ],
+              "summary": "Contacto entre Ivan Enriquez y Eduardo A. Gibert"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d09"
+              ],
+              "summary": "Contacto entre Ivan Enriquez y Erick Gonzalez"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d02"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ameg Sanchez"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d04"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Deivid Lamadrid"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d08"
+              ],
+              "summary": "Eduardo A. Gibert contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enriquez contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d08"
+              ],
+              "summary": "Eduardo A. Gibert contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d10"
+              ],
+              "summary": "Marco Veranes contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d10"
+              ],
+              "summary": "Marco Veranes contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d10"
+              ],
+              "summary": "Marco Veranes contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d10"
+              ],
+              "summary": "Marco Veranes contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d10"
+              ],
+              "summary": "Marco Veranes contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d08"
+              ],
+              "summary": "Eduardo A. Gibert contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d08"
+              ],
+              "summary": "Eduardo A. Gibert contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d10"
+              ],
+              "summary": "Marco Veranes contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enriquez contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d10"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Marco Veranes"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d10",
+                "d08"
+              ],
+              "summary": "Contacto entre Marco Veranes y Eduardo A. Gibert"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d10"
+              ],
+              "summary": "Marco Veranes contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d10"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Marco Veranes"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d08"
+              ],
+              "summary": "Eduardo A. Gibert contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d08"
+              ],
+              "summary": "Eduardo A. Gibert contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d08"
+              ],
+              "summary": "Eduardo A. Gibert contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            }
+          ],
+          "status": "done",
+          "raceDataFile": "2025_2_16_0_6_RACE.json"
+        },
+        {
+          "id": "cnsrc-s02-r01-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 6,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.141",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 5,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.033",
+              "gap": "+40.425",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 2,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.712",
+              "gap": "+1:37",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.680",
+              "gap": "+0.853",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 3,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.973",
+              "gap": "+38.647",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 1,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:51.748",
+              "gap": "—",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 10,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:51.027",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 12,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:52.016",
+              "gap": "+1.943",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 11,
+              "driverId": "d10",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:56.358",
+              "gap": "—",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 16,
+              "driverId": "d24",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "02:04.555",
+              "gap": "+10 Vlts",
+              "points": 0,
+              "status": "dnf"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d02"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Ameg Sanchez"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d10"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Marco Veranes"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d10"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Marco Veranes"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d04"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Deivid Lamadrid"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d05"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Brayan Couso"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d08"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Eduardo A. Gibert"
+            },
+            {
+              "lap": 19,
+              "kind": "collision",
+              "driverIds": [
+                "d10",
+                "d01"
+              ],
+              "summary": "Contacto entre Marco Veranes y Samir Kaddoura"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r02",
+      "index": 2,
+      "track": {
+        "id": "roadamerica",
+        "name": "Road America",
+        "short": "ROA",
+        "country": "EE.UU.",
+        "layout": "Carretera",
+        "lengthKm": 6.515,
+        "turns": 14
+      },
+      "date": "22 feb 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r02-p",
+          "type": "practice",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r02-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.157",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.203",
+              "gap": "+1.046",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.588",
+              "gap": "+1.431",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d11",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.696",
+              "gap": "+1.539",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.149",
+              "gap": "+1.992",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.521",
+              "gap": "+2.364",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 7,
+              "gridPos": 7,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.644",
+              "gap": "+2.487",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 8,
+              "gridPos": 8,
+              "driverId": "d25",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.498",
+              "gap": "+3.341",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 9,
+              "gridPos": 9,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:50.136",
+              "gap": "+3.979",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.222",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.408",
+              "gap": "+0.186",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d13",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:52.878",
+              "gap": "+3.656",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r02-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.597",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.343",
+              "gap": "+15.242",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.223",
+              "gap": "+24.842",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 6,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.849",
+              "gap": "+25.286",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 7,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.375",
+              "gap": "+28.066",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 4,
+              "driverId": "d11",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.462",
+              "gap": "+29.803",
+              "points": 8,
+              "status": "finished"
+            },
+            {
+              "pos": 7,
+              "gridPos": 8,
+              "driverId": "d25",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.380",
+              "gap": "+33.337",
+              "points": 6,
+              "status": "finished"
+            },
+            {
+              "pos": 8,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.673",
+              "gap": "—",
+              "points": 4,
+              "status": "finished"
+            },
+            {
+              "pos": 9,
+              "gridPos": 9,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "02:13.898",
+              "gap": "+5 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.518",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 13,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:55.428",
+              "gap": "+37.549",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 14,
+              "driverId": "d13",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:55.536",
+              "gap": "+53.777",
+              "points": 15,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d11"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Lázaro Contreras"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d02"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Ameg Sanchez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d06"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Ivan Enriquez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d08"
+              ],
+              "summary": "Contacto entre Ivan Enriquez y Eduardo A. Gibert"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d26"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Pablo Nacianceno"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d02"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Ameg Sanchez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d02"
+              ],
+              "summary": "Contacto entre Bryan Couso y Ameg Sanchez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d26"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Pablo Nacianceno"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r02-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 2,
+              "driverId": "d11",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.058",
+              "gap": "—",
+              "points": 37.5,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 7,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.301",
+              "gap": "+0.045",
+              "points": 28.5,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.537",
+              "gap": "+11.271",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 5,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.037",
+              "gap": "+29.838",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 3,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.410",
+              "gap": "+34.882",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.565",
+              "gap": "—",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 7,
+              "gridPos": 8,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "02:11.877",
+              "gap": "+10 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 13,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.284",
+              "gap": "—",
+              "points": 37.5,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 14,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.006",
+              "gap": "+13.414",
+              "points": 28.5,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 12,
+              "driverId": "d13",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "02:02.237",
+              "gap": "+8 Vlts",
+              "points": 0,
+              "status": "dnf"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d02"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Ameg Sanchez"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d09"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Erick Gonzalez"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d09"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Erick Gonzalez"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r03",
+      "index": 3,
+      "track": {
+        "id": "interlagos",
+        "name": "Autódromo José Carlos Pace",
+        "short": "INT",
+        "country": "Brasil",
+        "layout": "Grand Prix",
+        "lengthKm": 4.309,
+        "turns": 15
+      },
+      "date": "08 mar 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r03-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.007",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.440",
+              "gap": "+0.433",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:22.540",
+              "gap": "+1.533",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d12",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:22.788",
+              "gap": "+1.781",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:23.527",
+              "gap": "+2.520",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:28.881",
+              "gap": "+7.874",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 7,
+              "gridPos": 7,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:34.384",
+              "gap": "+13.377",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:22.789",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:25.232",
+              "gap": "+2.443",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d24",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "16666:39.999",
+              "gap": "+16665:17",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r03-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:23.730",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 13,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:29.567",
+              "gap": "+1:15",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 14,
+              "driverId": "d24",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:39.633",
+              "gap": "—",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 3,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:24.058",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 5,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:22.677",
+              "gap": "+4.983",
+              "points": 19,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 4,
+              "driverId": "d12",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:24.776",
+              "gap": "+21.952",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 2,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:27.150",
+              "gap": "+37.455",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 1,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:28.958",
+              "gap": "+44.817",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:23.951",
+              "gap": "+57.099",
+              "points": 8,
+              "status": "finished"
+            },
+            {
+              "pos": 7,
+              "gridPos": 7,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:26.706",
+              "gap": "+39.544",
+              "points": 6,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d12",
+                "d09"
+              ],
+              "summary": "Contacto entre Yonny Menglez y Erick Gonzalez"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d12"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Yonny Menglez"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d06"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ivan Enriquez"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d24",
+                "d06"
+              ],
+              "summary": "Contacto entre Luis Carrabeo y Ivan Enriquez"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d24",
+                "d09"
+              ],
+              "summary": "Contacto entre Luis Carrabeo y Erick Gonzalez"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d24",
+                "d26"
+              ],
+              "summary": "Contacto entre Luis Carrabeo y Pablo Nacianceno"
+            },
+            {
+              "lap": 10,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d24"
+              ],
+              "summary": "Contacto entre Bryan Couso y Luis Carrabeo"
+            },
+            {
+              "lap": 12,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d01"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Samir Kaddoura"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r03-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 6,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:24.146",
+              "gap": "—",
+              "points": 37.5,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 7,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:22.280",
+              "gap": "+7.653",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:20.939",
+              "gap": "+14.187",
+              "points": 24,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:22.006",
+              "gap": "+41.209",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 4,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.276",
+              "gap": "+49.762",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 5,
+              "driverId": "d12",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "16666:39.999",
+              "gap": "+16 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 14,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:21.390",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 13,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:22.571",
+              "gap": "+2:02",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 12,
+              "driverId": "d24",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "16666:39.999",
+              "gap": "+15 Vlts",
+              "points": 0,
+              "status": "dnf"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d12"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Yonny Menglez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d01"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d06"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ivan Enriquez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d02"
+              ],
+              "summary": "Contacto entre Bryan Couso y Ameg Sanchez"
+            },
+            {
+              "lap": 14,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d02"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ameg Sanchez"
+            },
+            {
+              "lap": 16,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d09"
+              ],
+              "summary": "Contacto entre Bryan Couso y Erick Gonzalez"
+            },
+            {
+              "lap": 16,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d05"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Bryan Couso"
+            },
+            {
+              "lap": 20,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d02"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Ameg Sanchez"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r04",
+      "index": 4,
+      "track": {
+        "id": "sebring",
+        "name": "Sebring International Raceway",
+        "short": "SEB",
+        "country": "EE.UU.",
+        "layout": "Carretera",
+        "lengthKm": 6.019,
+        "turns": 17
+      },
+      "date": "22 mar 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r04-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:43.885",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d11",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.519",
+              "gap": "+2.634",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.523",
+              "gap": "+2.638",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.030",
+              "gap": "+3.145",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.515",
+              "gap": "+4.630",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "16666:39.999",
+              "gap": "+16664:56",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 7,
+              "gridPos": 7,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "16666:39.999",
+              "gap": "+16664:56",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:46.971",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.340",
+              "gap": "+2.369",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d27",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "02:03.602",
+              "gap": "+16.631",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d10",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "16666:39.999",
+              "gap": "+16664:53",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r04-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:43.318",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 7,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.814",
+              "gap": "+17.948",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.131",
+              "gap": "+33.281",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.826",
+              "gap": "+39.036",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 2,
+              "driverId": "d11",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.041",
+              "gap": "+54.080",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 5,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:50.959",
+              "gap": "+59.530",
+              "points": 8,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 13,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.589",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 12,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:48.188",
+              "gap": "+4.648",
+              "points": 19,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 14,
+              "driverId": "d27",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "02:02.543",
+              "gap": "—",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 15,
+              "driverId": "d10",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:55.630",
+              "gap": "+12.390",
+              "points": 12,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d10",
+                "d08"
+              ],
+              "summary": "Contacto entre Marco Veranes y Eduardo A. Gibert"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d27"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Luis Carrabeo"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d09"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Erick Gonzalez"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d26"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Pablo Nacianceno"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d11",
+                "d10"
+              ],
+              "summary": "Contacto entre Lázaro Contreras y Marco Veranes"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d10",
+                "d11"
+              ],
+              "summary": "Contacto entre Marco Veranes y Lázaro Contreras"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r04-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 7,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:43.314",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 6,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.947",
+              "gap": "+20.358",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 5,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.603",
+              "gap": "+32.526",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 3,
+              "driverId": "d11",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.288",
+              "gap": "+49.774",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.115",
+              "gap": "+17.579",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 4,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.121",
+              "gap": "—",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:48.755",
+              "gap": "—",
+              "points": 37.5,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 13,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:47.728",
+              "gap": "+2.868",
+              "points": 28.5,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 15,
+              "driverId": "d10",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:52.511",
+              "gap": "+6 Vlts",
+              "points": 0,
+              "status": "dnf"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d11",
+                "d04"
+              ],
+              "summary": "Contacto entre Lázaro Contreras y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d11",
+                "d01"
+              ],
+              "summary": "Contacto entre Lázaro Contreras y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d11"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Lázaro Contreras"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d05"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Bryan Couso"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d11"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Lázaro Contreras"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d10",
+                "d01"
+              ],
+              "summary": "Contacto entre Marco Veranes y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d08"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Eduardo A. Gibert"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d01"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Samir Kaddoura"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r05",
+      "index": 5,
+      "track": {
+        "id": "laguna",
+        "name": "WeatherTech Raceway Laguna Seca",
+        "short": "LAG",
+        "country": "EE.UU.",
+        "layout": "Carretera",
+        "lengthKm": 3.602,
+        "turns": 11
+      },
+      "date": "12 abr 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r05-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:09.879",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:11.212",
+              "gap": "+1.333",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:11.949",
+              "gap": "+2.070",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:12.308",
+              "gap": "+2.429",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:14.789",
+              "gap": "+4.910",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:11.049",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:12.329",
+              "gap": "+1.280",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:13.789",
+              "gap": "+2.740",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d27",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:16.239",
+              "gap": "+5.190",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r05-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:09.889",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 6,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:11.155",
+              "gap": "+20.917",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:12.205",
+              "gap": "+40.411",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 2,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:11.882",
+              "gap": "+43.390",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:15.050",
+              "gap": "+14.492",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 4,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:12.187",
+              "gap": "+40.084",
+              "points": 8,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 13,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:11.918",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 14,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:13.124",
+              "gap": "+13.493",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 15,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:15.574",
+              "gap": "—",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 16,
+              "driverId": "d27",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:17.500",
+              "gap": "—",
+              "points": 12,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d04"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d04"
+              ],
+              "summary": "Contacto entre Ivan Enriquez y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d08"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Eduardo A. Gibert"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d28",
+                "d07"
+              ],
+              "summary": "Contacto entre Ruben Jackson y Oliver Wilson"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d05"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Bryan Couso"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d07"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Oliver Wilson"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r05-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 7,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:10.379",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 6,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:11.490",
+              "gap": "+35.928",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 4,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:11.030",
+              "gap": "+44.675",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 3,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:13.749",
+              "gap": "+11.901",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:11.780",
+              "gap": "+12 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 6,
+              "gridPos": 2,
+              "driverId": "d07",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:12.014",
+              "gap": "+14 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 13,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:11.428",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 14,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:12.203",
+              "gap": "—",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 15,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:15.464",
+              "gap": "—",
+              "points": 22.5,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d07"
+              ],
+              "summary": "Contacto entre Bryan Couso y Oliver Wilson"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d06"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Ivan Enriquez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d02"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Ameg Sanchez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d01"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d02"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Ameg Sanchez"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d04"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Deivid Lamadrid"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d05"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Bryan Couso"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d04"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Deivid Lamadrid"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r06",
+      "index": 6,
+      "track": {
+        "id": "jeddah",
+        "name": "Circuito Callejero de Jeddah",
+        "short": "JED",
+        "country": "Arabia Saudita",
+        "layout": "Callejero",
+        "lengthKm": 6.174,
+        "turns": 27
+      },
+      "date": "19 abr 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r06-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:44.469",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.686",
+              "gap": "+1.217",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.281",
+              "gap": "+1.812",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.926",
+              "gap": "+2.457",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "16666:39.999",
+              "gap": "+16664:55",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:44.962",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:45.158",
+              "gap": "+0.196",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:48.956",
+              "gap": "+3.994",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r06-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 3,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.352",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:44.988",
+              "gap": "+3.473",
+              "points": 19,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:46.160",
+              "gap": "+8.645",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.802",
+              "gap": "—",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:47.011",
+              "gap": "—",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 14,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:45.788",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 15,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:48.781",
+              "gap": "+9.928",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 13,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:44.644",
+              "gap": "—",
+              "points": 16,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d04"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d01"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d28"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Ruben Jackson"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d01"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d02"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Ameg Sanchez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d01"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Samir Kaddoura"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d28"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Ruben Jackson"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d01"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Samir Kaddoura"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r06-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 7,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:44.920",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 6,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:48.449",
+              "gap": "—",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 5,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:45.897",
+              "gap": "+10 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:43.818",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 15,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.201",
+              "gap": "—",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 13,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.182",
+              "gap": "+30.166",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 11,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:45.844",
+              "gap": "—",
+              "points": 18,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d04"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d26"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Pablo Nacianceno"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r07",
+      "index": 7,
+      "track": {
+        "id": "roadatlanta",
+        "name": "Road Atlanta",
+        "short": "ATL",
+        "country": "EE.UU.",
+        "layout": "Carretera",
+        "lengthKm": 4.088,
+        "turns": 12
+      },
+      "date": "03 may 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r07-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:07.245",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.093",
+              "gap": "+0.848",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.456",
+              "gap": "+1.211",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.651",
+              "gap": "+1.406",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.723",
+              "gap": "+1.478",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:07.650",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:08.471",
+              "gap": "+0.821",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:11.295",
+              "gap": "+3.645",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d15",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:14.833",
+              "gap": "+7.183",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r07-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:07.272",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 4,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.875",
+              "gap": "+10.612",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:09.610",
+              "gap": "+51.005",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 2,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:09.069",
+              "gap": "+1.443",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.251",
+              "gap": "+14.362",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 14,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:08.192",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 15,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:11.544",
+              "gap": "+51.972",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 13,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:08.962",
+              "gap": "+58.460",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 16,
+              "driverId": "d15",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:15.997",
+              "gap": "+54.186",
+              "points": 12,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d05"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Bryan Couso"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d28",
+                "d15"
+              ],
+              "summary": "Contacto entre Ruben Jackson y Alejandro Sotolongo"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d15",
+                "d01"
+              ],
+              "summary": "Contacto entre Alejandro Sotolongo y Samir Kaddoura"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d15"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Alejandro Sotolongo"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r07-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.455",
+              "gap": "—",
+              "points": 37.5,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 6,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.364",
+              "gap": "+14.697",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:07.647",
+              "gap": "—",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:08.449",
+              "gap": "+30.527",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 7,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:07.074",
+              "gap": "—",
+              "points": 16.5,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 13,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:07.929",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 16,
+              "driverId": "d15",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:14.517",
+              "gap": "—",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 14,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:11.472",
+              "gap": "—",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 15,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:08.043",
+              "gap": "+14 Vlts",
+              "points": 0,
+              "status": "dnf"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d01"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d09"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Erick Gonzalez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d04"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d28",
+                "d04"
+              ],
+              "summary": "Contacto entre Ruben Jackson y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d28",
+                "d09"
+              ],
+              "summary": "Contacto entre Ruben Jackson y Erick Gonzalez"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d01"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Samir Kaddoura"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d15"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Alejandro Sotolongo"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r08",
+      "index": 8,
+      "track": {
+        "id": "indy",
+        "name": "Indianapolis Motor Speedway",
+        "short": "IND",
+        "country": "EE.UU.",
+        "layout": "Óvalo",
+        "lengthKm": 4.023,
+        "turns": 4
+      },
+      "date": "24 may 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r08-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.187",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.313",
+              "gap": "+0.126",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.506",
+              "gap": "+0.319",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.859",
+              "gap": "+0.672",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "00:40.957",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "00:41.855",
+              "gap": "+0.898",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d15",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "4167:20.399",
+              "gap": "+4166:39",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r08-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "00:40.741",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 13,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "00:41.082",
+              "gap": "+4.746",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 14,
+              "driverId": "d15",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "00:43.876",
+              "gap": "+37 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 2,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.347",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 1,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.524",
+              "gap": "+2.489",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.433",
+              "gap": "+4.236",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "00:40.666",
+              "gap": "+14.840",
+              "points": 12,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d15",
+                "d04"
+              ],
+              "summary": "Contacto entre Alejandro Sotolongo y Deivid Lamadrid"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d08"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Eduardo A. Gibert"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d01"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Samir Kaddoura"
+            },
+            {
+              "lap": 15,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d15"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Alejandro Sotolongo"
+            },
+            {
+              "lap": 18,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d26"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Pablo Nacianceno"
+            },
+            {
+              "lap": 33,
+              "kind": "collision",
+              "driverIds": [
+                "d09",
+                "d26"
+              ],
+              "summary": "Contacto entre Erick Gonzalez y Pablo Nacianceno"
+            },
+            {
+              "lap": 33,
+              "kind": "collision",
+              "driverIds": [
+                "d01"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Safety Car"
+            },
+            {
+              "lap": 34,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d26"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Pablo Nacianceno"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r09",
+      "index": 9,
+      "track": {
+        "id": "cota",
+        "name": "Circuit of the Americas",
+        "short": "COT",
+        "country": "EE.UU.",
+        "layout": "Grand Prix",
+        "lengthKm": 5.513,
+        "turns": 20
+      },
+      "date": "07 jun 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r09-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.083",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.280",
+              "gap": "+0.197",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.297",
+              "gap": "+0.214",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:50.643",
+              "gap": "+1.560",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:54.532",
+              "gap": "+5.449",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.836",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:51.087",
+              "gap": "+1.251",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d29",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:54.566",
+              "gap": "+4.730",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:57.522",
+              "gap": "+7.686",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d30",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "16666:39.999",
+              "gap": "+16664:50",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r09-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 3,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.362",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.008",
+              "gap": "+0.712",
+              "points": 19,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 1,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.010",
+              "gap": "+26.949",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:51.593",
+              "gap": "+27.658",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:54.805",
+              "gap": "+1:12",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:50.396",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 13,
+              "driverId": "d29",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:53.201",
+              "gap": "+12.482",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 11,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:50.027",
+              "gap": "+24.748",
+              "points": 16,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 14,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:54.882",
+              "gap": "+31.626",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 15,
+              "driverId": "d30",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:55.254",
+              "gap": "+1:12",
+              "points": 10,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d26"
+              ],
+              "summary": "Contacto entre Ivan Enriquez y Pablo Nacianceno"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d28",
+                "d29"
+              ],
+              "summary": "Contacto entre Ruben Jackson y Francisco Coto"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d06"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ivan Enriquez"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d06"
+              ],
+              "summary": "Contacto entre Eduardo A. Gibert y Ivan Enriquez"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d30",
+                "d09"
+              ],
+              "summary": "Contacto entre Arian Vera y Erick Gonzalez"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d30",
+                "d08"
+              ],
+              "summary": "Contacto entre Arian Vera y Eduardo A. Gibert"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r09-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 6,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.424",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 7,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:48.535",
+              "gap": "+3.307",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 4,
+              "driverId": "d04",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.948",
+              "gap": "+17.310",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 3,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:52.229",
+              "gap": "+59.388",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:49.628",
+              "gap": "+10 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 13,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.608",
+              "gap": "—",
+              "points": 37.5,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 12,
+              "driverId": "d29",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:54.291",
+              "gap": "+13.849",
+              "points": 27,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 14,
+              "driverId": "d09",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:53.889",
+              "gap": "+34.175",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 11,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:49.449",
+              "gap": "—",
+              "points": 19.5,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d29",
+                "d30"
+              ],
+              "summary": "Contacto entre Francisco Coto y Arian Vera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d06"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ivan Enriquez"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d28"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Ruben Jackson"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d29",
+                "d28"
+              ],
+              "summary": "Contacto entre Francisco Coto y Ruben Jackson"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d28",
+                "d30"
+              ],
+              "summary": "Contacto entre Ruben Jackson y Arian Vera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d29",
+                "d01"
+              ],
+              "summary": "Contacto entre Francisco Coto y Samir Kaddoura"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d29",
+                "d01"
+              ],
+              "summary": "Contacto entre Francisco Coto y Samir Kaddoura"
+            },
+            {
+              "lap": 10,
+              "kind": "collision",
+              "driverIds": [
+                "d29",
+                "d09"
+              ],
+              "summary": "Contacto entre Francisco Coto y Erick Gonzalez"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    },
+    {
+      "id": "cnsrc-s02-r10",
+      "index": 10,
+      "track": {
+        "id": "sonoma",
+        "name": "Sonoma Raceway",
+        "short": "SON",
+        "country": "EE.UU.",
+        "layout": "Carretera",
+        "lengthKm": 3.999,
+        "turns": 10
+      },
+      "date": "14 jun 2025",
+      "sessions": [
+        {
+          "id": "cnsrc-s02-r10-q",
+          "type": "qualifying",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:19.983",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:19.992",
+              "gap": "+0.009",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:20.758",
+              "gap": "+0.775",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:20.782",
+              "gap": "+0.799",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 5,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.145",
+              "gap": "+1.162",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:25.228",
+              "gap": "+5.245",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:20.488",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 2,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:22.280",
+              "gap": "+1.792",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d30",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:22.565",
+              "gap": "+2.077",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
+          "laps": [],
+          "incidents": [],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r10-r1",
+          "type": "race",
+          "subLabel": "R1",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 1,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:19.756",
+              "gap": "—",
+              "points": 26,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 5,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.966",
+              "gap": "+22.130",
+              "points": 18,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 3,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:23.256",
+              "gap": "+46.938",
+              "points": 15,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 4,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.985",
+              "gap": "+1.206",
+              "points": 12,
+              "status": "finished"
+            },
+            {
+              "pos": 5,
+              "gridPos": 2,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:20.872",
+              "gap": "+9.585",
+              "points": 10,
+              "status": "finished"
+            },
+            {
+              "pos": 6,
+              "gridPos": 6,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:26.077",
+              "gap": "+1:04",
+              "points": 8,
+              "status": "finished"
+            },
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:22.760",
+              "gap": "—",
+              "points": 25,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 11,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:22.024",
+              "gap": "+1.779",
+              "points": 19,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 13,
+              "driverId": "d30",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:23.635",
+              "gap": "+6 Vlts",
+              "points": 0,
+              "status": "dnf"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d30"
+              ],
+              "summary": "Contacto entre Bryan Couso y Arian Vera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d08"
+              ],
+              "summary": "Contacto entre Bryan Couso y Eduardo A. Gibert"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d30"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Arian Vera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d28",
+                "d02"
+              ],
+              "summary": "Contacto entre Ruben Jackson y Ameg Sanchez"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d28"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Ruben Jackson"
+            }
+          ],
+          "status": "done"
+        },
+        {
+          "id": "cnsrc-s02-r10-r2",
+          "type": "race",
+          "subLabel": "R2",
+          "conditions": {
+            "airTemp": 28,
+            "trackTemp": 38,
+            "weather": "Despejado"
+          },
+          "results": [
+            {
+              "pos": 1,
+              "gridPos": 12,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:21.600",
+              "gap": "—",
+              "points": 39,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 13,
+              "driverId": "d30",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:24.304",
+              "gap": "+8 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 3,
+              "gridPos": 11,
+              "driverId": "d28",
+              "teamId": "",
+              "classId": "am",
+              "bestLap": "01:22.385",
+              "gap": "+12 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 1,
+              "gridPos": 3,
+              "driverId": "d26",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:20.686",
+              "gap": "—",
+              "points": 37.5,
+              "status": "finished"
+            },
+            {
+              "pos": 2,
+              "gridPos": 7,
+              "driverId": "d01",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:20.066",
+              "gap": "+1:26",
+              "points": 28.5,
+              "status": "finished"
+            },
+            {
+              "pos": 3,
+              "gridPos": 6,
+              "driverId": "d08",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.519",
+              "gap": "—",
+              "points": 22.5,
+              "status": "finished"
+            },
+            {
+              "pos": 4,
+              "gridPos": 5,
+              "driverId": "d05",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:22.937",
+              "gap": "+11 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 5,
+              "gridPos": 2,
+              "driverId": "d06",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:28.441",
+              "gap": "+12 Vlts",
+              "points": 0,
+              "status": "dnf"
+            },
+            {
+              "pos": 6,
+              "gridPos": 4,
+              "driverId": "d02",
+              "teamId": "",
+              "classId": "indycar",
+              "bestLap": "01:21.428",
+              "gap": "+15 Vlts",
+              "points": 0,
+              "status": "dnf"
+            }
+          ],
+          "laps": [],
+          "incidents": [
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d02"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Ameg Sanchez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d30"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Arian Vera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d30",
+                "d08"
+              ],
+              "summary": "Contacto entre Arian Vera y Deivid Lamadrid"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d28"
+              ],
+              "summary": "Contacto entre Bryan Couso y Ruben Jackson"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d05",
+                "d30"
+              ],
+              "summary": "Contacto entre Bryan Couso y Arian Vera"
+            },
+            {
+              "lap": 11,
+              "kind": "collision",
+              "driverIds": [
+                "d08",
+                "d06"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Ivan Enriquez"
+            },
+            {
+              "lap": 15,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d08"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Eduardo A. Gibert"
+            }
+          ],
+          "status": "done"
+        }
+      ],
+      "status": "done"
+    }
+  ],
+  "status": "complete",
+  "pointsTable": {
+    "r1": [
+      25,
+      18,
+      15,
+      12,
+      10,
+      8,
+      6,
+      4
+    ],
+    "r2": [
+      37.5,
+      27,
+      22.5,
+      18,
+      15,
+      12,
+      9
+    ],
+    "fastestLapR1": 1,
+    "fastestLapR2": 1.5
+  }
+}

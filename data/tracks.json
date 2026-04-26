@@ -1,0 +1,238 @@
+{
+  "tracks": [
+    {
+      "id": "bahrain",
+      "name": "Circuito Internacional de Bahrain",
+      "short": "BHR",
+      "country": "Bahréin",
+      "lengthKm": 5.412,
+      "turns": 15,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "singapore",
+      "name": "Circuito Marina Bay",
+      "short": "SGP",
+      "country": "Singapur",
+      "lengthKm": 5.063,
+      "turns": 23,
+      "layout": "Callejero"
+    },
+    {
+      "id": "interlagos",
+      "name": "Autódromo José Carlos Pace",
+      "short": "INT",
+      "country": "Brasil",
+      "lengthKm": 4.309,
+      "turns": 15,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "laguna",
+      "name": "WeatherTech Raceway Laguna Seca",
+      "short": "LAG",
+      "country": "EE.UU.",
+      "lengthKm": 3.602,
+      "turns": 11,
+      "layout": "Carretera"
+    },
+    {
+      "id": "indy",
+      "name": "Indianapolis Motor Speedway",
+      "short": "IND",
+      "country": "EE.UU.",
+      "lengthKm": 4.023,
+      "turns": 4,
+      "layout": "Óvalo"
+    },
+    {
+      "id": "cota",
+      "name": "Circuit of the Americas",
+      "short": "COT",
+      "country": "EE.UU.",
+      "lengthKm": 5.513,
+      "turns": 20,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "sonoma",
+      "name": "Sonoma Raceway",
+      "short": "SON",
+      "country": "EE.UU.",
+      "lengthKm": 3.999,
+      "turns": 10,
+      "layout": "Carretera"
+    },
+    {
+      "id": "jeddah",
+      "name": "Circuito Callejero de Jeddah",
+      "short": "JED",
+      "country": "Arabia Saudita",
+      "lengthKm": 6.174,
+      "turns": 27,
+      "layout": "Callejero"
+    },
+    {
+      "id": "sebring",
+      "name": "Sebring International Raceway",
+      "short": "SEB",
+      "country": "EE.UU.",
+      "lengthKm": 6.019,
+      "turns": 17,
+      "layout": "Carretera"
+    },
+    {
+      "id": "roadatlanta",
+      "name": "Road Atlanta",
+      "short": "ATL",
+      "country": "EE.UU.",
+      "lengthKm": 4.088,
+      "turns": 12,
+      "layout": "Carretera"
+    },
+    {
+      "id": "imola",
+      "name": "Autodromo Enzo e Dino Ferrari",
+      "short": "IML",
+      "country": "Italia",
+      "lengthKm": 4.909,
+      "turns": 19,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "roadamerica",
+      "name": "Road America",
+      "short": "ROA",
+      "country": "EE.UU.",
+      "lengthKm": 6.515,
+      "turns": 14,
+      "layout": "Carretera"
+    },
+    {
+      "id": "portimao",
+      "name": "Autódromo Internacional do Algarve",
+      "short": "POR",
+      "country": "Portugal",
+      "lengthKm": 4.653,
+      "turns": 15,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "miami",
+      "name": "Miami International Autodrome",
+      "short": "MIA",
+      "country": "EE.UU.",
+      "lengthKm": 5.412,
+      "turns": 19,
+      "layout": "Callejero"
+    },
+    {
+      "id": "montreal",
+      "name": "Circuit Gilles-Villeneuve",
+      "short": "MCL",
+      "country": "Canadá",
+      "lengthKm": 4.361,
+      "turns": 14,
+      "layout": "Semicallejero"
+    },
+    {
+      "id": "barcelona",
+      "name": "Circuit de Barcelona-Catalunya",
+      "short": "BCN",
+      "country": "España",
+      "lengthKm": 4.675,
+      "turns": 16,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "zandvoort",
+      "name": "Circuit Zandvoort",
+      "short": "ZAN",
+      "country": "Países Bajos",
+      "lengthKm": 4.259,
+      "turns": 14,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "nurburgring",
+      "name": "Nürburgring Grand Prix",
+      "short": "NUR",
+      "country": "Alemania",
+      "lengthKm": 5.148,
+      "turns": 15,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "hungaroring",
+      "name": "Hungaroring",
+      "short": "HUN",
+      "country": "Hungría",
+      "lengthKm": 4.381,
+      "turns": 14,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "brandshatch",
+      "name": "Brands Hatch",
+      "short": "BRH",
+      "country": "Reino Unido",
+      "lengthKm": 3.908,
+      "turns": 9,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "redbullring",
+      "name": "Red Bull Ring",
+      "short": "RBR",
+      "country": "Austria",
+      "lengthKm": 4.326,
+      "turns": 10,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "spa",
+      "name": "Circuit de Spa-Francorchamps",
+      "short": "SPA",
+      "country": "Bélgica",
+      "lengthKm": 7.004,
+      "turns": 20,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "mexico",
+      "name": "Autódromo Hermanos Rodríguez",
+      "short": "MEX",
+      "country": "México",
+      "lengthKm": 4.304,
+      "turns": 17,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "suzuka",
+      "name": "Suzuka Circuit",
+      "short": "SUZ",
+      "country": "Japón",
+      "lengthKm": 5.807,
+      "turns": 18,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "monza",
+      "name": "Autodromo Nazionale di Monza",
+      "short": "MON",
+      "country": "Italia",
+      "lengthKm": 5.793,
+      "turns": 11,
+      "layout": "Grand Prix"
+    },
+    {
+      "id": "lasvegas",
+      "name": "Las Vegas Strip Circuit",
+      "short": "LVS",
+      "country": "EE.UU.",
+      "lengthKm": 6.201,
+      "turns": 17,
+      "layout": "Callejero"
+    }
+  ]
+}

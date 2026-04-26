@@ -1,0 +1,391 @@
+{
+  "drivers": [
+    {
+      "id": "d01",
+      "name": "Samir Kaddoura",
+      "number": "1",
+      "country": "CUB",
+      "teamId": "t-team-simruina",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Samir_Kaddoura.png",
+      "guids": [
+        "76561199141189138"
+      ]
+    },
+    {
+      "id": "d06",
+      "name": "Ivan Enriquez",
+      "number": "99",
+      "country": "CUB",
+      "teamId": "t-team-colibri",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Ivan_Enriquez.png",
+      "guids": [
+        "76561199526886216"
+      ]
+    },
+    {
+      "id": "d04",
+      "name": "Deivid Lamadrid",
+      "number": "4",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Deivid_Lamadrid.png",
+      "guids": [
+        "4090424"
+      ]
+    },
+    {
+      "id": "d18",
+      "name": "Yohan Espinosa",
+      "number": "18",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561198980236251"
+      ]
+    },
+    {
+      "id": "d19",
+      "name": "Brayan Saeta",
+      "number": "19",
+      "country": "CUB",
+      "teamId": "t-team-colibri",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Brayan_Saeta.png",
+      "guids": [
+        "76561199522451171"
+      ]
+    },
+    {
+      "id": "d10",
+      "name": "Marco Veranes",
+      "number": "10",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199433405491"
+      ]
+    },
+    {
+      "id": "d05",
+      "name": "Bryan Couso",
+      "number": "5",
+      "country": "USA",
+      "teamId": "t-team-colibri",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Bryan_Couso.png",
+      "guids": [
+        "76561198295164314"
+      ]
+    },
+    {
+      "id": "d21",
+      "name": "Carlos Alberto",
+      "number": "21",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199086423298"
+      ]
+    },
+    {
+      "id": "d22",
+      "name": "Rainer Medina",
+      "number": "22",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199128155624"
+      ]
+    },
+    {
+      "id": "d12",
+      "name": "Yonny Menglez",
+      "number": "12",
+      "country": "CUB",
+      "teamId": "t-rusteze",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Yonny_Menglez.png",
+      "guids": [
+        "76561199056376750"
+      ]
+    },
+    {
+      "id": "d02",
+      "name": "Ameg Sanchez",
+      "number": "2",
+      "country": "CUB",
+      "teamId": "t-team-pote",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Ameg_Sanchez.png",
+      "guids": [
+        "76561199012707732",
+        "76561199526187285"
+      ]
+    },
+    {
+      "id": "d15",
+      "name": "Alejandro Sotolongo",
+      "number": "15",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199063072779",
+        "4090789"
+      ]
+    },
+    {
+      "id": "d23",
+      "name": "Raul Santana Rios",
+      "number": "23",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024"
+    },
+    {
+      "id": "d08",
+      "name": "Eduardo A. Gibert",
+      "number": "8",
+      "country": "CUB",
+      "teamId": "t-rusteze",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Eduardo_Gibert.png",
+      "guids": [
+        "76561199380473036",
+        "76561199087661347"
+      ]
+    },
+    {
+      "id": "d09",
+      "name": "Erick Gonzalez",
+      "number": "9",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199822043307"
+      ]
+    },
+    {
+      "id": "d24",
+      "name": "Yoan Damas",
+      "number": "24",
+      "country": "CUB",
+      "teamId": "t-art-motorsport",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561197960267366"
+      ]
+    },
+    {
+      "id": "d07",
+      "name": "Oliver Wilson",
+      "number": "7",
+      "country": "CUB",
+      "teamId": "t-team-pote",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Oliver_Wilson.png",
+      "guids": [
+        "76561199574088119",
+        "465316"
+      ]
+    },
+    {
+      "id": "d11",
+      "name": "Lázaro Contreras",
+      "number": "11",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199147153347"
+      ]
+    },
+    {
+      "id": "d25",
+      "name": "Tex Squezz",
+      "number": "25",
+      "country": "BRA",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024"
+    },
+    {
+      "id": "d13",
+      "name": "Alicia Santos",
+      "number": "13",
+      "country": "MEX",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199805169937"
+      ]
+    },
+    {
+      "id": "d26",
+      "name": "Pablo Nacianceno",
+      "number": "26",
+      "country": "CUB",
+      "teamId": "t-team-simruina",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Pablo_Nacianceno.png",
+      "guids": [
+        "76561199484936101",
+        "40904243"
+      ]
+    },
+    {
+      "id": "d27",
+      "name": "Luis Carrabeo",
+      "number": "27",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024"
+    },
+    {
+      "id": "d28",
+      "name": "Ruben Jackson",
+      "number": "28",
+      "country": "PLA",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199468435139"
+      ]
+    },
+    {
+      "id": "d29",
+      "name": "Francisco Coto",
+      "number": "29",
+      "country": "ESP",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024"
+    },
+    {
+      "id": "d30",
+      "name": "Arian Vera",
+      "number": "30",
+      "country": "CUB",
+      "teamId": "",
+      "license": "A",
+      "joined": "2024"
+    },
+    {
+      "id": "d31",
+      "name": "Jayden Harrison",
+      "number": "31",
+      "country": "JAM",
+      "teamId": "t-team-jamaica",
+      "license": "A",
+      "joined": "2024",
+      "picture": "/drivers/Jayden_Harrison.png",
+      "guids": [
+        "76561198805533202"
+      ]
+    },
+    {
+      "id": "d32",
+      "name": "Stephen Stewart",
+      "number": "32",
+      "country": "JAM",
+      "teamId": "t-team-jamaica",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199436504892"
+      ]
+    },
+    {
+      "id": "d33",
+      "name": "Danny Fis",
+      "number": "33",
+      "country": "USA",
+      "teamId": "t-art-motorsport",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561198184574583"
+      ]
+    },
+    {
+      "id": "d34",
+      "name": "Roberto Aiv",
+      "number": "34",
+      "country": "CUB",
+      "teamId": "t-art-motorsport",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561198430535412"
+      ]
+    },
+    {
+      "id": "d35",
+      "name": "Chad Dillon",
+      "number": "35",
+      "country": "JAM",
+      "teamId": "t-team-jamaica",
+      "license": "A",
+      "joined": "2024",
+      "guids": [
+        "76561199497357967"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "t-team-jamaica",
+      "name": "Team Jamaica"
+    },
+    {
+      "id": "t-team-simruina",
+      "name": "Team SimRuina"
+    },
+    {
+      "id": "t-art-motorsport",
+      "name": "ART Motorsport"
+    },
+    {
+      "id": "t-team-pote",
+      "name": "Team Pote"
+    },
+    {
+      "id": "t-rusteze",
+      "name": "Rusteze"
+    },
+    {
+      "id": "t-team-colibri",
+      "name": "Team Colibri"
+    }
+  ]
+}
