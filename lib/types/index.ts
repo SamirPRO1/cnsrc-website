@@ -101,6 +101,7 @@ export const DriverSchema = z.object({
   license: z.enum(["A", "B", "C"]),
   joined: z.string(),
   picture: z.string().optional(),
+  description: z.string().optional(),
   guids: z.array(z.string()).optional().default([]),
 });
 

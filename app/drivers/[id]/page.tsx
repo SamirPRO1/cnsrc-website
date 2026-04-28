@@ -60,6 +60,11 @@ export default async function DriverProfilePage({ params }: { params: Promise<{ 
               <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 48, textTransform: "uppercase", letterSpacing: "0.01em", margin: 0, color: "var(--text-primary)" }}>
                 {profile.name}
               </h1>
+              {profile.description && (
+                <p style={{ fontFamily: "var(--font-body)", fontSize: 14, color: "var(--text-secondary)", marginTop: 10, marginBottom: 0, lineHeight: 1.6, maxWidth: 520 }}>
+                  {profile.description}
+                </p>
+              )}
             </div>
             {currentSeason && (
               <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 20, flexShrink: 0 }}>

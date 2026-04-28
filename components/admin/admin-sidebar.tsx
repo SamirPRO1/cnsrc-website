@@ -1,9 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
-const NAV = [
+interface Props {
+  isAdmin: boolean;
+  driverId: string | null;
+  driverName: string | null;
+}
+
+const ADMIN_NAV = [
   { href: "/admin", label: "Panel", icon: "grid" },
   { href: "/admin/drivers", label: "Pilotos", icon: "users" },
   { href: "/admin/teams", label: "Equipos", icon: "flag" },
@@ -45,8 +51,16 @@ const ICONS: Record<string, React.ReactNode> = {
   ),
 };
 
-export default function AdminSidebar() {
+export default function AdminSidebar({ isAdmin, driverId, driverName }: Props) {
   const pathname = usePathname();
+  const router = useRouter();
+
+  async function handleLogout() {
+    await fetch("/api/auth/logout", { method: "POST" });
+    router.push("/login");
+  }
+
+  const navItems = isAdmin ? ADMIN_NAV : [];
 
   return (
     <aside
@@ -77,7 +91,7 @@ export default function AdminSidebar() {
         CNSRC Admin
       </div>
 
-      {NAV.map(({ href, label, icon }) => {
+      {navItems.map(({ href, label, icon }) => {
         const active =
           href === "/admin" ? pathname === "/admin" : pathname.startsWith(href);
         return (
@@ -107,6 +121,84 @@ export default function AdminSidebar() {
       })}
 
       <div style={{ flex: 1 }} />
+
+      {/* Profile link — only if user is a driver */}
+      {driverId && (
+        <Link
+          href="/admin/profile"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 8,
+            padding: "10px 20px",
+            color:
+              pathname === "/admin/profile"
+                ? "var(--accent-red)"
+                : "var(--text-secondary)",
+            textDecoration: "none",
+            fontSize: 13,
+            fontFamily: "var(--font-body)",
+            borderTop: "1px solid var(--border-hairline)",
+            background:
+              pathname === "/admin/profile" ? "var(--bg-surface-p1)" : "transparent",
+          }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+          {driverName ?? "Mi Perfil"}
+        </Link>
+      )}
+
+      {/* Logged-in user info + logout */}
+      <div
+        style={{
+          padding: "12px 20px",
+          borderTop: "1px solid var(--border-hairline)",
+          display: "flex",
+          flexDirection: "column",
+          gap: 8,
+        }}
+      >
+        <div
+          style={{
+            fontSize: 11,
+            color: "var(--text-tertiary)",
+            fontFamily: "var(--font-body)",
+            lineHeight: 1.4,
+          }}
+        >
+          {isAdmin && (
+            <span style={{ color: "var(--accent-red)", fontWeight: 600 }}>Admin</span>
+          )}
+          {isAdmin && driverName && " · "}
+          {driverName ?? (isAdmin ? "" : "Piloto")}
+        </div>
+        <button
+          onClick={handleLogout}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 6,
+            padding: 0,
+            background: "none",
+            border: "none",
+            color: "var(--text-tertiary)",
+            fontSize: 12,
+            fontFamily: "var(--font-body)",
+            cursor: "pointer",
+            textAlign: "left",
+          }}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+            <polyline points="16 17 21 12 16 7" />
+            <line x1="21" y1="12" x2="9" y2="12" />
+          </svg>
+          Cerrar sesión
+        </button>
+      </div>
 
       <Link
         href="/"

@@ -73,6 +73,13 @@ export function deleteChampionshipFile(id: string): void {
   if (fs.existsSync(p)) fs.unlinkSync(p);
 }
 
+/* ── Driver GUIDs (driver-guids.json) ───────────────────────── */
+
+export function readDriverGuidsFile(): Record<string, string> {
+  const raw = fs.readFileSync(path.join(DATA_DIR, "driver-guids.json"), "utf-8");
+  return JSON.parse(raw);
+}
+
 /* ── File stats (for dashboard) ──────────────────────────────── */
 
 export interface DataFileInfo {

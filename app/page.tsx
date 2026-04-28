@@ -8,6 +8,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { PodiumGroup } from "@/components/ui/podium";
 import { CNSRCFooter } from "@/components/ui/footer";
 import { CompoundSilhouettes } from "@/components/ui/track-silhouette";
+import { HeroRoundStrip } from "@/components/ui/hero-round-strip";
 import type { StandingsRow } from "@/lib/types";
 
 
@@ -66,7 +67,7 @@ export default async function HomePage() {
   const classStandings = active.classes.map((cls) => ({
     classId: cls.id,
     label: cls.label,
-    rows: getStandings(active.id, cls.id).slice(0, 5),
+    rows: getStandings(active.id, cls.id).slice(0, 10),
   }));
 
   const doneRounds  = active.rounds.filter((r) => r.status === "done");
@@ -79,6 +80,21 @@ export default async function HomePage() {
   const totalRaces = active.rounds.reduce(
     (acc, r) => acc + r.sessions.filter((s) => s.type === "race").length, 0
   );
+
+  const nextRoundIdx = active.rounds.findIndex((r) => r.status !== "done");
+  const roundItems = active.rounds.map((r, i) => ({
+    id: r.id,
+    index: r.index,
+    trackName: r.track.name,
+    trackShort: r.track.short,
+    date: r.date,
+    status: r.status,
+    sessionHref: (() => {
+      const sid = r.sessions.find((s) => s.type === "race")?.id;
+      return sid ? `/sessions/${sid}` : null;
+    })(),
+    isNext: i === nextRoundIdx,
+  }));
 
   const rawPodium = latestSession?.results.slice(0, 3) ?? [];
   const hasPodium = rawPodium.length === 3;
@@ -110,6 +126,8 @@ export default async function HomePage() {
 
       {/* hero grid */}
       <div className="home-hero-grid">
+        {/* left column: hero glass + round strip */}
+        <div style={{ display: "flex", flexDirection: "column", minWidth: 0 }}>
         <Glass cut={22} heavy stripe pad={0} data-primary-red>
           <div className="home-hero-inner">
             {/* title + stats */}
@@ -249,7 +267,7 @@ export default async function HomePage() {
             </div>
           </div>
 
-          {/* bottom ticker */}
+          {/* compass ruler */}
           <div className="home-hero-ruler">
             <div style={{ display: "flex", gap: 12, flex: 1, alignItems: "flex-end" }}>
               {Array.from({ length: 40 }).map((_, i) => (
@@ -259,8 +277,20 @@ export default async function HomePage() {
           </div>
         </Glass>
 
+        {/* round strip — outside Glass so clip-path doesn't clip the scrollbar */}
+        <div style={{
+          background: "rgba(255,255,255,0.02)",
+          border: "0.5px solid rgba(255,255,255,0.08)",
+          backdropFilter: "var(--blur-light)",
+          WebkitBackdropFilter: "var(--blur-light)",
+          marginTop: 2,
+        }}>
+          <HeroRoundStrip rounds={roundItems} />
+        </div>
+        </div>
+
         {/* side standings */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, minWidth: 0 }}>
           {classStandings.map((cs) => (
             <StandingsSide key={cs.classId} heading={cs.label} rows={cs.rows} total={active.rounds.length} done={completedRounds} champId={active.id} />
           ))}
@@ -315,32 +345,6 @@ export default async function HomePage() {
         </div>
       )}
 
-      {/* round strip */}
-      <div className="home-section-pad" style={{ paddingTop: 20 }}>
-        <SectionHeading
-          eyebrow="CALENDARIO"
-          title={`Rondas de ${active.season}`}
-          right={<span className="label" style={{ color: "var(--text-tertiary)" }}>{active.rounds.length} rondas · {Math.round((completedRounds/active.rounds.length)*100)}% completado</span>}
-        />
-        <div className="home-rounds-grid">
-          {active.rounds.map((r) => {
-            const isLive = r.status === "live";
-            const isDone = r.status === "done";
-            const sessionHref = r.sessions.find((s) => s.type === "race")?.id;
-            return (
-              <Link key={r.id} href={sessionHref ? `/sessions/${sessionHref}` : "#"} style={{ textDecoration: "none" }}>
-                <div className="clip-cut-sm" style={{ position: "relative", padding: "12px 10px", display: "flex", flexDirection: "column", gap: 5, minHeight: 88, opacity: r.status==="upcoming" ? 0.45 : 1, border: isLive ? "1px solid var(--border-accent)" : "1px solid var(--border-hairline)", background: isLive ? "var(--bg-surface-p1)" : "var(--bg-surface)", backdropFilter: "var(--blur-light)", WebkitBackdropFilter: "var(--blur-light)" }}>
-                  {isLive && <span aria-hidden="true" style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 3, background: "var(--accent-red)" }} />}
-                  <span className="label" style={{ fontSize: 11, color: isLive ? "var(--accent-red)" : "var(--text-tertiary)" }}>R{String(r.index).padStart(2,"0")}</span>
-                  <span style={{ fontSize: 13, color: "var(--text-primary)", fontWeight: 500 }}>{r.track.name}</span>
-                  <span className="mono" style={{ fontSize: 11, color: "var(--text-secondary)" }}>{r.date}</span>
-                  <span className="mono" style={{ fontSize: 10, letterSpacing: "0.15em", color: isLive ? "var(--accent-red)" : "var(--text-tertiary)", marginTop: "auto" }}>{isLive ? "EN VIVO" : isDone ? "HECHA" : "—"}</span>
-                </div>
-              </Link>
-            );
-          })}
-        </div>
-      </div>
 
       <CNSRCFooter />
     </Backdrop>

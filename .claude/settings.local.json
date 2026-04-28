@@ -44,7 +44,11 @@
       "Bash(git commit -m ' *)",
       "Bash(git remote *)",
       "Bash(git branch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(xargs grep *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(pnpm add *)",
+      "Bash(pnpm exec *)"
     ]
   }
 }
