@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-const SPONSORS: (string | null)[] = [
-  "/sponsors/acc.png",
-  "/sponsors/adec.png",
-  null,
-  null,
-  null,
-  null,
+const SPONSORS: { src: string | null; href?: string }[] = [
+  { src: "/sponsors/acc.png", href: "https://www.instagram.com/automovil_club_de_cuba/" },
+  { src: "/sponsors/adec.png", href: "https://adecesports.com/" },
+  { src: null },
+  { src: null },
+  { src: null },
+  { src: null },
 ];
 
 export function CNSRCFooter() {
@@ -31,31 +31,33 @@ export function CNSRCFooter() {
       <div>
         <div className="label" style={{ marginBottom: 10 }}>PATROCINADORES</div>
         <div className="sponsors-grid">
-          {SPONSORS.map((src, i) => (
-            <div
-              key={i}
-              className="clip-cut-sm"
-              style={{
-                height: 40,
-                background: "var(--bg-surface)",
-                border: "0.5px solid var(--border-hairline)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 11,
-                color: "var(--text-tertiary)",
-                fontFamily: "var(--font-mono)",
-                position: "relative",
-                overflow: "hidden",
-              }}
-            >
-              {src ? (
-                <Image src={src} alt={`Sponsor ${i + 1}`} fill style={{ objectFit: "contain", padding: "6px 8px" }} />
-              ) : (
-                `slot·${String(i + 1).padStart(2, "0")}`
-              )}
-            </div>
-          ))}
+          {SPONSORS.map(({ src, href }, i) => {
+            const inner = src ? (
+              <Image src={src} alt={`Sponsor ${i + 1}`} fill style={{ objectFit: "contain", padding: "6px 8px" }} />
+            ) : (
+              `slot·${String(i + 1).padStart(2, "0")}`
+            );
+            const style = {
+              height: 40,
+              background: "var(--bg-surface)",
+              border: "0.5px solid var(--border-hairline)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: 11,
+              color: "var(--text-tertiary)",
+              fontFamily: "var(--font-mono)",
+              position: "relative" as const,
+              overflow: "hidden" as const,
+            };
+            return href ? (
+              <a key={i} href={href} target="_blank" rel="noopener noreferrer" className="clip-cut-sm" style={{ ...style, textDecoration: "none" }}>
+                {inner}
+              </a>
+            ) : (
+              <div key={i} className="clip-cut-sm" style={style}>{inner}</div>
+            );
+          })}
         </div>
       </div>
 

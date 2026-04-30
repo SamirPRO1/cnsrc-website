@@ -8,7 +8,7 @@ import { CNSRCFooter } from "@/components/ui/footer";
 import { CompoundSilhouettes } from "@/components/ui/track-silhouette";
 
 export default function DriversIndexPage() {
-  const drivers = listDrivers();
+  const drivers = listDrivers().sort((a, b) => getDriverRaceCount(b.id) - getDriverRaceCount(a.id));
   const teams   = listTeams();
   const teamMap = new Map(teams.map((t) => [t.id, t.name]));
 
