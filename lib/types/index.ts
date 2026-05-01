@@ -33,6 +33,9 @@ export const LapSchema = z.object({
   compound: z.enum(["S", "M", "H", "I", "W"]),
   cut: z.boolean(),
   weatherTag: z.string().optional(),
+  // Absolute line-crossing time from the source race file. Used to rank per-lap
+  // positions accurately when drivers don't all start the race at the same instant.
+  timestamp: z.number().optional(),
 });
 
 export const IncidentSchema = z.object({

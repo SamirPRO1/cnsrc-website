@@ -48,7 +48,14 @@
       "Bash(xargs grep *)",
       "Bash(echo \"EXIT:$?\")",
       "Bash(pnpm add *)",
-      "Bash(pnpm exec *)"
+      "Bash(pnpm exec *)",
+      "Bash(xargs ls *)",
+      "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_10_26_22_59_RACE.json'\\); console.log\\('Type:', r.Type\\); console.log\\('NumLaps spread:'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, 'Driver:', x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'Disqualified:', x.Disqualified\\)\\);\")",
+      "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_10_26_22_37_RACE.json'\\); console.log\\('Type:', r.Type\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime\\)\\);\")",
+      "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_11_15_20_56_RACE.json'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'DSQ:', x.Disqualified\\)\\);\")",
+      "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_11_2_22_55_RACE.json'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'DSQ:', x.Disqualified\\)\\);\")",
+      "Bash(node -e \"const c=require\\('h:/ZZZ/cnsrc/data/cnsrc-s01.json'\\); for \\(const r of c.rounds\\) for \\(const s of r.sessions||[]\\) if \\(s.raceDataFile && s.raceDataFile.includes\\('2024_11_2'\\)\\) { console.log\\('Round:', r.id, 'Session:', s.id, 'File:', s.raceDataFile\\); console.log\\('Results:'\\); \\(s.results||[]\\).forEach\\(x=>console.log\\('', x.driverId, 'pos', x.pos, 'gap', x.gap, 'status', x.status\\)\\); }\")",
+      "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_11_2_22_55_RACE.json'\\); console.log\\('Result classes:'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'ClassID:', x.ClassID\\)\\); console.log\\('SessionConfig:', JSON.stringify\\(r.SessionConfig\\)\\);\")"
     ]
   }
 }

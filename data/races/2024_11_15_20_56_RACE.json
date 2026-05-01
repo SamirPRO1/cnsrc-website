@@ -1,0 +1,2886 @@
+{
+  "Version": 7,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561199063072779",
+        "GuidsList": [
+          "76561199063072779"
+        ],
+        "Name": "Alejandro Sotolongo",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "alejandro_sotolongo",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 866,
+      "MaxPing": 2041
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "Luis Lorenzo",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "luis_70",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "465316",
+        "GuidsList": [
+          "465316"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "oliver_46",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 335,
+      "MaxPing": 720
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Brayan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "brayan_couso_28",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 172,
+      "MaxPing": 186
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561199526886216",
+        "GuidsList": [
+          "76561199526886216"
+        ],
+        "Name": "Ivan Enrique",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "ivan_99",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "yonny_09",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 211,
+      "MaxPing": 273
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561199128155624",
+        "GuidsList": [
+          "76561199128155624"
+        ],
+        "Name": "Rainer Medina",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "08_carbon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "4090424",
+        "GuidsList": [
+          "4090424"
+        ],
+        "Name": "Deivid Lamadrid",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "deivid_02",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 53,
+      "MaxPing": 366
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "2345",
+        "GuidsList": [
+          "2345"
+        ],
+        "Name": "Arian Vera",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "08_carbon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 112,
+      "MaxPing": 216
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "pablo_24",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 40,
+      "MaxPing": 509
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "08_carbon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "ameg_27",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 11,
+      "MaxPing": 8474
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561199086423298",
+        "GuidsList": [
+          "76561199086423298"
+        ],
+        "Name": "Carlos Alberto",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "retro_15",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198980236251",
+        "GuidsList": [
+          "76561198980236251"
+        ],
+        "Name": "Yohan Espinosa",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "yohan_espinosa_04",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561199433405491",
+        "GuidsList": [
+          "76561199433405491"
+        ],
+        "Name": "Marco Veranes",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "marquitos_30",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199522451171",
+        "GuidsList": [
+          "76561199522451171"
+        ],
+        "Name": "Brayan Saeta",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "brayansaeta_21",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "08_carbon",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_rss_4_2024",
+      "Restrictor": 0,
+      "Skin": "samirpro_33",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 40,
+      "MaxPing": 2755
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "738597324072384",
+        "GuidsList": [
+          "738597324072384"
+        ],
+        "Name": "Safety Car",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "aston_vantage2018",
+      "Restrictor": 0,
+      "Skin": "F1",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561198970784585",
+        "GuidsList": [
+          "76561198970784585"
+        ],
+        "Name": "TV",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "aston_vantage2018",
+      "Restrictor": 0,
+      "Skin": "F1",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 126,
+      "MaxPing": 397
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 19.524218,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.8672485,
+        "Y": -0.2683513,
+        "Z": -0.9489729
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 962.3904,
+        "Y": -37.444347,
+        "Z": 133.38644
+      },
+      "Timestamp": 1731721094,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "465316",
+        "GuidsList": [
+          "465316"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 4.7510076,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.68946517,
+        "Y": -0.056579407,
+        "Z": 2.6358826
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 215.22165,
+        "Y": -9.687077,
+        "Z": -130.19028
+      },
+      "Timestamp": 1731721120,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 48.965286,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.70459634,
+        "Y": -0.18768524,
+        "Z": 2.6373816
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 87.41916,
+        "Y": -5.391125,
+        "Z": -120.41879
+      },
+      "Timestamp": 1731721128,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 94.75097,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.50428385,
+        "Y": -0.21612576,
+        "Z": 2.6201465
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 71.249535,
+        "Y": -5.455514,
+        "Z": -109.913605
+      },
+      "Timestamp": 1731721128,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 56.81765,
+      "OtherCarId": 17,
+      "OtherDriver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.67274606,
+        "Y": -0.07523872,
+        "Z": 0.57466656
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 87.46931,
+        "Y": -5.255798,
+        "Z": -120.489
+      },
+      "Timestamp": 1731721130,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 75.69958,
+      "OtherCarId": 17,
+      "OtherDriver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.51311404,
+        "Y": -0.038737018,
+        "Z": 2.5358355
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 70.3605,
+        "Y": -5.4701066,
+        "Z": -109.46011
+      },
+      "Timestamp": 1731721130,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 47.924763,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.7078813,
+        "Y": -0.21612561,
+        "Z": 2.6377077
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 322.74963,
+        "Y": -16.933699,
+        "Z": -86.38542
+      },
+      "Timestamp": 1731721263,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 86.0494,
+      "OtherCarId": 17,
+      "OtherDriver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.41270915,
+        "Y": -0.2161281,
+        "Z": 2.6122425
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 298.99554,
+        "Y": -15.917329,
+        "Z": -102.46354
+      },
+      "Timestamp": 1731721265,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 97.14689,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.41514352,
+        "Y": 0.024262475,
+        "Z": -1.7726008
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 298.75894,
+        "Y": -15.661938,
+        "Z": -102.594826
+      },
+      "Timestamp": 1731721268,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 14.043912,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.45768896,
+        "Y": 0.5368568,
+        "Z": -2.0407155
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 279.0912,
+        "Y": -14.993563,
+        "Z": -99.58601
+      },
+      "Timestamp": 1731721268,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 69.40114,
+      "OtherCarId": 3,
+      "OtherDriver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Brayan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.69195956,
+        "Y": -0.053539086,
+        "Z": 0.6790177
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 277.92236,
+        "Y": -13.819616,
+        "Z": -120.067795
+      },
+      "Timestamp": 1731721270,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Brayan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 65.59085,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.5289782,
+        "Y": -0.216257,
+        "Z": 2.5358267
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 277.18436,
+        "Y": -13.963988,
+        "Z": -120.19343
+      },
+      "Timestamp": 1731721272,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Brayan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 63.4501,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.68946385,
+        "Y": 0.18025719,
+        "Z": 2.1001203
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 106.69616,
+        "Y": -5.283534,
+        "Z": -118.61045
+      },
+      "Timestamp": 1731721427,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 21.743202,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.6894754,
+        "Y": -0.05657782,
+        "Z": 2.6358852
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 224.72313,
+        "Y": -12.196872,
+        "Z": -261.66626
+      },
+      "Timestamp": 1731721514,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 15.248584,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.6894502,
+        "Y": -0.0565774,
+        "Z": 2.635901
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 865.0692,
+        "Y": -36.329617,
+        "Z": 240.15942
+      },
+      "Timestamp": 1731721549,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Brayan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 48.995213,
+      "OtherCarId": 5,
+      "OtherDriver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.06280267,
+        "Y": -0.009095341,
+        "Z": -2.08456
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -375.49768,
+        "Y": -2.5097308,
+        "Z": -166.19402
+      },
+      "Timestamp": 1731721603,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 28.61188,
+      "OtherCarId": 3,
+      "OtherDriver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Brayan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.68945616,
+        "Y": -0.005953872,
+        "Z": 2.5328763
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -376.17905,
+        "Y": -2.6922247,
+        "Z": -166.99733
+      },
+      "Timestamp": 1731721604,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 32.838245,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.6894695,
+        "Y": -0.056578904,
+        "Z": 2.635864
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 327.91885,
+        "Y": -17.807241,
+        "Z": -72.51085
+      },
+      "Timestamp": 1731721688,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 40.311935,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.0770559,
+        "Y": -0.14547743,
+        "Z": 2.7525916
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -409.40732,
+        "Y": -2.2240222,
+        "Z": -169.5908
+      },
+      "Timestamp": 1731721759,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 39.879215,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.84415406,
+        "Y": 0.33704382,
+        "Z": -1.5145
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 633.8097,
+        "Y": -26.006739,
+        "Z": -84.97982
+      },
+      "Timestamp": 1731722119,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "465316",
+        "GuidsList": [
+          "465316"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 38.215347,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.086790554,
+        "Y": -0.043775097,
+        "Z": -2.089991
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -373.6268,
+        "Y": -2.3019228,
+        "Z": -169.45705
+      },
+      "Timestamp": 1731722135,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 9.061928,
+      "OtherCarId": 2,
+      "OtherDriver": {
+        "Guid": "465316",
+        "GuidsList": [
+          "465316"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.10717293,
+        "Y": -0.024493903,
+        "Z": 2.578776
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -373.6185,
+        "Y": -2.270495,
+        "Z": -170.33635
+      },
+      "Timestamp": 1731722136,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "4090424",
+        "GuidsList": [
+          "4090424"
+        ],
+        "Name": "Deivid Lamadrid",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 32.639015,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.4880985,
+        "Y": -0.1641915,
+        "Z": -1.5503559
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -388.2721,
+        "Y": -1.8589334,
+        "Z": -194.59062
+      },
+      "Timestamp": 1731722137,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 30.726637,
+      "OtherCarId": 7,
+      "OtherDriver": {
+        "Guid": "4090424",
+        "GuidsList": [
+          "4090424"
+        ],
+        "Name": "Deivid Lamadrid",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.31776297,
+        "Y": 0.07987611,
+        "Z": 2.3799775
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -387.63022,
+        "Y": -1.7965561,
+        "Z": -194.58688
+      },
+      "Timestamp": 1731722141,
+      "AfterSessionEnd": true
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 133835,
+      "Restrictor": 0,
+      "Sectors": [
+        49164,
+        54337,
+        30334
+      ],
+      "Timestamp": 1731721210,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 139488,
+      "Restrictor": 0,
+      "Sectors": [
+        53420,
+        55764,
+        30304
+      ],
+      "Timestamp": 1731721215,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 141207,
+      "Restrictor": 0,
+      "Sectors": [
+        54734,
+        55540,
+        30933
+      ],
+      "Timestamp": 1731721217,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "LapTime": 141993,
+      "Restrictor": 0,
+      "Sectors": [
+        51552,
+        58751,
+        31690
+      ],
+      "Timestamp": 1731721218,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 145444,
+      "Restrictor": 0,
+      "Sectors": [
+        57847,
+        57231,
+        30366
+      ],
+      "Timestamp": 1731721221,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "LapTime": 146637,
+      "Restrictor": 0,
+      "Sectors": [
+        51929,
+        64152,
+        30556
+      ],
+      "Timestamp": 1731721223,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 149157,
+      "Restrictor": 0,
+      "Sectors": [
+        61767,
+        56709,
+        30681
+      ],
+      "Timestamp": 1731721225,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 132921,
+      "Restrictor": 0,
+      "Sectors": [
+        48203,
+        54360,
+        30358
+      ],
+      "Timestamp": 1731721350,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 143827,
+      "Restrictor": 0,
+      "Sectors": [
+        58755,
+        54224,
+        30848
+      ],
+      "Timestamp": 1731721354,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 141920,
+      "Restrictor": 0,
+      "Sectors": [
+        54247,
+        55571,
+        32102
+      ],
+      "Timestamp": 1731721357,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 146372,
+      "Restrictor": 0,
+      "Sectors": [
+        60382,
+        55570,
+        30420
+      ],
+      "Timestamp": 1731721368,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "LapTime": 145395,
+      "Restrictor": 0,
+      "Sectors": [
+        49612,
+        55247,
+        40536
+      ],
+      "Timestamp": 1731721368,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "LapTime": 158940,
+      "Restrictor": 0,
+      "Sectors": [
+        69632,
+        58005,
+        31303
+      ],
+      "Timestamp": 1731721377,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 254839,
+      "Restrictor": 0,
+      "Sectors": [
+        168696,
+        55601,
+        30542
+      ],
+      "Timestamp": 1731721480,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 134041,
+      "Restrictor": 0,
+      "Sectors": [
+        48159,
+        55601,
+        30281
+      ],
+      "Timestamp": 1731721484,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 137188,
+      "Restrictor": 0,
+      "Sectors": [
+        50257,
+        55841,
+        31090
+      ],
+      "Timestamp": 1731721491,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 134890,
+      "Restrictor": 0,
+      "Sectors": [
+        48427,
+        55283,
+        31180
+      ],
+      "Timestamp": 1731721492,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 135066,
+      "Restrictor": 0,
+      "Sectors": [
+        48945,
+        55759,
+        30362
+      ],
+      "Timestamp": 1731721503,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "LapTime": 153873,
+      "Restrictor": 0,
+      "Sectors": [
+        49126,
+        63090,
+        41657
+      ],
+      "Timestamp": 1731721522,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "LapTime": 153972,
+      "Restrictor": 0,
+      "Sectors": [
+        58724,
+        63927,
+        31321
+      ],
+      "Timestamp": 1731721531,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 133804,
+      "Restrictor": 0,
+      "Sectors": [
+        48605,
+        54653,
+        30546
+      ],
+      "Timestamp": 1731721618,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 139317,
+      "Restrictor": 0,
+      "Sectors": [
+        49955,
+        56502,
+        32860
+      ],
+      "Timestamp": 1731721619,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 135203,
+      "Restrictor": 0,
+      "Sectors": [
+        49316,
+        55535,
+        30352
+      ],
+      "Timestamp": 1731721626,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 135771,
+      "Restrictor": 0,
+      "Sectors": [
+        49370,
+        55472,
+        30929
+      ],
+      "Timestamp": 1731721628,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 134023,
+      "Restrictor": 0,
+      "Sectors": [
+        48919,
+        54837,
+        30267
+      ],
+      "Timestamp": 1731721637,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "LapTime": 146398,
+      "Restrictor": 0,
+      "Sectors": [
+        51237,
+        60754,
+        34407
+      ],
+      "Timestamp": 1731721677,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "LapTime": 160627,
+      "Restrictor": 0,
+      "Sectors": [
+        61595,
+        60651,
+        38381
+      ],
+      "Timestamp": 1731721683,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 132468,
+      "Restrictor": 0,
+      "Sectors": [
+        47962,
+        54468,
+        30038
+      ],
+      "Timestamp": 1731721750,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 134433,
+      "Restrictor": 0,
+      "Sectors": [
+        48991,
+        55026,
+        30416
+      ],
+      "Timestamp": 1731721762,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 146704,
+      "Restrictor": 0,
+      "Sectors": [
+        53702,
+        61893,
+        31109
+      ],
+      "Timestamp": 1731721766,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 140952,
+      "Restrictor": 0,
+      "Sectors": [
+        49673,
+        60386,
+        30893
+      ],
+      "Timestamp": 1731721767,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 162141,
+      "Restrictor": 0,
+      "Sectors": [
+        69773,
+        61255,
+        31113
+      ],
+      "Timestamp": 1731721799,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "LapTime": 142813,
+      "Restrictor": 0,
+      "Sectors": [
+        49326,
+        62896,
+        30591
+      ],
+      "Timestamp": 1731721825,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "LapTime": 149351,
+      "Restrictor": 0,
+      "Sectors": [
+        60035,
+        58114,
+        31202
+      ],
+      "Timestamp": 1731721827,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 134001,
+      "Restrictor": 0,
+      "Sectors": [
+        48402,
+        55115,
+        30484
+      ],
+      "Timestamp": 1731721884,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 134847,
+      "Restrictor": 0,
+      "Sectors": [
+        49400,
+        54959,
+        30488
+      ],
+      "Timestamp": 1731721902,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 139146,
+      "Restrictor": 0,
+      "Sectors": [
+        52255,
+        56182,
+        30709
+      ],
+      "Timestamp": 1731721905,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 150228,
+      "Restrictor": 0,
+      "Sectors": [
+        62145,
+        57564,
+        30519
+      ],
+      "Timestamp": 1731721913,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 140597,
+      "Restrictor": 0,
+      "Sectors": [
+        52640,
+        57254,
+        30703
+      ],
+      "Timestamp": 1731721940,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "LapTime": 140240,
+      "Restrictor": 0,
+      "Sectors": [
+        50564,
+        57142,
+        32534
+      ],
+      "Timestamp": 1731721967,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "LapTime": 147245,
+      "Restrictor": 0,
+      "Sectors": [
+        50518,
+        59674,
+        37053
+      ],
+      "Timestamp": 1731721973,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 135639,
+      "Restrictor": 0,
+      "Sectors": [
+        48851,
+        55220,
+        31568
+      ],
+      "Timestamp": 1731722020,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 136845,
+      "Restrictor": 0,
+      "Sectors": [
+        50103,
+        55750,
+        30992
+      ],
+      "Timestamp": 1731722039,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 133622,
+      "Restrictor": 0,
+      "Sectors": [
+        48244,
+        54859,
+        30519
+      ],
+      "Timestamp": 1731722046,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 143010,
+      "Restrictor": 0,
+      "Sectors": [
+        49365,
+        55187,
+        38458
+      ],
+      "Timestamp": 1731722048,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 137819,
+      "Restrictor": 0,
+      "Sectors": [
+        49255,
+        57218,
+        31346
+      ],
+      "Timestamp": 1731722077,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "LapTime": 140295,
+      "Restrictor": 0,
+      "Sectors": [
+        51519,
+        57365,
+        31411
+      ],
+      "Timestamp": 1731722107,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "Cuts": 0,
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "LapTime": 135894,
+      "Restrictor": 0,
+      "Sectors": [
+        49827,
+        55948,
+        30119
+      ],
+      "Timestamp": 1731722109,
+      "Tyre": "W",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 17,
+        "Road": 28,
+        "Grip": 1,
+        "WindSpeed": 4,
+        "WindDirection": 36,
+        "RainIntensity": 0.05,
+        "RainWetness": 1,
+        "RainWater": 0.1
+      }
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 132468,
+      "CarId": 2,
+      "CarModel": "rss_formula_rss_4_2024",
+      "DriverGuid": "465316",
+      "DriverName": "Oliver Wilson",
+      "Restrictor": 0,
+      "TotalTime": 943936,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 2
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 133835,
+      "CarId": 7,
+      "CarModel": "rss_formula_rss_4_2024",
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "Restrictor": 0,
+      "TotalTime": 962644,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 1
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 133622,
+      "CarId": 11,
+      "CarModel": "rss_formula_rss_4_2024",
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "Restrictor": 0,
+      "TotalTime": 970309,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 4
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 134023,
+      "CarId": 17,
+      "CarModel": "rss_formula_rss_4_2024",
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "Restrictor": 0,
+      "TotalTime": 1001441,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 6
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 140240,
+      "CarId": 3,
+      "CarModel": "rss_formula_rss_4_2024",
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Brayan Couso",
+      "Restrictor": 0,
+      "TotalTime": 1031063,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 3
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 135894,
+      "CarId": 5,
+      "CarModel": "rss_formula_rss_4_2024",
+      "DriverGuid": "76561199056376750",
+      "DriverName": "Yonny Menglez",
+      "Restrictor": 0,
+      "TotalTime": 1032404,
+      "NumLaps": 7,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 7
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 139146,
+      "CarId": 9,
+      "CarModel": "rss_formula_rss_4_2024",
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "Restrictor": 0,
+      "TotalTime": 972159,
+      "NumLaps": 6,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 5
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "layout_f1_2024",
+  "TrackName": "rt_suzuka",
+  "Type": "RACE",
+  "Date": "2024-11-15T20:56:00-05:00",
+  "SessionFile": "2024_11_15_20_56_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 0,
+    "laps": 7,
+    "is_open": 2,
+    "wait_time": 80,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "f1e67287-f3ba-48fb-b3c8-b37db24bc733",
+  "RaceWeekendID": "",
+  "EventName": ""
+}

@@ -112,9 +112,13 @@ export default function ResultsEditor({
       const finished = classRows.filter((r) => r.status === "finished");
       const others = classRows.filter((r) => r.status !== "finished");
 
-      // Apply penalty and sort
-      const parsed = finished.map((r) => {
-        const baseMs = parseGapMs(r.gap) ?? Number.MAX_SAFE_INTEGER;
+      // Split lead-lap finishers (parseable time gap) from lapped finishers
+      // (gap like "+1 Vlt" — penalties in seconds don't change their lap).
+      const leadLap = finished.filter((r) => parseGapMs(r.gap) !== null);
+      const lapped = finished.filter((r) => parseGapMs(r.gap) === null);
+
+      const parsed = leadLap.map((r) => {
+        const baseMs = parseGapMs(r.gap)!;
         const penaltyMs = (penalties[r.driverId] ?? 0) * 1000;
         return { result: r, adjustedMs: baseMs + penaltyMs };
       });
@@ -122,7 +126,7 @@ export default function ResultsEditor({
 
       const winnerMs = parsed[0]?.adjustedMs ?? 0;
 
-      const newFinished: Result[] = parsed.map(({ result, adjustedMs }, i) => {
+      const newLeadLap: Result[] = parsed.map(({ result, adjustedMs }, i) => {
         const pos = i + 1;
         const gap = i === 0 ? "—" : formatGapMs(adjustedMs - winnerMs);
         const base = table[pos - 1] ?? 0;
@@ -130,13 +134,20 @@ export default function ResultsEditor({
         return { ...result, pos, gap, points };
       });
 
+      const newLapped: Result[] = lapped.map((r, i) => {
+        const pos = newLeadLap.length + i + 1;
+        const base = table[pos - 1] ?? 0;
+        const points = base + (r.driverId === flDriverId ? flBonus : 0);
+        return { ...r, pos, points };
+      });
+
       const newOthers: Result[] = others.map((r, i) => ({
         ...r,
-        pos: newFinished.length + i + 1,
+        pos: newLeadLap.length + newLapped.length + i + 1,
         points: 0,
       }));
 
-      newRows.push(...newFinished, ...newOthers);
+      newRows.push(...newLeadLap, ...newLapped, ...newOthers);
     }
 
     setRows(newRows);

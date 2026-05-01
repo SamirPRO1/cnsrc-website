@@ -157,9 +157,14 @@ export interface DriverPositionSeries {
 
 /**
  * Compute per-lap finishing positions for every driver in the results.
- * Uses cumulative time at end of each lap as the ordering key:
- * for lap N, sort drivers who completed lap N by sum of laps 1..N (ascending);
- * append drivers who haven't completed lap N below them, ordered by laps completed (desc).
+ *
+ * When laps include the absolute `timestamp` of the line crossing, ranks
+ * drivers at lap N by that timestamp (ascending) — this correctly handles
+ * drivers who joined late or had a delayed start.
+ *
+ * Falls back to cumulative LapTime ordering for legacy data without
+ * timestamps. (Cumulative ordering is wrong when drivers don't all start
+ * the race at the same instant.)
  */
 export function computeRacePositions(
   results: Result[],
@@ -167,64 +172,58 @@ export function computeRacePositions(
 ): DriverPositionSeries[] {
   if (laps.length === 0) return [];
 
-  // Index laps by driver
-  const lapsByDriver = new Map<string, ParsedLap[]>();
+  // Index laps by driver, preserving timestamp when present
+  const lapsByDriver = new Map<
+    string,
+    Array<ParsedLap & { timestamp?: number }>
+  >();
   for (const l of laps) {
+    const entry = {
+      lapNo: l.lapNo,
+      timeMs: parseLapTime(l.time),
+      sectorsMs: l.sectors.map(parseLapTime) as [number, number, number],
+      compound: l.compound,
+      cut: l.cut,
+      valid: !l.cut,
+      timestamp: l.timestamp,
+    };
     const arr = lapsByDriver.get(l.driverId);
-    if (arr) {
-      arr.push({
-        lapNo: l.lapNo,
-        timeMs: parseLapTime(l.time),
-        sectorsMs: l.sectors.map(parseLapTime) as [number, number, number],
-        compound: l.compound,
-        cut: l.cut,
-        valid: !l.cut,
-      });
-    } else {
-      lapsByDriver.set(l.driverId, [
-        {
-          lapNo: l.lapNo,
-          timeMs: parseLapTime(l.time),
-          sectorsMs: l.sectors.map(parseLapTime) as [number, number, number],
-          compound: l.compound,
-          cut: l.cut,
-          valid: !l.cut,
-        },
-      ]);
-    }
+    if (arr) arr.push(entry);
+    else lapsByDriver.set(l.driverId, [entry]);
   }
 
   for (const arr of lapsByDriver.values()) arr.sort((a, b) => a.lapNo - b.lapNo);
 
-  // Cumulative time at end of lap N per driver
-  const cumByDriverByLap = new Map<string, Map<number, number>>();
+  // Per-driver lookup: lap N → ordering key (timestamp if available, else cumulative LapTime)
+  const keyByDriverByLap = new Map<string, Map<number, number>>();
   for (const [driverId, arr] of lapsByDriver) {
-    const cum = new Map<number, number>();
+    const keys = new Map<number, number>();
     let total = 0;
     for (const l of arr) {
-      if (Number.isFinite(l.timeMs)) {
+      if (typeof l.timestamp === "number") {
+        keys.set(l.lapNo, l.timestamp);
+      } else if (Number.isFinite(l.timeMs)) {
         total += l.timeMs;
-        cum.set(l.lapNo, total);
+        keys.set(l.lapNo, total);
       }
     }
-    cumByDriverByLap.set(driverId, cum);
+    keyByDriverByLap.set(driverId, keys);
   }
 
   const maxLap = Math.max(...laps.map((l) => l.lapNo));
   const driverIds = results.map((r) => r.driverId);
 
-  // For each lap, rank drivers
   const positionsByDriver = new Map<string, PositionPoint[]>();
   for (const id of driverIds) positionsByDriver.set(id, []);
 
   for (let lapNo = 1; lapNo <= maxLap; lapNo++) {
-    const completed: { driverId: string; cumTime: number }[] = [];
+    const completed: { driverId: string; key: number }[] = [];
     const notYet: { driverId: string; lapsDone: number }[] = [];
     for (const id of driverIds) {
-      const cum = cumByDriverByLap.get(id);
-      const time = cum?.get(lapNo);
-      if (time !== undefined) {
-        completed.push({ driverId: id, cumTime: time });
+      const keys = keyByDriverByLap.get(id);
+      const k = keys?.get(lapNo);
+      if (k !== undefined) {
+        completed.push({ driverId: id, key: k });
       } else {
         const lapsDone = (lapsByDriver.get(id) ?? []).filter(
           (l) => l.lapNo < lapNo,
@@ -232,7 +231,7 @@ export function computeRacePositions(
         notYet.push({ driverId: id, lapsDone });
       }
     }
-    completed.sort((a, b) => a.cumTime - b.cumTime);
+    completed.sort((a, b) => a.key - b.key);
     notYet.sort((a, b) => b.lapsDone - a.lapsDone);
 
     let pos = 1;

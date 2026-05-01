@@ -216,6 +216,7 @@ export function ingestRaceLaps(
         ],
         compound: TYRE_MAP[rl.Tyre] ?? "M",
         cut: rl.Cuts > 0,
+        timestamp: rl.Timestamp,
       });
     });
   }
@@ -311,7 +312,7 @@ export function ingestRaceResults(
 
       let gap: string;
       if (i === 0) gap = "—";
-      else if (isDnf) {
+      else if (e.NumLaps < winnerLaps) {
         const lapsDiff = winnerLaps - e.NumLaps;
         gap = `+${lapsDiff} Vlt${lapsDiff !== 1 ? "s" : ""}`;
       } else gap = formatGap(e.TotalTime - winnerTime);

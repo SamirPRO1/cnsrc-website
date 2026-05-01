@@ -1,10 +1,9 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import type { RaceFileMeta } from "@/lib/admin/raceFilesIo";
 import { useQuery } from "@/lib/admin/use-api";
 import AdminButton from "./admin-button";
-import { SELECT_STYLE } from "./admin-form-field";
 
 interface Props {
   championshipId: string;
@@ -37,7 +36,36 @@ export default function RaceDataPanel({
     "/api/admin/race-files",
   );
   const [selected, setSelected] = useState(currentFile ?? "");
+  const [query, setQuery] = useState(currentFile ?? "");
+  const [open, setOpen] = useState(false);
+  const comboRef = useRef<HTMLDivElement>(null);
   const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    const onDown = (e: MouseEvent) => {
+      if (comboRef.current && !comboRef.current.contains(e.target as Node)) {
+        setOpen(false);
+        if (!selected) setQuery("");
+      }
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, [selected]);
+
+  const filteredFiles = files?.filter((f) => {
+    const q = query.toLowerCase();
+    return (
+      f.filename.toLowerCase().includes(q) ||
+      f.eventName?.toLowerCase().includes(q) ||
+      f.trackName?.toLowerCase().includes(q)
+    );
+  }) ?? [];
+
+  const selectFile = (filename: string) => {
+    setSelected(filename);
+    setQuery(filename);
+    setOpen(false);
+  };
   const [message, setMessage] = useState<
     | { type: "ok"; text: string; skipped?: string[] }
     | { type: "error"; text: string }
@@ -62,6 +90,7 @@ export default function RaceDataPanel({
         setMessage({ type: "error", text: data.error ?? "Error al subir" });
       } else {
         setSelected(data.filename);
+        setQuery(data.filename);
         await refetchFiles();
         setMessage({ type: "ok", text: `Archivo ${data.filename} subido` });
       }
@@ -110,6 +139,7 @@ export default function RaceDataPanel({
     });
     if (res.ok) {
       setSelected("");
+      setQuery("");
       setMessage({ type: "ok", text: "Vueltas eliminadas" });
       onIngested();
     } else {
@@ -125,7 +155,7 @@ export default function RaceDataPanel({
       method: "DELETE",
     });
     if (res.ok) {
-      if (selected === filename) setSelected("");
+      if (selected === filename) { setSelected(""); setQuery(""); }
       await refetchFiles();
     }
     setBusy(false);
@@ -154,21 +184,70 @@ export default function RaceDataPanel({
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "1fr auto auto auto", gap: 8, alignItems: "center" }}>
-        <select
-          style={{ ...SELECT_STYLE, padding: "6px 8px", fontSize: 12 }}
-          value={selected}
-          onChange={(e) => setSelected(e.target.value)}
-          disabled={busy}
-        >
-          <option value="">— Seleccionar archivo —</option>
-          {files?.map((f) => (
-            <option key={f.filename} value={f.filename}>
-              {f.filename}
-              {f.eventName ? ` · ${f.eventName}` : ""}
-              {f.cars ? ` · ${f.cars} cars` : ""}
-            </option>
-          ))}
-        </select>
+        <div ref={comboRef} style={{ position: "relative" }}>
+          <input
+            type="text"
+            value={query}
+            placeholder="Buscar archivo…"
+            disabled={busy}
+            onFocus={() => setOpen(true)}
+            onChange={(e) => { setQuery(e.target.value); setSelected(""); setOpen(true); }}
+            style={{
+              width: "100%",
+              boxSizing: "border-box",
+              padding: "6px 8px",
+              fontSize: 12,
+              background: "var(--bg-surface)",
+              border: "1px solid var(--border-primary)",
+              color: "var(--text-primary)",
+              fontFamily: "var(--font-mono)",
+              outline: "none",
+            }}
+          />
+          {open && (
+            <div style={{
+              position: "absolute",
+              top: "100%",
+              left: 0,
+              right: 0,
+              zIndex: 50,
+              background: "var(--bg-surface-p1)",
+              border: "1px solid var(--border-accent)",
+              borderTop: "none",
+              maxHeight: 240,
+              overflowY: "auto",
+            }}>
+              {filteredFiles.length === 0 ? (
+                <div style={{ padding: "8px 10px", fontSize: 12, color: "var(--text-tertiary)" }}>
+                  Sin resultados
+                </div>
+              ) : filteredFiles.map((f) => (
+                <div
+                  key={f.filename}
+                  onMouseDown={() => selectFile(f.filename)}
+                  style={{
+                    padding: "7px 10px",
+                    fontSize: 12,
+                    cursor: "pointer",
+                    background: selected === f.filename ? "var(--bg-surface-p2)" : "transparent",
+                    borderBottom: "1px solid var(--border-primary)",
+                    color: "var(--text-primary)",
+                    fontFamily: "var(--font-mono)",
+                  }}
+                  onMouseEnter={(e) => (e.currentTarget.style.background = "var(--bg-surface-p2)")}
+                  onMouseLeave={(e) => (e.currentTarget.style.background = selected === f.filename ? "var(--bg-surface-p2)" : "transparent")}
+                >
+                  <span style={{ fontWeight: selected === f.filename ? 600 : 400 }}>{f.filename}</span>
+                  {(f.eventName || f.trackName || f.cars) && (
+                    <span style={{ color: "var(--text-tertiary)", marginLeft: 6 }}>
+                      {[f.eventName, f.trackName, f.cars ? `${f.cars} cars` : ""].filter(Boolean).join(" · ")}
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
 
         <AdminButton
           variant="secondary"
