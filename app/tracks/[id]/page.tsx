@@ -95,14 +95,17 @@ export default async function TrackDetailPage({ params }: { params: Promise<{ id
                       <div className="label" style={{ marginTop: 3 }}>{s.date}</div>
                     </div>
                     <div style={{ display: "flex", gap: 16 }}>
-                      {s.podium.map((name, i) => (
-                        <div key={i} className="label" style={{ display: "flex", alignItems: "center", gap: 5 }}>
-                          <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 13, color: i === 0 ? "var(--accent)" : "var(--text-secondary)" }}>
-                            P{i + 1}
-                          </span>
-                          <span style={{ color: "var(--text-primary)" }}>{name}</span>
-                        </div>
-                      ))}
+                      {(() => {
+                        const isMultiClass = new Set(s.podium.map((p) => p.classId)).size > 1;
+                        return s.podium.map((entry, i) => (
+                          <div key={i} className="label" style={{ display: "flex", alignItems: "center", gap: 5 }}>
+                            <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 13, color: i === 0 ? "var(--accent)" : "var(--text-secondary)" }}>
+                              {isMultiClass ? (entry.classId === "am" ? "AM" : "PRO") : `P${i + 1}`}
+                            </span>
+                            <span style={{ color: "var(--text-primary)" }}>{entry.name}</span>
+                          </div>
+                        ));
+                      })()}
                     </div>
                   </div>
                 </Glass>

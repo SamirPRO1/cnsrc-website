@@ -13,13 +13,15 @@ export function YouTubeBanner({ url }: { url: string }) {
 
   if (playing && videoId) {
     return (
-      <div style={{ position: "relative", marginBottom: 16, borderRadius: 14, overflow: "hidden", aspectRatio: "16/9", background: "#000" }}>
-        <iframe
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowFullScreen
-          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: "none" }}
-        />
+      <div style={{ marginBottom: 16, width: "70%", margin: "0 auto 16px" }}>
+        <div style={{ position: "relative", borderRadius: 14, overflow: "hidden", aspectRatio: "16/9", background: "#000" }}>
+          <iframe
+            src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+            style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: "none" }}
+          />
+        </div>
       </div>
     );
   }
@@ -31,8 +33,8 @@ export function YouTubeBanner({ url }: { url: string }) {
       onClick={() => setPlaying(true)}
       style={{
         display: "block",
-        width: "100%",
-        marginBottom: 16,
+        width: "70%",
+        margin: "0 auto 16px",
         padding: 0,
         border: "1px solid rgba(255,0,0,0.28)",
         borderRadius: 14,

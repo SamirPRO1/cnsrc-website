@@ -55,7 +55,10 @@
       "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_11_15_20_56_RACE.json'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'DSQ:', x.Disqualified\\)\\);\")",
       "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_11_2_22_55_RACE.json'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'DSQ:', x.Disqualified\\)\\);\")",
       "Bash(node -e \"const c=require\\('h:/ZZZ/cnsrc/data/cnsrc-s01.json'\\); for \\(const r of c.rounds\\) for \\(const s of r.sessions||[]\\) if \\(s.raceDataFile && s.raceDataFile.includes\\('2024_11_2'\\)\\) { console.log\\('Round:', r.id, 'Session:', s.id, 'File:', s.raceDataFile\\); console.log\\('Results:'\\); \\(s.results||[]\\).forEach\\(x=>console.log\\('', x.driverId, 'pos', x.pos, 'gap', x.gap, 'status', x.status\\)\\); }\")",
-      "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_11_2_22_55_RACE.json'\\); console.log\\('Result classes:'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'ClassID:', x.ClassID\\)\\); console.log\\('SessionConfig:', JSON.stringify\\(r.SessionConfig\\)\\);\")"
+      "Bash(node -e \"const r=require\\('h:/ZZZ/cnsrc/data/races/2024_11_2_22_55_RACE.json'\\); console.log\\('Result classes:'\\); r.Result.forEach\\(x => console.log\\(' Car', x.CarId, x.DriverName, 'NumLaps:', x.NumLaps, 'TotalTime:', x.TotalTime, 'ClassID:', x.ClassID\\)\\); console.log\\('SessionConfig:', JSON.stringify\\(r.SessionConfig\\)\\);\")",
+      "Bash(grep -r \"\\\\\"am\\\\\"\\\\|\\\\\"pro\\\\\"\\\\|\\\\\"indycar\\\\\"\" /h/ZZZ/cnsrc --include=\"*.ts\" --include=\"*.tsx\" ! -path \"*/node_modules/*\" ! -path \"*/.next/*\")",
+      "Bash(grep -r \"circuito\\\\|circuit\" /h/ZZZ/cnsrc/app --include=\"*.tsx\" ! -path \"*/node_modules/*\" ! -path \"*/.next/*\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('h:/ZZZ/cnsrc/data/cnsrc-s02.json', 'utf8'\\)\\); console.log\\('JSON valid'\\)\")"
     ]
   }
 }

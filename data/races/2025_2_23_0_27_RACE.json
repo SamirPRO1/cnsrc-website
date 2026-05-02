@@ -1,0 +1,4091 @@
+{
+  "Version": 7,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561198124173310",
+        "GuidsList": [
+          "76561198124173310"
+        ],
+        "Name": "Tex Squezz",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "12",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561199147153347",
+        "GuidsList": [
+          "76561199147153347"
+        ],
+        "Name": "Lázaro Contreras",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "lazaro_contreras",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 254,
+      "MaxPing": 260
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Bryan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "bryan_couso",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 166,
+      "MaxPing": 168
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "4090424",
+        "GuidsList": [
+          "4090424"
+        ],
+        "Name": "Deivid Lamadrid",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "deivid_lamadrid",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 49,
+      "MaxPing": 73
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "pablo_nacianceno",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 39,
+      "MaxPing": 51
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199574088119",
+        "GuidsList": [
+          "76561199574088119"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "Team pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "team_pote_46",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 346,
+      "MaxPing": 354
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "samir_kaddoura",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 35,
+      "MaxPing": 58
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "Team Pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "team_pote_27",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "MinPing": 15,
+      "MaxPing": 275
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561199526886216",
+        "GuidsList": [
+          "76561199526886216"
+        ],
+        "Name": "Ivan Enriquez",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "ivan_enriquez",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561199056376750",
+        "GuidsList": [
+          "76561199056376750"
+        ],
+        "Name": "Yonny Menglez",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "yonny_menglez",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561199555081452",
+        "GuidsList": [
+          "76561199555081452"
+        ],
+        "Name": "Yohan Espinosa",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "31",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561199805169937",
+        "GuidsList": [
+          "76561199805169937"
+        ],
+        "Name": "Alicia Santos",
+        "Nation": "MEX",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "alicia_santos",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "MinPing": 113,
+      "MaxPing": 145
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561199822043307",
+        "GuidsList": [
+          "76561199822043307"
+        ],
+        "Name": "Erick Gonzalez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "erick_gonzalez",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "MinPing": 10,
+      "MaxPing": 401
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561199380473036",
+        "GuidsList": [
+          "76561199380473036"
+        ],
+        "Name": "Eduardo A. Gibert",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "eduardo_gibert",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "MinPing": 34,
+      "MaxPing": 333
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "76561197960267366",
+        "GuidsList": [
+          "76561197960267366"
+        ],
+        "Name": "Luis Carrabeo",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "titi_calamardo",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561199732229781",
+        "GuidsList": [
+          "76561199732229781"
+        ],
+        "Name": "Dayan Rodriguez",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "dayan_rodriguez",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561199433405491",
+        "GuidsList": [
+          "76561199433405491"
+        ],
+        "Name": "Marco Veranes",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "marquitos",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561198818042592",
+        "GuidsList": [
+          "76561198818042592"
+        ],
+        "Name": "Kiko Hernandez",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "kiko_hernandez",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "76561199063072779",
+        "GuidsList": [
+          "76561199063072779"
+        ],
+        "Name": "Alejandro Sotolongo",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "31",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561199824690153",
+        "GuidsList": [
+          "76561199824690153"
+        ],
+        "Name": "Daniela Renzoly",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "daniela_renzoly",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 20,
+      "Driver": {
+        "Guid": "76561198277968597",
+        "GuidsList": [
+          "76561198277968597"
+        ],
+        "Name": "Ronald",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "Model": "rss_formula_americas_2020",
+      "Restrictor": 0,
+      "Skin": "ronald",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 21,
+      "Driver": {
+        "Guid": "76561198970784585",
+        "GuidsList": [
+          "76561198970784585"
+        ],
+        "Name": "TV",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "aston_vantage2018",
+      "Restrictor": 0,
+      "Skin": "F1",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 121,
+      "MaxPing": 128
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 22,
+      "Driver": {
+        "Guid": "738597324072384",
+        "GuidsList": [
+          "738597324072384"
+        ],
+        "Name": "Safety Car",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "Model": "aston_vantage2018",
+      "Restrictor": 0,
+      "Skin": "F1",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 24.114704,
+      "OtherCarId": 7,
+      "OtherDriver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "Team Pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.96392095,
+        "Y": -0.08897767,
+        "Z": -1.20122
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 380.14032,
+        "Y": -24.951439,
+        "Z": 297.07623
+      },
+      "Timestamp": 1740287225,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "Team Pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 24.20132,
+      "OtherCarId": 6,
+      "OtherDriver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -1.000814,
+        "Y": -0.2101912,
+        "Z": 1.9881067
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 380.13867,
+        "Y": -25.058859,
+        "Z": 297.02814
+      },
+      "Timestamp": 1740287228,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 7,
+      "Driver": {
+        "Guid": "76561199012707732",
+        "GuidsList": [
+          "76561199012707732"
+        ],
+        "Name": "Ameg Sanchez",
+        "Nation": "CUB",
+        "Team": "Team Pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 55.555065,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9515532,
+        "Y": -0.21313804,
+        "Z": -1.6974819
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 389.928,
+        "Y": -25.879011,
+        "Z": 344.79852
+      },
+      "Timestamp": 1740287228,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199574088119",
+        "GuidsList": [
+          "76561199574088119"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "Team pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 50.91347,
+      "OtherCarId": 12,
+      "OtherDriver": {
+        "Guid": "76561199822043307",
+        "GuidsList": [
+          "76561199822043307"
+        ],
+        "Name": "Erick Gonzalez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "RelPosition": {
+        "X": -0.49551633,
+        "Y": 0.04271523,
+        "Z": -2.0605567
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -166.40558,
+        "Y": -72.179474,
+        "Z": -723.5421
+      },
+      "Timestamp": 1740287316,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199574088119",
+        "GuidsList": [
+          "76561199574088119"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "Team pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 32.3614,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.8743845,
+        "Y": -0.11851695,
+        "Z": 2.707673
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -160.38713,
+        "Y": -72.225044,
+        "Z": -707.03534
+      },
+      "Timestamp": 1740287316,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199574088119",
+        "GuidsList": [
+          "76561199574088119"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "Team pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 27.500685,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.7995413,
+        "Y": -0.11192428,
+        "Z": 2.7222347
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -89.33118,
+        "Y": -68.71305,
+        "Z": -682.6874
+      },
+      "Timestamp": 1740287326,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561199574088119",
+        "GuidsList": [
+          "76561199574088119"
+        ],
+        "Name": "Oliver Wilson",
+        "Nation": "CUB",
+        "Team": "Team pote",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 19.089304,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.5157688,
+        "Y": 0.63851374,
+        "Z": -2.2460086
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -76.80749,
+        "Y": -67.13946,
+        "Z": -675.4153
+      },
+      "Timestamp": 1740287331,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561199380473036",
+        "GuidsList": [
+          "76561199380473036"
+        ],
+        "Name": "Eduardo A. Gibert",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "ImpactSpeed": 7.0862913,
+      "OtherCarId": 12,
+      "OtherDriver": {
+        "Guid": "76561199822043307",
+        "GuidsList": [
+          "76561199822043307"
+        ],
+        "Name": "Erick Gonzalez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "RelPosition": {
+        "X": 0.99631137,
+        "Y": 0.052039027,
+        "Z": 1.9279135
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -81.42952,
+        "Y": -41.114254,
+        "Z": 779.81586
+      },
+      "Timestamp": 1740287573,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 12,
+      "Driver": {
+        "Guid": "76561199822043307",
+        "GuidsList": [
+          "76561199822043307"
+        ],
+        "Name": "Erick Gonzalez",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "ImpactSpeed": 17.20734,
+      "OtherCarId": 13,
+      "OtherDriver": {
+        "Guid": "76561199380473036",
+        "GuidsList": [
+          "76561199380473036"
+        ],
+        "Name": "Eduardo A. Gibert",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17"
+      },
+      "RelPosition": {
+        "X": -0.99053174,
+        "Y": -0.1501248,
+        "Z": -0.16564414
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -81.318665,
+        "Y": -41.290245,
+        "Z": 779.8546
+      },
+      "Timestamp": 1740287577,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 47.43048,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -4.347297e-7,
+        "Y": -0.04149303,
+        "Z": 2.877833
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -122.63098,
+        "Y": -40.977383,
+        "Z": -259.04733
+      },
+      "Timestamp": 1740287816,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Bryan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 59.213795,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.77365047,
+        "Y": -0.1685645,
+        "Z": 2.6101556
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -129.98297,
+        "Y": -70.79444,
+        "Z": -701.4724
+      },
+      "Timestamp": 1740287857,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 4,
+      "Driver": {
+        "Guid": "40904243",
+        "GuidsList": [
+          "40904243"
+        ],
+        "Name": "Pablo Nacianceno",
+        "Nation": "CUB",
+        "Team": "Sparttan Sports",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 5.226518,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0008094,
+        "Y": 0.30164742,
+        "Z": 1.8706009
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 374.52957,
+        "Y": -24.317749,
+        "Z": 178.71352
+      },
+      "Timestamp": 1740288221,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561198295164314",
+        "GuidsList": [
+          "76561198295164314"
+        ],
+        "Name": "Bryan Couso",
+        "Nation": "USA",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 27.670145,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9963154,
+        "Y": 0.3016478,
+        "Z": 1.8705947
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 139.99522,
+        "Y": -30.613155,
+        "Z": 782.3074
+      },
+      "Timestamp": 1740288232,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 10.229835,
+      "OtherCarId": 1,
+      "OtherDriver": {
+        "Guid": "76561199147153347",
+        "GuidsList": [
+          "76561199147153347"
+        ],
+        "Name": "Lázaro Contreras",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": 0.84570616,
+        "Y": -0.1764822,
+        "Z": 1.8022927
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 374.77164,
+        "Y": -25.852287,
+        "Z": 419.34167
+      },
+      "Timestamp": 1740288411,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 5.9319925,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -1.0008293,
+        "Y": 0.3016487,
+        "Z": 1.8705951
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 373.00885,
+        "Y": -25.38069,
+        "Z": 409.47375
+      },
+      "Timestamp": 1740288411,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561199147153347",
+        "GuidsList": [
+          "76561199147153347"
+        ],
+        "Name": "Lázaro Contreras",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 253.40015,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": -0.97168916,
+        "Y": -0.123165935,
+        "Z": 1.9937469
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 362.36142,
+        "Y": -25.538044,
+        "Z": 479.9068
+      },
+      "Timestamp": 1740288412,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561199141189138",
+        "GuidsList": [
+          "76561199141189138"
+        ],
+        "Name": "Samir Kaddoura",
+        "Nation": "CUB",
+        "Team": "Automovil Club de Cuba",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 16.366064,
+      "OtherCarId": 1,
+      "OtherDriver": {
+        "Guid": "76561199147153347",
+        "GuidsList": [
+          "76561199147153347"
+        ],
+        "Name": "Lázaro Contreras",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "RelPosition": {
+        "X": -0.9499744,
+        "Y": 0.18580864,
+        "Z": -0.6292946
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 372.55978,
+        "Y": -25.311098,
+        "Z": 443.164
+      },
+      "Timestamp": 1740288416,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561199147153347",
+        "GuidsList": [
+          "76561199147153347"
+        ],
+        "Name": "Lázaro Contreras",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 50.717392,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.98551065,
+        "Y": -0.2354909,
+        "Z": 1.2758137
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 388.8688,
+        "Y": -26.92005,
+        "Z": 688.2406
+      },
+      "Timestamp": 1740288417,
+      "AfterSessionEnd": true
+    },
+    {
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561199147153347",
+        "GuidsList": [
+          "76561199147153347"
+        ],
+        "Name": "Lázaro Contreras",
+        "Nation": "CUB",
+        "Team": "",
+        "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02"
+      },
+      "ImpactSpeed": 2.5955932,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "00000000-0000-0000-0000-000000000000"
+      },
+      "RelPosition": {
+        "X": 0.9963237,
+        "Y": -0.21380997,
+        "Z": 1.9889549
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 387.99884,
+        "Y": -27.034393,
+        "Z": 698.57336
+      },
+      "Timestamp": 1740288422,
+      "AfterSessionEnd": true
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 114167,
+      "Restrictor": 0,
+      "Sectors": [
+        46479,
+        37125,
+        30563
+      ],
+      "Timestamp": 1740287328,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 115712,
+      "Restrictor": 0,
+      "Sectors": [
+        46597,
+        38254,
+        30861
+      ],
+      "Timestamp": 1740287330,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 116951,
+      "Restrictor": 0,
+      "Sectors": [
+        47615,
+        38007,
+        31329
+      ],
+      "Timestamp": 1740287331,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 117090,
+      "Restrictor": 0,
+      "Sectors": [
+        49130,
+        37247,
+        30713
+      ],
+      "Timestamp": 1740287331,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 118009,
+      "Restrictor": 0,
+      "Sectors": [
+        48525,
+        38159,
+        31325
+      ],
+      "Timestamp": 1740287332,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 120997,
+      "Restrictor": 0,
+      "Sectors": [
+        49973,
+        38584,
+        32440
+      ],
+      "Timestamp": 1740287335,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 121192,
+      "Restrictor": 0,
+      "Sectors": [
+        50898,
+        38331,
+        31963
+      ],
+      "Timestamp": 1740287335,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "LapTime": 131877,
+      "Restrictor": 0,
+      "Sectors": [
+        51210,
+        38992,
+        41675
+      ],
+      "Timestamp": 1740287346,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 144601,
+      "Restrictor": 0,
+      "Sectors": [
+        48422,
+        37998,
+        58181
+      ],
+      "Timestamp": 1740287359,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199805169937",
+      "DriverName": "Alicia Santos",
+      "LapTime": 171572,
+      "Restrictor": 0,
+      "Sectors": [
+        77064,
+        60227,
+        34281
+      ],
+      "Timestamp": 1740287407,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 107566,
+      "Restrictor": 0,
+      "Sectors": [
+        39746,
+        37103,
+        30717
+      ],
+      "Timestamp": 1740287436,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 107451,
+      "Restrictor": 0,
+      "Sectors": [
+        39316,
+        37706,
+        30429
+      ],
+      "Timestamp": 1740287439,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 109762,
+      "Restrictor": 0,
+      "Sectors": [
+        40269,
+        38501,
+        30992
+      ],
+      "Timestamp": 1740287440,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 110194,
+      "Restrictor": 0,
+      "Sectors": [
+        40390,
+        38273,
+        31531
+      ],
+      "Timestamp": 1740287441,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 109828,
+      "Restrictor": 0,
+      "Sectors": [
+        40515,
+        37458,
+        31855
+      ],
+      "Timestamp": 1740287442,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 110886,
+      "Restrictor": 0,
+      "Sectors": [
+        41554,
+        38020,
+        31312
+      ],
+      "Timestamp": 1740287446,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 111704,
+      "Restrictor": 0,
+      "Sectors": [
+        41657,
+        38723,
+        31324
+      ],
+      "Timestamp": 1740287447,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 133340,
+      "Restrictor": 0,
+      "Sectors": [
+        65368,
+        37129,
+        30843
+      ],
+      "Timestamp": 1740287492,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 107276,
+      "Restrictor": 0,
+      "Sectors": [
+        39988,
+        36585,
+        30703
+      ],
+      "Timestamp": 1740287543,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 108564,
+      "Restrictor": 0,
+      "Sectors": [
+        40002,
+        37206,
+        31356
+      ],
+      "Timestamp": 1740287548,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 111631,
+      "Restrictor": 0,
+      "Sectors": [
+        39375,
+        41355,
+        30901
+      ],
+      "Timestamp": 1740287550,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 108473,
+      "Restrictor": 0,
+      "Sectors": [
+        39759,
+        38042,
+        30672
+      ],
+      "Timestamp": 1740287551,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199805169937",
+      "DriverName": "Alicia Santos",
+      "LapTime": 143868,
+      "Restrictor": 0,
+      "Sectors": [
+        42987,
+        41049,
+        59832
+      ],
+      "Timestamp": 1740287551,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 109950,
+      "Restrictor": 0,
+      "Sectors": [
+        40658,
+        38134,
+        31158
+      ],
+      "Timestamp": 1740287551,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 109948,
+      "Restrictor": 0,
+      "Sectors": [
+        40706,
+        38008,
+        31234
+      ],
+      "Timestamp": 1740287556,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 109006,
+      "Restrictor": 0,
+      "Sectors": [
+        40737,
+        37593,
+        30676
+      ],
+      "Timestamp": 1740287556,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 119608,
+      "Restrictor": 0,
+      "Sectors": [
+        50614,
+        37409,
+        31585
+      ],
+      "Timestamp": 1740287612,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 107319,
+      "Restrictor": 0,
+      "Sectors": [
+        40179,
+        36512,
+        30628
+      ],
+      "Timestamp": 1740287651,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 107675,
+      "Restrictor": 0,
+      "Sectors": [
+        40149,
+        36877,
+        30649
+      ],
+      "Timestamp": 1740287656,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 106763,
+      "Restrictor": 0,
+      "Sectors": [
+        39430,
+        36796,
+        30537
+      ],
+      "Timestamp": 1740287657,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 108925,
+      "Restrictor": 0,
+      "Sectors": [
+        40435,
+        37638,
+        30852
+      ],
+      "Timestamp": 1740287659,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 109705,
+      "Restrictor": 0,
+      "Sectors": [
+        41319,
+        37687,
+        30699
+      ],
+      "Timestamp": 1740287661,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 114233,
+      "Restrictor": 0,
+      "Sectors": [
+        42652,
+        39807,
+        31774
+      ],
+      "Timestamp": 1740287670,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199805169937",
+      "DriverName": "Alicia Santos",
+      "LapTime": 122237,
+      "Restrictor": 0,
+      "Sectors": [
+        46813,
+        40703,
+        34721
+      ],
+      "Timestamp": 1740287673,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 116736,
+      "Restrictor": 0,
+      "Sectors": [
+        45658,
+        39740,
+        31338
+      ],
+      "Timestamp": 1740287673,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 108595,
+      "Restrictor": 0,
+      "Sectors": [
+        40002,
+        37570,
+        31023
+      ],
+      "Timestamp": 1740287720,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 108179,
+      "Restrictor": 0,
+      "Sectors": [
+        40023,
+        37133,
+        31023
+      ],
+      "Timestamp": 1740287759,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 108407,
+      "Restrictor": 0,
+      "Sectors": [
+        40080,
+        37223,
+        31104
+      ],
+      "Timestamp": 1740287764,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 107453,
+      "Restrictor": 0,
+      "Sectors": [
+        39193,
+        37238,
+        31022
+      ],
+      "Timestamp": 1740287765,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 108410,
+      "Restrictor": 0,
+      "Sectors": [
+        40109,
+        37202,
+        31099
+      ],
+      "Timestamp": 1740287768,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 108037,
+      "Restrictor": 0,
+      "Sectors": [
+        40182,
+        36913,
+        30942
+      ],
+      "Timestamp": 1740287769,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 109951,
+      "Restrictor": 0,
+      "Sectors": [
+        40907,
+        37647,
+        31397
+      ],
+      "Timestamp": 1740287780,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 109574,
+      "Restrictor": 0,
+      "Sectors": [
+        40437,
+        38043,
+        31094
+      ],
+      "Timestamp": 1740287782,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 107565,
+      "Restrictor": 0,
+      "Sectors": [
+        39632,
+        37031,
+        30902
+      ],
+      "Timestamp": 1740287828,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 107058,
+      "Restrictor": 0,
+      "Sectors": [
+        39612,
+        36715,
+        30731
+      ],
+      "Timestamp": 1740287866,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 106733,
+      "Restrictor": 0,
+      "Sectors": [
+        39935,
+        36613,
+        30185
+      ],
+      "Timestamp": 1740287871,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 111504,
+      "Restrictor": 0,
+      "Sectors": [
+        39796,
+        38403,
+        33305
+      ],
+      "Timestamp": 1740287876,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 115544,
+      "Restrictor": 0,
+      "Sectors": [
+        40287,
+        37021,
+        38236
+      ],
+      "Timestamp": 1740287883,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 115084,
+      "Restrictor": 0,
+      "Sectors": [
+        39610,
+        43978,
+        31496
+      ],
+      "Timestamp": 1740287884,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 109284,
+      "Restrictor": 0,
+      "Sectors": [
+        40703,
+        37458,
+        31123
+      ],
+      "Timestamp": 1740287890,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 111175,
+      "Restrictor": 0,
+      "Sectors": [
+        40512,
+        39393,
+        31270
+      ],
+      "Timestamp": 1740287894,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 108197,
+      "Restrictor": 0,
+      "Sectors": [
+        39883,
+        37355,
+        30959
+      ],
+      "Timestamp": 1740287936,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 108755,
+      "Restrictor": 0,
+      "Sectors": [
+        40545,
+        37413,
+        30797
+      ],
+      "Timestamp": 1740287975,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 106301,
+      "Restrictor": 0,
+      "Sectors": [
+        39657,
+        36382,
+        30262
+      ],
+      "Timestamp": 1740287978,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 108400,
+      "Restrictor": 0,
+      "Sectors": [
+        40563,
+        36958,
+        30879
+      ],
+      "Timestamp": 1740287984,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 110179,
+      "Restrictor": 0,
+      "Sectors": [
+        40969,
+        37715,
+        31495
+      ],
+      "Timestamp": 1740287994,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 112048,
+      "Restrictor": 0,
+      "Sectors": [
+        42343,
+        38327,
+        31378
+      ],
+      "Timestamp": 1740287995,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 110610,
+      "Restrictor": 0,
+      "Sectors": [
+        41075,
+        38052,
+        31483
+      ],
+      "Timestamp": 1740288000,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 109679,
+      "Restrictor": 0,
+      "Sectors": [
+        40582,
+        37746,
+        31351
+      ],
+      "Timestamp": 1740288003,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 107737,
+      "Restrictor": 0,
+      "Sectors": [
+        39782,
+        37157,
+        30798
+      ],
+      "Timestamp": 1740288044,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 107867,
+      "Restrictor": 0,
+      "Sectors": [
+        40066,
+        36950,
+        30851
+      ],
+      "Timestamp": 1740288082,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 108398,
+      "Restrictor": 0,
+      "Sectors": [
+        40413,
+        37489,
+        30496
+      ],
+      "Timestamp": 1740288086,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 107537,
+      "Restrictor": 0,
+      "Sectors": [
+        39677,
+        36995,
+        30865
+      ],
+      "Timestamp": 1740288092,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 110417,
+      "Restrictor": 0,
+      "Sectors": [
+        40856,
+        38106,
+        31455
+      ],
+      "Timestamp": 1740288105,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 110130,
+      "Restrictor": 0,
+      "Sectors": [
+        40757,
+        37836,
+        31537
+      ],
+      "Timestamp": 1740288106,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 110160,
+      "Restrictor": 0,
+      "Sectors": [
+        40733,
+        37868,
+        31559
+      ],
+      "Timestamp": 1740288110,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 109271,
+      "Restrictor": 0,
+      "Sectors": [
+        40917,
+        37305,
+        31049
+      ],
+      "Timestamp": 1740288113,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 108060,
+      "Restrictor": 0,
+      "Sectors": [
+        39867,
+        37147,
+        31046
+      ],
+      "Timestamp": 1740288152,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 107593,
+      "Restrictor": 0,
+      "Sectors": [
+        40080,
+        36684,
+        30829
+      ],
+      "Timestamp": 1740288190,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 106779,
+      "Restrictor": 0,
+      "Sectors": [
+        39413,
+        36856,
+        30510
+      ],
+      "Timestamp": 1740288193,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 108340,
+      "Restrictor": 0,
+      "Sectors": [
+        40345,
+        37161,
+        30834
+      ],
+      "Timestamp": 1740288200,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 110559,
+      "Restrictor": 0,
+      "Sectors": [
+        40772,
+        38286,
+        31501
+      ],
+      "Timestamp": 1740288215,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 110178,
+      "Restrictor": 0,
+      "Sectors": [
+        40904,
+        38169,
+        31105
+      ],
+      "Timestamp": 1740288216,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 110411,
+      "Restrictor": 0,
+      "Sectors": [
+        40751,
+        38016,
+        31644
+      ],
+      "Timestamp": 1740288221,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 109011,
+      "Restrictor": 0,
+      "Sectors": [
+        40539,
+        37502,
+        30970
+      ],
+      "Timestamp": 1740288222,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 107837,
+      "Restrictor": 0,
+      "Sectors": [
+        40094,
+        36829,
+        30914
+      ],
+      "Timestamp": 1740288260,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 108158,
+      "Restrictor": 0,
+      "Sectors": [
+        40308,
+        37075,
+        30775
+      ],
+      "Timestamp": 1740288298,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 106604,
+      "Restrictor": 0,
+      "Sectors": [
+        39392,
+        36865,
+        30347
+      ],
+      "Timestamp": 1740288299,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 108312,
+      "Restrictor": 0,
+      "Sectors": [
+        40119,
+        37021,
+        31172
+      ],
+      "Timestamp": 1740288308,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 109565,
+      "Restrictor": 0,
+      "Sectors": [
+        40724,
+        37549,
+        31292
+      ],
+      "Timestamp": 1740288325,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 113368,
+      "Restrictor": 0,
+      "Sectors": [
+        43335,
+        38686,
+        31347
+      ],
+      "Timestamp": 1740288329,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 110100,
+      "Restrictor": 0,
+      "Sectors": [
+        40728,
+        37835,
+        31537
+      ],
+      "Timestamp": 1740288331,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 109440,
+      "Restrictor": 0,
+      "Sectors": [
+        40378,
+        37895,
+        31167
+      ],
+      "Timestamp": 1740288331,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "LapTime": 111710,
+      "Restrictor": 0,
+      "Sectors": [
+        40107,
+        40293,
+        31310
+      ],
+      "Timestamp": 1740288371,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "LapTime": 106481,
+      "Restrictor": 0,
+      "Sectors": [
+        39494,
+        36702,
+        30285
+      ],
+      "Timestamp": 1740288406,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "LapTime": 107849,
+      "Restrictor": 0,
+      "Sectors": [
+        39756,
+        36738,
+        31355
+      ],
+      "Timestamp": 1740288406,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "LapTime": 108728,
+      "Restrictor": 0,
+      "Sectors": [
+        40351,
+        37107,
+        31270
+      ],
+      "Timestamp": 1740288417,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "LapTime": 110878,
+      "Restrictor": 0,
+      "Sectors": [
+        40894,
+        37661,
+        32323
+      ],
+      "Timestamp": 1740288436,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "LapTime": 111736,
+      "Restrictor": 0,
+      "Sectors": [
+        41145,
+        38349,
+        32242
+      ],
+      "Timestamp": 1740288441,
+      "Tyre": "S",
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "LapTime": 110591,
+      "Restrictor": 0,
+      "Sectors": [
+        40778,
+        37881,
+        31932
+      ],
+      "Timestamp": 1740288441,
+      "Tyre": "S",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "LapTime": 123785,
+      "Restrictor": 0,
+      "Sectors": [
+        41525,
+        37972,
+        44288
+      ],
+      "Timestamp": 1740288455,
+      "Tyre": "H",
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 36,
+        "Grip": 1,
+        "WindSpeed": 3,
+        "WindDirection": 30,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 106301,
+      "CarId": 6,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561199141189138",
+      "DriverName": "Samir Kaddoura",
+      "Restrictor": 0,
+      "TotalTime": 1191682,
+      "NumLaps": 11,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 7
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 107058,
+      "CarId": 1,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561199147153347",
+      "DriverName": "Lázaro Contreras",
+      "Restrictor": 0,
+      "TotalTime": 1191637,
+      "NumLaps": 11,
+      "HasPenalty": true,
+      "PenaltyTime": 1000000000,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 2
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 107537,
+      "CarId": 3,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "4090424",
+      "DriverName": "Deivid Lamadrid",
+      "Restrictor": 0,
+      "TotalTime": 1202908,
+      "NumLaps": 11,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 4
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 108037,
+      "CarId": 4,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "40904243",
+      "DriverName": "Pablo Nacianceno",
+      "Restrictor": 0,
+      "TotalTime": 1221475,
+      "NumLaps": 11,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 5
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 108410,
+      "CarId": 2,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561198295164314",
+      "DriverName": "Bryan Couso",
+      "Restrictor": 0,
+      "TotalTime": 1226519,
+      "NumLaps": 11,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 3
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 109284,
+      "CarId": 12,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561199822043307",
+      "DriverName": "Erick Gonzalez",
+      "Restrictor": 0,
+      "TotalTime": 1227151,
+      "NumLaps": 11,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "GridPosition": 13
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 109006,
+      "CarId": 13,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561199380473036",
+      "DriverName": "Eduardo A. Gibert",
+      "Restrictor": 0,
+      "TotalTime": 1240565,
+      "NumLaps": 11,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "GridPosition": 14
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 107565,
+      "CarId": 5,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561199574088119",
+      "DriverName": "Oliver Wilson",
+      "Restrictor": 0,
+      "TotalTime": 1157083,
+      "NumLaps": 10,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 6
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 122237,
+      "CarId": 11,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561199805169937",
+      "DriverName": "Alicia Santos",
+      "Restrictor": 0,
+      "TotalTime": 458507,
+      "NumLaps": 3,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "bc3ad3cb-6eb1-4948-9f82-6a271474af17",
+      "GridPosition": 12
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 131877,
+      "CarId": 7,
+      "CarModel": "rss_formula_americas_2020",
+      "DriverGuid": "76561199012707732",
+      "DriverName": "Ameg Sanchez",
+      "Restrictor": 0,
+      "TotalTime": 131860,
+      "NumLaps": 1,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "d61878c7-1d72-488a-846b-23181f5dce02",
+      "GridPosition": 8
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "lilski_road_america",
+  "Type": "RACE",
+  "Date": "2025-02-23T00:27:00-05:00",
+  "SessionFile": "2025_2_23_0_27_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 0,
+    "laps": 11,
+    "is_open": 1,
+    "wait_time": 200,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "f2f41845-f6c1-47e8-8217-18380c45be17",
+  "RaceWeekendID": "57f000af-1d98-4362-a1de-13d584e6f21c",
+  "EventName": ""
+}

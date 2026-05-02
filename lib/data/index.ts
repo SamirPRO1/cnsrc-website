@@ -12,7 +12,8 @@ import {
   getTrack as _getTrack,
 } from "@/lib/store";
 import { deriveStandings } from "@/lib/derive/standings";
-import { deriveTrackRecords } from "@/lib/derive/trackRecords";
+import { deriveTrackRecords, lapToMs } from "@/lib/derive/trackRecords";
+import { computeRacePositions } from "@/lib/derive/lapAnalysis";
 import type {
   Championship,
   StandingsRow,
@@ -23,6 +24,7 @@ import type {
   TrackRef,
   TrackRecord,
   GlobalRecords,
+  StatEntry,
   DriverProfile,
   TrackDetail,
 } from "@/lib/types";
@@ -94,6 +96,7 @@ export const getDriverProfile = cache((id: string): DriverProfile | null => {
       seasons.push({
         championshipId: champ.id,
         season: champ.season,
+        classId: standing.classId,
         pos: standing.pos,
         pts: standing.pts,
         wins: standing.wins,
@@ -163,20 +166,39 @@ export const getTrackDetail = cache((trackId: string): TrackDetail | null => {
   const champs = _listChamps();
   let trackRef = null;
   const sessions: TrackDetail["sessions"] = [];
-  const records: TrackRecord[] = [];
+  const bestByCar = new Map<string, TrackRecord>();
 
   for (const champ of champs) {
-    const recs = deriveTrackRecords(champ);
-    records.push(...recs.filter((r) => r.trackId === trackId));
+    for (const rec of deriveTrackRecords(champ)) {
+      if (rec.trackId !== trackId) continue;
+      const existing = bestByCar.get(rec.carName);
+      if (!existing || lapToMs(rec.time) < lapToMs(existing.time)) bestByCar.set(rec.carName, rec);
+    }
 
     for (const round of champ.rounds) {
       if (round.track.id !== trackId) continue;
       trackRef = round.track;
       for (const session of round.sessions) {
         if (session.type !== "race" || session.results.length === 0) continue;
-        const podium = session.results.slice(0, 3).map(
-          (r) => _getDriver(r.driverId)?.name ?? r.driverId
-        );
+        const classIds = new Set(session.results.map((r) => r.classId));
+        let podium: { name: string; classId: string }[];
+        if (classIds.size > 1) {
+          // Multi-class: one winner (P1) per class
+          const seen = new Set<string>();
+          podium = [];
+          for (const r of session.results) {
+            if (!seen.has(r.classId) && r.pos === 1) {
+              seen.add(r.classId);
+              podium.push({ name: _getDriver(r.driverId)?.name ?? r.driverId, classId: r.classId });
+            }
+          }
+        } else {
+          // Single-class: top 3
+          podium = session.results.slice(0, 3).map((r) => ({
+            name: _getDriver(r.driverId)?.name ?? r.driverId,
+            classId: r.classId,
+          }));
+        }
         sessions.push({
           id: session.id,
           label: `${champ.season} · ${session.subLabel ?? session.type}`,
@@ -188,43 +210,171 @@ export const getTrackDetail = cache((trackId: string): TrackDetail | null => {
   }
 
   if (!trackRef) return null;
-  return { ...trackRef, records, sessions };
+  return { ...trackRef, records: [...bestByCar.values()], sessions };
 });
 
 export const getGlobalRecords = cache((): GlobalRecords => {
   const champs = _listChamps();
-  let totalRaces = 0;
-  let totalLaps = 0;
-  const driverSet = new Set<string>();
-  const allRecords: TrackRecord[] = [];
 
-  const winCounts = new Map<string, number>();
+  let totalRaces = 0;
+  let totalLaps  = 0;
+  const driverSet = new Set<string>();
+
+  // PRO accumulators (classId !== "am")
+  const proWins        = new Map<string, number>();
+  const proPodiums     = new Map<string, number>();
+  const proPoles       = new Map<string, number>();
+  const proFl          = new Map<string, number>();
+  const proStarts      = new Map<string, number>();
+  const proDnfs        = new Map<string, number>();
+  const proTitles      = new Map<string, number>();
+  const proWinsFromPole = new Map<string, number>();
+  const proSeasonBest  = new Map<string, number>();
+  const proLedLaps     = new Map<string, number>();
+
+  // Ordered PRO race winners — for consecutive streak computation
+  const proWinnerLog: string[] = [];
+
+  // AM accumulators
+  const amWins     = new Map<string, number>();
+  const amPodiums  = new Map<string, number>();
+  const amPoles    = new Map<string, number>();
+  const amLedLaps  = new Map<string, number>();
+
+  const inc = (m: Map<string, number>, id: string) => m.set(id, (m.get(id) ?? 0) + 1);
+  const add = (m: Map<string, number>, id: string, n: number) => m.set(id, (m.get(id) ?? 0) + n);
 
   for (const champ of champs) {
+    // Championship title
+    const champion = deriveStandings(champ, "indycar")[0];
+    if (champion) inc(proTitles, champion.driverId);
+
+    // Per-season win count for best-season stat
+    const seasonWins = new Map<string, number>();
+
     for (const round of champ.rounds) {
+      // Pole sitter for this round (used for wins-from-pole)
+      let proPoleDriver: string | null = null;
+
       for (const session of round.sessions) {
-        if (session.type === "race" && session.results.length > 0) {
-          totalRaces++;
-          const winner = session.results[0];
-          winCounts.set(winner.driverId, (winCounts.get(winner.driverId) ?? 0) + 1);
-        }
         totalLaps += session.laps.length;
         session.results.forEach((r) => driverSet.add(r.driverId));
+
+        if (session.type === "qualifying") {
+          const proPole = session.results.find((r) => r.classId !== "am" && r.pos === 1);
+          if (proPole) { proPoleDriver = proPole.driverId; inc(proPoles, proPole.driverId); }
+          const amPole = session.results.find((r) => r.classId === "am" && r.pos === 1);
+          if (amPole) inc(amPoles, amPole.driverId);
+          continue;
+        }
+
+        if (session.type !== "race" || session.results.length === 0) continue;
+
+        const proResults = session.results.filter((r) => r.classId !== "am");
+        const amResults  = session.results.filter((r) => r.classId === "am");
+        const isFirstRace = (session.subLabel ?? "") === "R1" ||
+          round.sessions.filter((s) => s.type === "race").indexOf(session) === 0;
+
+        if (proResults.length > 0) {
+          totalRaces++;
+          for (const r of proResults) {
+            inc(proStarts, r.driverId);
+            if (r.pos === 1) { inc(proWins, r.driverId); inc(seasonWins, r.driverId); }
+            if (r.pos <= 3) inc(proPodiums, r.driverId);
+            if (r.status === "dnf") inc(proDnfs, r.driverId);
+          }
+
+          const winner = proResults.find((r) => r.pos === 1);
+          if (winner) {
+            proWinnerLog.push(winner.driverId);
+            // Win from pole only on first race of the round (grid from qualifying)
+            if (isFirstRace && proPoleDriver === winner.driverId) {
+              inc(proWinsFromPole, winner.driverId);
+            }
+          }
+
+          // Fastest lap among PRO drivers
+          let bestMs = Infinity;
+          let flDriver = "";
+          for (const lap of session.laps) {
+            if (lap.cut) continue;
+            if (!proResults.some((r) => r.driverId === lap.driverId)) continue;
+            const ms = lapToMs(lap.time);
+            if (ms < bestMs) { bestMs = ms; flDriver = lap.driverId; }
+          }
+          if (flDriver) inc(proFl, flDriver);
+        }
+
+        for (const r of amResults) {
+          if (r.pos === 1) inc(amWins, r.driverId);
+          if (r.pos <= 3) inc(amPodiums, r.driverId);
+        }
+
+        // Led laps — computed per class so mixed-class sessions are handled correctly
+        if (session.laps.length > 0) {
+          if (proResults.length > 0) {
+            const proLaps = session.laps.filter((l) => proResults.some((r) => r.driverId === l.driverId));
+            for (const ds of computeRacePositions(proResults, proLaps)) {
+              const led = ds.points.filter((p) => p.pos === 1).length;
+              if (led > 0) add(proLedLaps, ds.driverId, led);
+            }
+          }
+          if (amResults.length > 0) {
+            const amLaps = session.laps.filter((l) => amResults.some((r) => r.driverId === l.driverId));
+            for (const ds of computeRacePositions(amResults, amLaps)) {
+              const led = ds.points.filter((p) => p.pos === 1).length;
+              if (led > 0) add(amLedLaps, ds.driverId, led);
+            }
+          }
+        }
       }
     }
-    allRecords.push(...deriveTrackRecords(champ));
+
+    for (const [id, wins] of seasonWins) {
+      if (wins > (proSeasonBest.get(id) ?? 0)) proSeasonBest.set(id, wins);
+    }
   }
 
-  const topWinner = [...winCounts.entries()].sort((a, b) => b[1] - a[1])[0];
-  const topWinnerName = topWinner ? (_getDriver(topWinner[0])?.name ?? topWinner[0]) : "—";
+  // Max consecutive win streak from the ordered log
+  const maxStreak  = new Map<string, number>();
+  const curStreak  = new Map<string, number>();
+  for (const winnerId of proWinnerLog) {
+    for (const id of curStreak.keys()) if (id !== winnerId) curStreak.set(id, 0);
+    const s = (curStreak.get(winnerId) ?? 0) + 1;
+    curStreak.set(winnerId, s);
+    if (s > (maxStreak.get(winnerId) ?? 0)) maxStreak.set(winnerId, s);
+  }
+
+  const topN = (m: Map<string, number>, n = 5): StatEntry[] =>
+    [...m.entries()]
+      .filter(([, v]) => v > 0)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, n)
+      .map(([id, value]) => ({ driverName: _getDriver(id)?.name ?? id, value }));
 
   return {
     totalRaces,
     totalLaps,
     totalDrivers: driverSet.size,
-    allTimeLeaders: [
-      { stat: "WINS", driverName: topWinnerName, value: topWinner?.[1] ?? 0 },
+    totalChampionships: champs.length,
+    proStats: [
+      { label: "VICTORIAS",            eyebrow: "TODO TIEMPO",       top: topN(proWins) },
+      { label: "PODIOS",               eyebrow: "TODO TIEMPO",       top: topN(proPodiums) },
+      { label: "POLES",                eyebrow: "CLASIFICACIÓN",     top: topN(proPoles) },
+      { label: "VUELTAS RÁPIDAS",      eyebrow: "EN CARRERA",        top: topN(proFl) },
+      { label: "VUELTAS LIDERADAS",    eyebrow: "EN CARRERA",        top: topN(proLedLaps) },
+      { label: "RACHA",                eyebrow: "VICTORIAS CONSEC.", top: topN(maxStreak) },
+      { label: "MEJOR TEMPORADA",      eyebrow: "VICTORIAS EN S.",   top: topN(proSeasonBest) },
+      { label: "VICTORIA DESDE POLE",  eyebrow: "POLE → WIN",        top: topN(proWinsFromPole) },
+      { label: "TÍTULOS",              eyebrow: "CAMPEONATOS",       top: topN(proTitles) },
+      { label: "STARTS",               eyebrow: "PARTICIPACIÓN",     top: topN(proStarts) },
+      { label: "DNF",                  eyebrow: "ABANDONOS",         top: topN(proDnfs) },
     ],
-    fastestByTrack: allRecords,
+    amStats: [
+      { label: "VICTORIAS",         eyebrow: "CLASE AM · S02", top: topN(amWins) },
+      { label: "PODIOS",            eyebrow: "CLASE AM · S02", top: topN(amPodiums) },
+      { label: "POLES",             eyebrow: "CLASE AM · S02", top: topN(amPoles) },
+      { label: "VUELTAS LIDERADAS", eyebrow: "CLASE AM · S02", top: topN(amLedLaps) },
+    ],
   };
 });

@@ -13710,79 +13710,536 @@
           "type": "race",
           "subLabel": "R1",
           "conditions": {
-            "airTemp": 28,
-            "trackTemp": 38,
-            "weather": "Despejado"
+            "airTemp": 18,
+            "trackTemp": 29,
+            "weather": "Despejado",
+            "windKph": 14
           },
           "results": [
             {
-              "pos": 1,
-              "gridPos": 3,
               "driverId": "d04",
               "teamId": "",
               "classId": "indycar",
-              "bestLap": "01:55.145",
+              "pos": 1,
+              "gridPos": 3,
+              "bestLap": "1:55.145",
               "gap": "—",
               "points": 25,
               "status": "finished"
             },
             {
+              "driverId": "d02",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 2,
               "gridPos": 4,
-              "driverId": "d02",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:55.553",
+              "bestLap": "1:55.553",
               "gap": "+2.432",
               "points": 18,
               "status": "finished"
             },
             {
+              "driverId": "d06",
+              "teamId": "t-team-colibri",
+              "classId": "indycar",
               "pos": 3,
               "gridPos": 6,
-              "driverId": "d06",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:56.885",
+              "bestLap": "1:56.885",
               "gap": "+23.975",
               "points": 15,
               "status": "finished"
             },
             {
+              "driverId": "d01",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
               "pos": 4,
               "gridPos": 1,
-              "driverId": "d01",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:54.883",
-              "gap": "—",
+              "bestLap": "1:54.883",
+              "gap": "+1 Vlt",
               "points": 12,
               "status": "finished"
             },
             {
+              "driverId": "d26",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
               "pos": 5,
               "gridPos": 5,
-              "driverId": "d26",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:54.818",
-              "gap": "+1:10",
+              "bestLap": "1:54.818",
+              "gap": "+1 Vlt",
               "points": 11,
               "status": "finished"
             },
             {
+              "driverId": "d07",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 6,
               "gridPos": 2,
-              "driverId": "d07",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:00.138",
+              "bestLap": "2:00.138",
               "gap": "+5 Vlts",
               "points": 0,
               "status": "dnf"
             }
           ],
-          "laps": [],
+          "laps": [
+            {
+              "driverId": "d01",
+              "lapNo": 1,
+              "time": "1:58.785",
+              "sectors": [
+                "43.099",
+                "39.020",
+                "36.666"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411029
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 2,
+              "time": "1:57.787",
+              "sectors": [
+                "44.500",
+                "36.886",
+                "36.401"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411147
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 3,
+              "time": "1:55.340",
+              "sectors": [
+                "42.535",
+                "36.729",
+                "36.076"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411262
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 4,
+              "time": "1:54.883",
+              "sectors": [
+                "41.956",
+                "36.711",
+                "36.216"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411377
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 5,
+              "time": "2:05.133",
+              "sectors": [
+                "41.820",
+                "46.849",
+                "36.464"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411502
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 6,
+              "time": "1:55.483",
+              "sectors": [
+                "42.583",
+                "36.715",
+                "36.185"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411618
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 1,
+              "time": "1:59.456",
+              "sectors": [
+                "43.209",
+                "39.037",
+                "37.210"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411030
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 2,
+              "time": "1:57.129",
+              "sectors": [
+                "42.721",
+                "37.341",
+                "37.067"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411147
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 3,
+              "time": "1:59.681",
+              "sectors": [
+                "43.272",
+                "39.528",
+                "36.881"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411267
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 4,
+              "time": "1:55.581",
+              "sectors": [
+                "42.132",
+                "37.224",
+                "36.225"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411382
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 5,
+              "time": "1:56.387",
+              "sectors": [
+                "41.994",
+                "37.930",
+                "36.463"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411499
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 6,
+              "time": "1:55.553",
+              "sectors": [
+                "42.235",
+                "36.779",
+                "36.539"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411614
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 7,
+              "time": "1:56.589",
+              "sectors": [
+                "42.109",
+                "37.364",
+                "37.116"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411731
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 1,
+              "time": "2:00.029",
+              "sectors": [
+                "44.627",
+                "38.089",
+                "37.313"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411031
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 2,
+              "time": "1:57.362",
+              "sectors": [
+                "44.035",
+                "37.188",
+                "36.139"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411148
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 3,
+              "time": "1:56.881",
+              "sectors": [
+                "42.491",
+                "37.890",
+                "36.500"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411265
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 4,
+              "time": "1:55.669",
+              "sectors": [
+                "42.112",
+                "37.058",
+                "36.499"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411380
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 5,
+              "time": "1:56.862",
+              "sectors": [
+                "42.098",
+                "38.291",
+                "36.473"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411497
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 6,
+              "time": "1:55.145",
+              "sectors": [
+                "41.818",
+                "36.801",
+                "36.526"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411612
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 7,
+              "time": "1:55.977",
+              "sectors": [
+                "42.068",
+                "37.611",
+                "36.298"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411728
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 1,
+              "time": "2:00.061",
+              "sectors": [
+                "44.898",
+                "38.119",
+                "37.044"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411031
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 2,
+              "time": "2:12.008",
+              "sectors": [
+                "57.308",
+                "38.008",
+                "36.692"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411335
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 3,
+              "time": "1:57.169",
+              "sectors": [
+                "43.342",
+                "37.404",
+                "36.423"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411452
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 4,
+              "time": "1:55.381",
+              "sectors": [
+                "42.067",
+                "36.905",
+                "36.409"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411567
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 5,
+              "time": "1:54.818",
+              "sectors": [
+                "41.932",
+                "36.504",
+                "36.382"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411682
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 6,
+              "time": "1:56.507",
+              "sectors": [
+                "41.889",
+                "37.674",
+                "36.944"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411799
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 1,
+              "time": "2:00.138",
+              "sectors": [
+                "45.563",
+                "37.958",
+                "36.617"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411031
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 2,
+              "time": "4:00.165",
+              "sectors": [
+                "2:47.278",
+                "36.688",
+                "36.199"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411271
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 1,
+              "time": "2:01.596",
+              "sectors": [
+                "46.265",
+                "38.467",
+                "36.864"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411032
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 2,
+              "time": "2:12.884",
+              "sectors": [
+                "44.612",
+                "38.403",
+                "49.869"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411165
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 3,
+              "time": "1:57.201",
+              "sectors": [
+                "42.600",
+                "37.674",
+                "36.927"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411282
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 4,
+              "time": "1:58.106",
+              "sectors": [
+                "42.426",
+                "38.438",
+                "37.242"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411400
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 5,
+              "time": "1:56.885",
+              "sectors": [
+                "42.194",
+                "37.711",
+                "36.980"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411517
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 6,
+              "time": "1:57.623",
+              "sectors": [
+                "42.784",
+                "37.895",
+                "36.944"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411635
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 7,
+              "time": "1:57.556",
+              "sectors": [
+                "42.289",
+                "38.318",
+                "36.949"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732411752
+            }
+          ],
           "incidents": [
             {
               "lap": 1,
@@ -13812,7 +14269,7 @@
               "summary": "Contacto entre Ameg Sanchez y Samir Kaddoura"
             },
             {
-              "lap": 2,
+              "lap": 1,
               "kind": "collision",
               "driverIds": [
                 "d02",
@@ -13821,13 +14278,22 @@
               "summary": "Contacto entre Ameg Sanchez y Samir Kaddoura"
             },
             {
-              "lap": 2,
+              "lap": 1,
               "kind": "collision",
               "driverIds": [
                 "d04",
                 "d07"
               ],
               "summary": "Contacto entre Deivid Lamadrid y Oliver Wilson"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d04"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Deivid Lamadrid"
             },
             {
               "lap": 2,
@@ -13855,88 +14321,651 @@
                 "d04"
               ],
               "summary": "Contacto entre Oliver Wilson y Deivid Lamadrid"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d07"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Oliver Wilson"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d01"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Samir Kaddoura"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d04"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Deivid Lamadrid"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d01"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Samir Kaddoura"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d02"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Ameg Sanchez"
             }
           ],
-          "status": "done"
+          "status": "done",
+          "raceDataFile": "2024_11_23_20_32_RACE.json"
         },
         {
           "id": "cnsrc-s01-r07-r2",
           "type": "race",
           "subLabel": "R2",
           "conditions": {
-            "airTemp": 28,
-            "trackTemp": 38,
-            "weather": "Despejado"
+            "airTemp": 17,
+            "trackTemp": 27,
+            "weather": "Despejado",
+            "windKph": 11
           },
           "results": [
             {
+              "driverId": "d07",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 1,
               "gridPos": 6,
-              "driverId": "d07",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:54.300",
+              "bestLap": "1:54.300",
               "gap": "—",
               "points": 39,
               "status": "finished"
             },
             {
-              "pos": 2,
-              "gridPos": 3,
               "driverId": "d04",
               "teamId": "",
               "classId": "indycar",
-              "bestLap": "01:54.957",
+              "pos": 2,
+              "gridPos": 3,
+              "bestLap": "1:54.957",
               "gap": "+4.790",
               "points": 27,
               "status": "finished"
             },
             {
+              "driverId": "d01",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
               "pos": 3,
               "gridPos": 4,
-              "driverId": "d01",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:54.472",
+              "bestLap": "1:54.472",
               "gap": "+8.987",
               "points": 22.5,
               "status": "finished"
             },
             {
+              "driverId": "d02",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 4,
               "gridPos": 2,
-              "driverId": "d02",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:55.017",
+              "bestLap": "1:55.017",
               "gap": "+15.887",
               "points": 18,
               "status": "finished"
             },
             {
+              "driverId": "d06",
+              "teamId": "t-team-colibri",
+              "classId": "indycar",
               "pos": 5,
               "gridPos": 1,
-              "driverId": "d06",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:56.706",
+              "bestLap": "1:56.706",
               "gap": "+29.202",
               "points": 15,
               "status": "finished"
             },
             {
+              "driverId": "d26",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
               "pos": 6,
               "gridPos": 5,
-              "driverId": "d26",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "01:55.955",
+              "bestLap": "1:55.955",
               "gap": "+3 Vlts",
               "points": 0,
               "status": "dnf"
             }
           ],
-          "laps": [],
+          "laps": [
+            {
+              "driverId": "d07",
+              "lapNo": 1,
+              "time": "2:01.597",
+              "sectors": [
+                "45.925",
+                "37.310",
+                "38.362"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412141
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 2,
+              "time": "1:54.594",
+              "sectors": [
+                "42.184",
+                "36.554",
+                "35.856"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412256
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 3,
+              "time": "1:54.300",
+              "sectors": [
+                "41.913",
+                "36.512",
+                "35.875"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412370
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 4,
+              "time": "1:54.520",
+              "sectors": [
+                "41.863",
+                "36.635",
+                "36.022"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412485
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 5,
+              "time": "1:54.953",
+              "sectors": [
+                "42.130",
+                "36.824",
+                "35.999"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412599
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 6,
+              "time": "1:55.198",
+              "sectors": [
+                "42.104",
+                "36.833",
+                "36.261"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412715
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 7,
+              "time": "1:56.308",
+              "sectors": [
+                "42.728",
+                "37.261",
+                "36.319"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412831
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 1,
+              "time": "2:03.051",
+              "sectors": [
+                "45.930",
+                "38.438",
+                "38.683"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412143
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 2,
+              "time": "1:55.973",
+              "sectors": [
+                "42.497",
+                "37.112",
+                "36.364"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412259
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 3,
+              "time": "1:55.068",
+              "sectors": [
+                "42.123",
+                "36.607",
+                "36.338"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412374
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 4,
+              "time": "1:55.582",
+              "sectors": [
+                "42.124",
+                "36.621",
+                "36.837"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412489
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 5,
+              "time": "1:55.862",
+              "sectors": [
+                "42.211",
+                "37.269",
+                "36.382"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412605
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 6,
+              "time": "1:55.617",
+              "sectors": [
+                "42.401",
+                "36.887",
+                "36.329"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412721
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 7,
+              "time": "1:54.957",
+              "sectors": [
+                "41.944",
+                "36.697",
+                "36.316"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412836
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 1,
+              "time": "2:03.240",
+              "sectors": [
+                "47.522",
+                "37.477",
+                "38.241"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412143
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 2,
+              "time": "2:05.828",
+              "sectors": [
+                "41.930",
+                "39.844",
+                "44.054"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412269
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 3,
+              "time": "1:55.693",
+              "sectors": [
+                "42.141",
+                "37.061",
+                "36.491"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412384
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 4,
+              "time": "1:55.764",
+              "sectors": [
+                "42.153",
+                "36.990",
+                "36.621"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412500
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 5,
+              "time": "1:55.631",
+              "sectors": [
+                "42.020",
+                "37.215",
+                "36.396"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412616
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 6,
+              "time": "1:56.071",
+              "sectors": [
+                "42.942",
+                "36.692",
+                "36.437"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412732
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 7,
+              "time": "1:55.017",
+              "sectors": [
+                "42.027",
+                "36.863",
+                "36.127"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412847
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 1,
+              "time": "2:05.615",
+              "sectors": [
+                "44.746",
+                "38.236",
+                "42.633"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412145
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 2,
+              "time": "1:58.289",
+              "sectors": [
+                "43.180",
+                "38.335",
+                "36.774"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412263
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 3,
+              "time": "1:58.172",
+              "sectors": [
+                "42.285",
+                "38.065",
+                "37.822"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412382
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 4,
+              "time": "1:56.706",
+              "sectors": [
+                "42.492",
+                "37.705",
+                "36.509"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412498
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 5,
+              "time": "2:04.802",
+              "sectors": [
+                "42.232",
+                "37.715",
+                "44.855"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412623
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 6,
+              "time": "1:58.578",
+              "sectors": [
+                "42.388",
+                "38.785",
+                "37.405"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412742
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 7,
+              "time": "1:58.340",
+              "sectors": [
+                "42.066",
+                "38.411",
+                "37.863"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412860
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 1,
+              "time": "2:09.652",
+              "sectors": [
+                "45.300",
+                "37.772",
+                "46.580"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412149
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 2,
+              "time": "1:55.471",
+              "sectors": [
+                "41.765",
+                "37.625",
+                "36.081"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412265
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 3,
+              "time": "1:55.728",
+              "sectors": [
+                "42.206",
+                "36.824",
+                "36.698"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412380
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 4,
+              "time": "1:55.384",
+              "sectors": [
+                "42.227",
+                "36.819",
+                "36.338"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412496
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 5,
+              "time": "1:54.472",
+              "sectors": [
+                "41.757",
+                "36.629",
+                "36.086"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412610
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 6,
+              "time": "1:54.836",
+              "sectors": [
+                "41.901",
+                "36.846",
+                "36.089"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412725
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 7,
+              "time": "1:54.752",
+              "sectors": [
+                "41.906",
+                "36.635",
+                "36.211"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412840
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 1,
+              "time": "2:13.975",
+              "sectors": [
+                "59.396",
+                "37.598",
+                "36.981"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412197
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 2,
+              "time": "1:56.358",
+              "sectors": [
+                "42.049",
+                "37.413",
+                "36.896"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412313
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 3,
+              "time": "2:15.690",
+              "sectors": [
+                "1:00.481",
+                "37.858",
+                "37.351"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412669
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 4,
+              "time": "1:55.955",
+              "sectors": [
+                "42.214",
+                "36.905",
+                "36.836"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732412784
+            }
+          ],
           "incidents": [
             {
               "lap": 1,
@@ -14002,16 +15031,43 @@
               "summary": "Contacto entre Deivid Lamadrid y Oliver Wilson"
             },
             {
-              "lap": 2,
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d04"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Deivid Lamadrid"
+            },
+            {
+              "lap": 1,
               "kind": "collision",
               "driverIds": [
                 "d01",
                 "d06"
               ],
               "summary": "Contacto entre Samir Kaddoura y Ivan Enrique"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d04"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Deivid Lamadrid"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
             }
           ],
-          "status": "done"
+          "status": "done",
+          "raceDataFile": "2024_11_23_20_48_RACE.json"
         }
       ],
       "status": "done"
@@ -14139,90 +15195,911 @@
           "type": "race",
           "subLabel": "R1",
           "conditions": {
-            "airTemp": 28,
-            "trackTemp": 38,
-            "weather": "Despejado"
+            "airTemp": 17,
+            "trackTemp": 27,
+            "weather": "Despejado",
+            "windKph": 14
           },
           "results": [
             {
+              "driverId": "d01",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
               "pos": 1,
               "gridPos": 1,
-              "driverId": "d01",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:09.178",
+              "bestLap": "2:09.178",
               "gap": "—",
               "points": 25,
               "status": "finished"
             },
             {
+              "driverId": "d02",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 2,
               "gridPos": 5,
-              "driverId": "d02",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:09.626",
+              "bestLap": "2:09.626",
               "gap": "+31.603",
               "points": 18,
               "status": "finished"
             },
             {
-              "pos": 3,
-              "gridPos": 3,
               "driverId": "d04",
               "teamId": "",
               "classId": "indycar",
-              "bestLap": "02:09.707",
+              "pos": 3,
+              "gridPos": 3,
+              "bestLap": "2:09.707",
               "gap": "+34.120",
               "points": 15,
               "status": "finished"
             },
             {
+              "driverId": "d06",
+              "teamId": "t-team-colibri",
+              "classId": "indycar",
               "pos": 4,
               "gridPos": 6,
-              "driverId": "d06",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:11.973",
+              "bestLap": "2:11.973",
               "gap": "+54.495",
               "points": 12,
               "status": "finished"
             },
             {
+              "driverId": "d26",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
               "pos": 5,
               "gridPos": 4,
-              "driverId": "d26",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:09.315",
-              "gap": "+2:35",
+              "bestLap": "2:09.315",
+              "gap": "+2:35.949",
               "points": 10,
               "status": "finished"
             },
             {
+              "driverId": "d07",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 6,
               "gridPos": 2,
-              "driverId": "d07",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:09.064",
-              "gap": "+52.149",
+              "bestLap": "2:09.064",
+              "gap": "+3 Vlts",
               "points": 9,
               "status": "finished"
             },
             {
-              "pos": 7,
-              "gridPos": 7,
               "driverId": "d15",
               "teamId": "",
               "classId": "indycar",
-              "bestLap": "02:29.707",
-              "gap": "+7.601",
+              "pos": 7,
+              "gridPos": 7,
+              "bestLap": "2:29.707",
+              "gap": "+4 Vlts",
               "points": 6,
               "status": "finished"
             }
           ],
-          "laps": [],
+          "laps": [
+            {
+              "driverId": "d01",
+              "lapNo": 1,
+              "time": "2:16.339",
+              "sectors": [
+                "42.347",
+                "41.531",
+                "52.461"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418354
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 2,
+              "time": "2:09.894",
+              "sectors": [
+                "35.727",
+                "41.454",
+                "52.713"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418483
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 3,
+              "time": "2:09.217",
+              "sectors": [
+                "35.478",
+                "41.210",
+                "52.529"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418613
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 4,
+              "time": "2:09.214",
+              "sectors": [
+                "35.605",
+                "41.026",
+                "52.583"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418742
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 5,
+              "time": "2:09.178",
+              "sectors": [
+                "35.565",
+                "41.134",
+                "52.479"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418871
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 6,
+              "time": "2:09.785",
+              "sectors": [
+                "35.519",
+                "41.126",
+                "53.140"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419001
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 7,
+              "time": "2:09.828",
+              "sectors": [
+                "35.642",
+                "41.445",
+                "52.741"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419131
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 8,
+              "time": "2:09.334",
+              "sectors": [
+                "35.586",
+                "41.184",
+                "52.564"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419260
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 9,
+              "time": "2:09.286",
+              "sectors": [
+                "35.353",
+                "41.238",
+                "52.695"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419389
+            },
+            {
+              "driverId": "d01",
+              "lapNo": 10,
+              "time": "2:09.466",
+              "sectors": [
+                "35.650",
+                "41.324",
+                "52.492"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419519
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 1,
+              "time": "2:19.143",
+              "sectors": [
+                "43.176",
+                "43.254",
+                "52.713"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418356
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 2,
+              "time": "2:10.207",
+              "sectors": [
+                "35.829",
+                "41.822",
+                "52.556"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418487
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 3,
+              "time": "2:11.698",
+              "sectors": [
+                "35.312",
+                "41.743",
+                "54.643"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418618
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 4,
+              "time": "2:09.749",
+              "sectors": [
+                "35.533",
+                "41.620",
+                "52.596"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418748
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 5,
+              "time": "2:24.921",
+              "sectors": [
+                "47.671",
+                "44.442",
+                "52.808"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418893
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 6,
+              "time": "2:11.170",
+              "sectors": [
+                "35.842",
+                "42.075",
+                "53.253"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419024
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 7,
+              "time": "2:16.653",
+              "sectors": [
+                "37.185",
+                "46.768",
+                "52.700"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419161
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 8,
+              "time": "2:09.626",
+              "sectors": [
+                "35.518",
+                "41.558",
+                "52.550"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419290
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 9,
+              "time": "2:10.061",
+              "sectors": [
+                "35.813",
+                "41.369",
+                "52.879"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419420
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 10,
+              "time": "2:10.061",
+              "sectors": [
+                "35.336",
+                "41.585",
+                "53.140"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419550
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 1,
+              "time": "2:19.352",
+              "sectors": [
+                "42.940",
+                "42.629",
+                "53.783"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418357
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 2,
+              "time": "2:09.315",
+              "sectors": [
+                "35.152",
+                "41.472",
+                "52.691"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418486
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 3,
+              "time": "2:20.881",
+              "sectors": [
+                "35.460",
+                "42.065",
+                "1:03.356"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418627
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 4,
+              "time": "2:12.179",
+              "sectors": [
+                "35.600",
+                "42.517",
+                "54.062"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418759
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 5,
+              "time": "2:20.439",
+              "sectors": [
+                "39.764",
+                "43.363",
+                "57.312"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418899
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 6,
+              "time": "2:18.500",
+              "sectors": [
+                "37.817",
+                "44.312",
+                "56.371"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419038
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 7,
+              "time": "2:17.207",
+              "sectors": [
+                "37.568",
+                "44.055",
+                "55.584"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419175
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 8,
+              "time": "2:22.095",
+              "sectors": [
+                "37.262",
+                "45.009",
+                "59.824"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419317
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 9,
+              "time": "2:52.570",
+              "sectors": [
+                "44.136",
+                "51.961",
+                "1:16.473"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419490
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 10,
+              "time": "3:05.090",
+              "sectors": [
+                "1:06.569",
+                "50.621",
+                "1:07.900"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419675
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 1,
+              "time": "2:21.064",
+              "sectors": [
+                "43.761",
+                "43.667",
+                "53.636"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418358
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 2,
+              "time": "2:13.003",
+              "sectors": [
+                "36.249",
+                "42.966",
+                "53.788"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418491
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 3,
+              "time": "2:13.997",
+              "sectors": [
+                "37.616",
+                "43.110",
+                "53.271"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418625
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 4,
+              "time": "2:13.535",
+              "sectors": [
+                "36.498",
+                "43.019",
+                "54.018"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418759
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 5,
+              "time": "2:12.789",
+              "sectors": [
+                "36.988",
+                "42.642",
+                "53.159"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418892
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 6,
+              "time": "2:12.362",
+              "sectors": [
+                "36.872",
+                "41.904",
+                "53.586"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419024
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 7,
+              "time": "2:29.929",
+              "sectors": [
+                "37.911",
+                "58.887",
+                "53.131"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419174
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 8,
+              "time": "2:11.973",
+              "sectors": [
+                "36.374",
+                "42.525",
+                "53.074"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419306
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 9,
+              "time": "2:13.127",
+              "sectors": [
+                "37.079",
+                "42.809",
+                "53.239"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419439
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 10,
+              "time": "2:14.251",
+              "sectors": [
+                "36.938",
+                "43.407",
+                "53.906"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419573
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 1,
+              "time": "2:22.715",
+              "sectors": [
+                "42.982",
+                "42.345",
+                "57.388"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418360
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 2,
+              "time": "2:11.056",
+              "sectors": [
+                "35.949",
+                "41.809",
+                "53.298"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418491
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 3,
+              "time": "2:10.487",
+              "sectors": [
+                "36.181",
+                "41.598",
+                "52.708"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418621
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 4,
+              "time": "2:18.094",
+              "sectors": [
+                "35.454",
+                "48.460",
+                "54.180"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418760
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 5,
+              "time": "2:18.619",
+              "sectors": [
+                "37.446",
+                "47.754",
+                "53.419"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418898
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 6,
+              "time": "2:10.092",
+              "sectors": [
+                "35.718",
+                "41.715",
+                "52.659"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419028
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 7,
+              "time": "2:13.217",
+              "sectors": [
+                "35.909",
+                "44.762",
+                "52.546"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419161
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 8,
+              "time": "2:10.583",
+              "sectors": [
+                "36.088",
+                "41.431",
+                "53.064"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419292
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 9,
+              "time": "2:11.160",
+              "sectors": [
+                "36.408",
+                "42.223",
+                "52.529"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419423
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 10,
+              "time": "2:09.707",
+              "sectors": [
+                "35.428",
+                "41.827",
+                "52.452"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419553
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 1,
+              "time": "2:32.744",
+              "sectors": [
+                "57.619",
+                "42.503",
+                "52.622"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418370
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 2,
+              "time": "2:09.279",
+              "sectors": [
+                "35.219",
+                "41.742",
+                "52.318"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418499
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 3,
+              "time": "2:18.348",
+              "sectors": [
+                "43.888",
+                "41.976",
+                "52.484"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418638
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 4,
+              "time": "2:09.375",
+              "sectors": [
+                "35.190",
+                "41.652",
+                "52.533"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418767
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 5,
+              "time": "9:04.356",
+              "sectors": [
+                "7:29.644",
+                "41.963",
+                "52.749"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419311
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 6,
+              "time": "2:09.064",
+              "sectors": [
+                "34.978",
+                "41.396",
+                "52.690"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419440
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 7,
+              "time": "2:10.654",
+              "sectors": [
+                "35.879",
+                "42.211",
+                "52.564"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419571
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 1,
+              "time": "2:43.298",
+              "sectors": [
+                "48.229",
+                "56.218",
+                "58.851"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418379
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 2,
+              "time": "2:34.470",
+              "sectors": [
+                "40.170",
+                "55.008",
+                "59.292"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732418534
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 3,
+              "time": "8:44.875",
+              "sectors": [
+                "6:50.535",
+                "56.015",
+                "58.325"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419058
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 4,
+              "time": "2:43.558",
+              "sectors": [
+                "41.838",
+                "1:01.042",
+                "1:00.678"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419222
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 5,
+              "time": "2:34.693",
+              "sectors": [
+                "40.245",
+                "48.604",
+                "1:05.844"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419377
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 6,
+              "time": "2:29.707",
+              "sectors": [
+                "41.397",
+                "49.189",
+                "59.121"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419526
+            }
+          ],
           "incidents": [
             {
               "lap": 1,
@@ -14232,6 +16109,14 @@
                 "d26"
               ],
               "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
             },
             {
               "lap": 1,
@@ -14255,10 +16140,61 @@
               "lap": 1,
               "kind": "collision",
               "driverIds": [
+                "d01",
+                "d26"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Pablo Nacianceno"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d01"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Samir Kaddoura"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
                 "d07",
                 "d04"
               ],
               "summary": "Contacto entre Oliver Wilson y Deivid Lamadrid"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
             },
             {
               "lap": 1,
@@ -14270,7 +16206,31 @@
               "summary": "Contacto entre Oliver Wilson y Alejandro Sotolongo"
             },
             {
-              "lap": 2,
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
               "kind": "collision",
               "driverIds": [
                 "d04",
@@ -14279,7 +16239,7 @@
               "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
             },
             {
-              "lap": 2,
+              "lap": 1,
               "kind": "collision",
               "driverIds": [
                 "d04",
@@ -14288,95 +16248,1440 @@
               "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
             },
             {
-              "lap": 4,
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d01"
+              ],
+              "summary": "Samir Kaddoura contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 2,
               "kind": "collision",
               "driverIds": [
                 "d06",
                 "d04"
               ],
               "summary": "Contacto entre Ivan Enrique y Deivid Lamadrid"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d04"
+              ],
+              "summary": "Contacto entre Ivan Enrique y Deivid Lamadrid"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26",
+                "d02"
+              ],
+              "summary": "Contacto entre Pablo Nacianceno y Ameg Sanchez"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d26"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Pablo Nacianceno"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d26"
+              ],
+              "summary": "Contacto entre Ivan Enrique y Pablo Nacianceno"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d06"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Ivan Enrique"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d04"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Deivid Lamadrid"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d07",
+                "d04"
+              ],
+              "summary": "Contacto entre Oliver Wilson y Deivid Lamadrid"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d04",
+                "d26"
+              ],
+              "summary": "Contacto entre Deivid Lamadrid y Pablo Nacianceno"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d01"
+              ],
+              "summary": "Samir Kaddoura contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d01"
+              ],
+              "summary": "Samir Kaddoura contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d06"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Ivan Enrique"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d26"
+              ],
+              "summary": "Contacto entre Ivan Enrique y Pablo Nacianceno"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 10,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 10,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 10,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
             }
           ],
-          "status": "done"
+          "status": "done",
+          "raceDataFile": "2024_11_23_22_42_RACE.json"
         },
         {
           "id": "cnsrc-s01-r08-r2",
           "type": "race",
           "subLabel": "R2",
           "conditions": {
-            "airTemp": 28,
-            "trackTemp": 38,
-            "weather": "Despejado"
+            "airTemp": 17,
+            "trackTemp": 27,
+            "weather": "Despejado",
+            "windKph": 5
           },
           "results": [
             {
+              "driverId": "d07",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 1,
               "gridPos": 2,
-              "driverId": "d07",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:08.814",
+              "bestLap": "2:08.814",
               "gap": "—",
               "points": 39,
               "status": "finished"
             },
             {
+              "driverId": "d26",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
               "pos": 2,
               "gridPos": 3,
-              "driverId": "d26",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:09.677",
+              "bestLap": "2:09.677",
               "gap": "+12.057",
               "points": 27,
               "status": "finished"
             },
             {
-              "pos": 3,
-              "gridPos": 5,
               "driverId": "d04",
               "teamId": "",
               "classId": "indycar",
-              "bestLap": "02:08.943",
+              "pos": 3,
+              "gridPos": 5,
+              "bestLap": "2:08.943",
               "gap": "+19.741",
               "points": 22.5,
               "status": "finished"
             },
             {
+              "driverId": "d06",
+              "teamId": "t-team-colibri",
+              "classId": "indycar",
               "pos": 4,
               "gridPos": 4,
-              "driverId": "d06",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:10.240",
+              "bestLap": "2:10.240",
               "gap": "+27.212",
               "points": 18,
               "status": "finished"
             },
             {
+              "driverId": "d02",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
               "pos": 5,
               "gridPos": 6,
-              "driverId": "d02",
-              "teamId": "",
-              "classId": "indycar",
-              "bestLap": "02:08.935",
+              "bestLap": "2:08.935",
               "gap": "+27.252",
               "points": 15,
               "status": "finished"
             },
             {
-              "pos": 6,
-              "gridPos": 1,
               "driverId": "d15",
               "teamId": "",
               "classId": "indycar",
-              "bestLap": "02:22.978",
-              "gap": "—",
+              "pos": 6,
+              "gridPos": 1,
+              "bestLap": "2:22.978",
+              "gap": "+2 Vlts",
               "points": 12,
               "status": "finished"
             }
           ],
-          "laps": [],
+          "laps": [
+            {
+              "driverId": "d07",
+              "lapNo": 1,
+              "time": "2:14.555",
+              "sectors": [
+                "40.213",
+                "41.706",
+                "52.636"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419945
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 2,
+              "time": "2:09.162",
+              "sectors": [
+                "35.350",
+                "41.481",
+                "52.331"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420074
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 3,
+              "time": "2:09.631",
+              "sectors": [
+                "35.657",
+                "41.360",
+                "52.614"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420204
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 4,
+              "time": "2:08.814",
+              "sectors": [
+                "35.160",
+                "41.310",
+                "52.344"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420332
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 5,
+              "time": "2:09.802",
+              "sectors": [
+                "35.316",
+                "41.958",
+                "52.528"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420462
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 6,
+              "time": "2:09.579",
+              "sectors": [
+                "35.439",
+                "41.746",
+                "52.394"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420592
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 7,
+              "time": "2:09.388",
+              "sectors": [
+                "35.388",
+                "41.480",
+                "52.520"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420721
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 8,
+              "time": "2:09.570",
+              "sectors": [
+                "35.308",
+                "41.872",
+                "52.390"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420851
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 9,
+              "time": "2:09.311",
+              "sectors": [
+                "35.379",
+                "41.418",
+                "52.514"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420980
+            },
+            {
+              "driverId": "d07",
+              "lapNo": 10,
+              "time": "2:10.683",
+              "sectors": [
+                "35.323",
+                "41.801",
+                "53.559"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421111
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 1,
+              "time": "2:15.971",
+              "sectors": [
+                "41.436",
+                "41.994",
+                "52.541"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419946
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 2,
+              "time": "2:10.034",
+              "sectors": [
+                "35.742",
+                "41.386",
+                "52.906"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420076
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 3,
+              "time": "2:12.555",
+              "sectors": [
+                "35.602",
+                "43.861",
+                "53.092"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420209
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 4,
+              "time": "2:10.283",
+              "sectors": [
+                "35.603",
+                "42.341",
+                "52.339"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420339
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 5,
+              "time": "2:10.831",
+              "sectors": [
+                "35.499",
+                "42.745",
+                "52.587"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420470
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 6,
+              "time": "2:09.677",
+              "sectors": [
+                "35.825",
+                "41.495",
+                "52.357"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420600
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 7,
+              "time": "2:12.284",
+              "sectors": [
+                "36.858",
+                "42.439",
+                "52.987"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420732
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 8,
+              "time": "2:10.827",
+              "sectors": [
+                "36.241",
+                "42.079",
+                "52.507"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420863
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 9,
+              "time": "2:10.090",
+              "sectors": [
+                "35.937",
+                "41.966",
+                "52.187"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420993
+            },
+            {
+              "driverId": "d26",
+              "lapNo": 10,
+              "time": "2:09.997",
+              "sectors": [
+                "35.785",
+                "41.683",
+                "52.529"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421123
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 1,
+              "time": "2:18.891",
+              "sectors": [
+                "44.350",
+                "41.972",
+                "52.569"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419949
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 2,
+              "time": "2:16.979",
+              "sectors": [
+                "35.455",
+                "48.677",
+                "52.847"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420086
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 3,
+              "time": "2:10.764",
+              "sectors": [
+                "35.926",
+                "42.309",
+                "52.529"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420217
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 4,
+              "time": "2:10.454",
+              "sectors": [
+                "35.837",
+                "41.806",
+                "52.811"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420347
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 5,
+              "time": "2:10.547",
+              "sectors": [
+                "35.431",
+                "42.341",
+                "52.775"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420478
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 6,
+              "time": "2:21.780",
+              "sectors": [
+                "47.082",
+                "42.453",
+                "52.245"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420620
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 7,
+              "time": "2:09.564",
+              "sectors": [
+                "35.477",
+                "41.648",
+                "52.439"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420749
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 8,
+              "time": "2:09.586",
+              "sectors": [
+                "35.379",
+                "41.773",
+                "52.434"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420879
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 9,
+              "time": "2:08.935",
+              "sectors": [
+                "35.357",
+                "41.310",
+                "52.268"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421008
+            },
+            {
+              "driverId": "d02",
+              "lapNo": 10,
+              "time": "2:10.186",
+              "sectors": [
+                "35.493",
+                "42.164",
+                "52.529"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421138
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 1,
+              "time": "2:21.971",
+              "sectors": [
+                "46.486",
+                "42.408",
+                "53.077"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419952
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 2,
+              "time": "2:10.358",
+              "sectors": [
+                "35.570",
+                "42.215",
+                "52.573"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420083
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 3,
+              "time": "2:09.265",
+              "sectors": [
+                "35.764",
+                "41.423",
+                "52.078"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420212
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 4,
+              "time": "2:09.070",
+              "sectors": [
+                "35.623",
+                "41.378",
+                "52.069"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420341
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 5,
+              "time": "2:20.959",
+              "sectors": [
+                "35.825",
+                "46.035",
+                "59.099"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420482
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 6,
+              "time": "2:09.984",
+              "sectors": [
+                "35.861",
+                "41.806",
+                "52.317"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420612
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 7,
+              "time": "2:08.943",
+              "sectors": [
+                "35.702",
+                "41.365",
+                "51.876"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420741
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 8,
+              "time": "2:10.662",
+              "sectors": [
+                "36.171",
+                "41.863",
+                "52.628"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420871
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 9,
+              "time": "2:09.564",
+              "sectors": [
+                "35.855",
+                "41.518",
+                "52.191"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421001
+            },
+            {
+              "driverId": "d04",
+              "lapNo": 10,
+              "time": "2:09.348",
+              "sectors": [
+                "35.446",
+                "41.733",
+                "52.169"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421130
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 1,
+              "time": "2:23.330",
+              "sectors": [
+                "46.927",
+                "43.299",
+                "53.104"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419954
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 2,
+              "time": "2:11.115",
+              "sectors": [
+                "36.709",
+                "41.720",
+                "52.686"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420085
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 3,
+              "time": "2:11.107",
+              "sectors": [
+                "36.405",
+                "42.165",
+                "52.537"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420216
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 4,
+              "time": "2:10.240",
+              "sectors": [
+                "36.077",
+                "41.567",
+                "52.596"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420346
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 5,
+              "time": "2:11.307",
+              "sectors": [
+                "36.357",
+                "41.930",
+                "53.020"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420477
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 6,
+              "time": "2:12.434",
+              "sectors": [
+                "36.301",
+                "42.633",
+                "53.500"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420610
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 7,
+              "time": "2:12.320",
+              "sectors": [
+                "36.245",
+                "42.521",
+                "53.554"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420742
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 8,
+              "time": "2:12.343",
+              "sectors": [
+                "36.209",
+                "42.093",
+                "54.041"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420874
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 9,
+              "time": "2:12.553",
+              "sectors": [
+                "37.166",
+                "41.904",
+                "53.483"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421007
+            },
+            {
+              "driverId": "d06",
+              "lapNo": 10,
+              "time": "2:10.811",
+              "sectors": [
+                "35.825",
+                "42.130",
+                "52.856"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421138
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 1,
+              "time": "2:48.107",
+              "sectors": [
+                "47.291",
+                "1:03.378",
+                "57.438"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732419977
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 2,
+              "time": "2:33.129",
+              "sectors": [
+                "42.230",
+                "54.117",
+                "56.782"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420130
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 3,
+              "time": "2:44.961",
+              "sectors": [
+                "39.559",
+                "1:05.502",
+                "59.900"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420295
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 4,
+              "time": "2:22.978",
+              "sectors": [
+                "38.555",
+                "46.638",
+                "57.785"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420438
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 5,
+              "time": "2:27.327",
+              "sectors": [
+                "42.531",
+                "46.732",
+                "58.064"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420585
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 6,
+              "time": "2:32.496",
+              "sectors": [
+                "41.463",
+                "51.065",
+                "59.968"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420738
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 7,
+              "time": "2:56.130",
+              "sectors": [
+                "46.444",
+                "53.451",
+                "1:16.235"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732420914
+            },
+            {
+              "driverId": "d15",
+              "lapNo": 8,
+              "time": "2:26.785",
+              "sectors": [
+                "44.986",
+                "45.607",
+                "56.192"
+              ],
+              "compound": "S",
+              "cut": false,
+              "timestamp": 1732421061
+            }
+          ],
           "incidents": [
             {
               "lap": 1,
@@ -14386,6 +17691,14 @@
                 "d04"
               ],
               "summary": "Contacto entre Ivan Enrique y Deivid Lamadrid"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
             },
             {
               "lap": 1,
@@ -14409,10 +17722,26 @@
               "lap": 1,
               "kind": "collision",
               "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
                 "d06",
                 "d02"
               ],
               "summary": "Contacto entre Ivan Enrique y Ameg Sanchez"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
             },
             {
               "lap": 1,
@@ -14424,7 +17753,24 @@
               "summary": "Contacto entre Deivid Lamadrid y Ivan Enrique"
             },
             {
-              "lap": 8,
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d01",
+                "d04"
+              ],
+              "summary": "Contacto entre Samir Kaddoura y Deivid Lamadrid"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d01"
+              ],
+              "summary": "Samir Kaddoura contra barrera"
+            },
+            {
+              "lap": 1,
               "kind": "collision",
               "driverIds": [
                 "d02",
@@ -14433,7 +17779,257 @@
               "summary": "Contacto entre Ameg Sanchez y Ivan Enrique"
             },
             {
-              "lap": 11,
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d06",
+                "d04"
+              ],
+              "summary": "Contacto entre Ivan Enrique y Deivid Lamadrid"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 1,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 2,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 3,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 4,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 5,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d02",
+                "d06"
+              ],
+              "summary": "Contacto entre Ameg Sanchez y Ivan Enrique"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 6,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d04"
+              ],
+              "summary": "Deivid Lamadrid contra barrera"
+            },
+            {
+              "lap": 7,
               "kind": "collision",
               "driverIds": [
                 "d15",
@@ -14442,16 +18038,161 @@
               "summary": "Contacto entre Alejandro Sotolongo y Deivid Lamadrid"
             },
             {
-              "lap": 15,
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 7,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 8,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d26"
+              ],
+              "summary": "Pablo Nacianceno contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d06"
+              ],
+              "summary": "Ivan Enrique contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 9,
+              "kind": "collision",
+              "driverIds": [
+                "d15"
+              ],
+              "summary": "Alejandro Sotolongo contra barrera"
+            },
+            {
+              "lap": 10,
+              "kind": "collision",
+              "driverIds": [
+                "d07"
+              ],
+              "summary": "Oliver Wilson contra barrera"
+            },
+            {
+              "lap": 10,
               "kind": "collision",
               "driverIds": [
                 "d02",
                 "d06"
               ],
               "summary": "Contacto entre Ameg Sanchez y Ivan Enrique"
+            },
+            {
+              "lap": 10,
+              "kind": "collision",
+              "driverIds": [
+                "d02"
+              ],
+              "summary": "Ameg Sanchez contra barrera"
             }
           ],
-          "status": "done"
+          "status": "done",
+          "raceDataFile": "2024_11_23_23_6_RACE.json"
         }
       ],
       "status": "done"

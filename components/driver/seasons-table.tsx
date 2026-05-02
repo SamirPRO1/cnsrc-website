@@ -7,6 +7,7 @@ import type { DriverProfileRaceResult } from "@/lib/types";
 interface SeasonRow {
   championshipId: string;
   season: string;
+  classId: string;
   pos: number;
   pts: number;
   wins: number;
@@ -50,7 +51,14 @@ export function SeasonsTable({ seasons }: { seasons: SeasonRow[] }) {
                 style={{ background: s.pos === 1 ? "var(--bg-surface-p1)" : "transparent" }}
               >
                 <td style={{ padding: "10px 14px", fontFamily: "var(--font-display)", fontSize: 15, color: "var(--text-primary)" }}>
-                  {s.season}
+                  <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    {s.season}
+                    {s.classId === "am" && (
+                      <span style={{ fontFamily: "var(--font-display)", fontSize: 9, letterSpacing: "0.15em", color: "var(--status-warning)", border: "0.5px solid var(--status-warning)", padding: "1px 5px" }}>
+                        AM
+                      </span>
+                    )}
+                  </span>
                 </td>
                 <td style={{ padding: "10px 14px", fontFamily: "var(--font-mono)", fontSize: 14, color: s.pos === 1 ? "var(--accent-red)" : "var(--text-primary)", fontVariantNumeric: "tabular-nums" }}>
                   P{s.pos}

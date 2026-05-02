@@ -10,7 +10,6 @@ export interface RoundItem {
   trackShort: string;
   date: string;
   status: "upcoming" | "live" | "done";
-  sessionHref: string | null;
   isNext: boolean;
 }
 
@@ -63,7 +62,7 @@ export function HeroRoundStrip({ rounds }: { rounds: RoundItem[] }) {
             : "1px solid var(--border-hairline)",
           opacity: !isDone && !isNext && !isLive ? 0.45 : 1,
           textDecoration: "none",
-          cursor: r.sessionHref ? "pointer" : "default",
+          cursor: isDone || isLive ? "pointer" : "default",
           transition: "opacity 150ms ease",
         };
 
@@ -122,27 +121,15 @@ export function HeroRoundStrip({ rounds }: { rounds: RoundItem[] }) {
           </>
         );
 
-        if (r.sessionHref) {
-          return (
-            <Link
-              key={r.id}
-              href={r.sessionHref}
-              style={cardStyle}
-              ref={isNext || isLive ? (nextCardRef as React.RefObject<HTMLAnchorElement>) : undefined}
-            >
-              {inner}
-            </Link>
-          );
-        }
-
         return (
-          <div
+          <Link
             key={r.id}
+            href={`/rounds/${r.id}`}
             style={cardStyle}
-            ref={isNext ? (nextCardRef as React.RefObject<HTMLDivElement>) : undefined}
+            ref={isNext || isLive ? (nextCardRef as React.RefObject<HTMLAnchorElement>) : undefined}
           >
             {inner}
-          </div>
+          </Link>
         );
       })}
 

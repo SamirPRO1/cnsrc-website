@@ -1,7 +1,7 @@
 import type { Championship, TrackRecord } from "@/lib/types";
 import { getDriver, getTeam } from "@/lib/store";
 
-function lapToMs(time: string): number {
+export function lapToMs(time: string): number {
   const parts = time.split(":");
   if (parts.length === 2) {
     return parseFloat(parts[0]) * 60000 + parseFloat(parts[1]) * 1000;
@@ -10,7 +10,7 @@ function lapToMs(time: string): number {
 }
 
 export function deriveTrackRecords(champ: Championship): TrackRecord[] {
-  // best[trackId][classId] = TrackRecord
+  // best[trackId][car] = TrackRecord — keyed by car so same car across classes shares one slot
   const best = new Map<string, TrackRecord>();
 
   for (const round of champ.rounds) {
@@ -25,14 +25,15 @@ export function deriveTrackRecords(champ: Championship): TrackRecord[] {
         const result = session.results.find((r) => r.driverId === lap.driverId);
         if (!result) continue;
 
-        const key = `${trackId}::${result.classId}`;
+        const classDef = champ.classes.find((c) => c.id === result.classId);
+        const car = classDef?.car ?? result.classId;
+        const key = `${trackId}::${car}`;
         const existing = best.get(key);
         const ms = lapToMs(lap.time);
         const existingMs = existing ? lapToMs(existing.time) : Infinity;
 
         if (ms < existingMs) {
-          const classDef = champ.classes.find((c) => c.id === result.classId);
-          const carName = (classDef?.car ?? result.classId)
+          const carName = car
             .replace(/_/g, " ")
             .replace(/\b\w/g, (c) => c.toUpperCase());
           best.set(key, {

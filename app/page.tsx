@@ -89,10 +89,6 @@ export default async function HomePage() {
     trackShort: r.track.short,
     date: r.date,
     status: r.status,
-    sessionHref: (() => {
-      const sid = r.sessions.find((s) => s.type === "race")?.id;
-      return sid ? `/sessions/${sid}` : null;
-    })(),
     isNext: i === nextRoundIdx,
   }));
 

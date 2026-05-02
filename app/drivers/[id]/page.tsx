@@ -67,18 +67,25 @@ export default async function DriverProfilePage({ params }: { params: Promise<{ 
               )}
             </div>
             {currentSeason && (
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 20, flexShrink: 0 }}>
-                {[
-                  { label: "POSICIÓN", value: `P${currentSeason.pos}`, accent: currentSeason.pos === 1 },
-                  { label: "PUNTOS",   value: String(currentSeason.pts) },
-                  { label: "VICTORIAS",value: String(currentSeason.wins) },
-                  { label: "PODIOS",   value: String(currentSeason.podiums) },
-                ].map((s) => (
-                  <div key={s.label} style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-                    <span className="label">{s.label}</span>
-                    <span style={{ fontFamily: "var(--font-display)", fontSize: 32, fontWeight: 800, color: s.accent ? "var(--accent-red)" : "var(--text-primary)", fontVariantNumeric: "tabular-nums" }}>{s.value}</span>
-                  </div>
-                ))}
+              <div style={{ display: "flex", flexDirection: "column", gap: 10, alignItems: "flex-end", flexShrink: 0 }}>
+                {currentSeason.classId === "am" && (
+                  <span style={{ fontFamily: "var(--font-display)", fontSize: 10, letterSpacing: "0.2em", color: "var(--status-warning)", border: "0.5px solid var(--status-warning)", padding: "2px 7px" }}>
+                    CLASE AM
+                  </span>
+                )}
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 20 }}>
+                  {[
+                    { label: "POSICIÓN",  value: `P${currentSeason.pos}`, accent: currentSeason.pos === 1 },
+                    { label: "PUNTOS",    value: String(currentSeason.pts) },
+                    { label: currentSeason.classId === "am" ? "VICTORIAS AM" : "VICTORIAS", value: String(currentSeason.wins) },
+                    { label: currentSeason.classId === "am" ? "PODIOS AM"    : "PODIOS",    value: String(currentSeason.podiums) },
+                  ].map((s) => (
+                    <div key={s.label} style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                      <span className="label">{s.label}</span>
+                      <span style={{ fontFamily: "var(--font-display)", fontSize: 32, fontWeight: 800, color: s.accent ? "var(--accent-red)" : "var(--text-primary)", fontVariantNumeric: "tabular-nums" }}>{s.value}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </div>

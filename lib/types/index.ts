@@ -172,19 +172,27 @@ export interface TrackRecord {
 
 export interface TrackDetail extends TrackRef {
   records: TrackRecord[];
-  sessions: { id: string; label: string; date: string; podium: string[] }[];
+  sessions: { id: string; label: string; date: string; podium: { name: string; classId: string }[] }[];
+}
+
+export interface StatEntry {
+  driverName: string;
+  value: number;
+}
+
+export interface StatLeader {
+  label: string;
+  eyebrow: string;
+  top: StatEntry[];
 }
 
 export interface GlobalRecords {
   totalRaces: number;
   totalLaps: number;
   totalDrivers: number;
-  allTimeLeaders: {
-    stat: string;
-    driverName: string;
-    value: number | string;
-  }[];
-  fastestByTrack: TrackRecord[];
+  totalChampionships: number;
+  proStats: StatLeader[];
+  amStats: StatLeader[];
 }
 
 export interface DriverProfileRaceResult {
@@ -202,6 +210,7 @@ export interface DriverProfile extends Driver {
   seasons: {
     championshipId: string;
     season: string;
+    classId: string;
     pos: number;
     pts: number;
     wins: number;
