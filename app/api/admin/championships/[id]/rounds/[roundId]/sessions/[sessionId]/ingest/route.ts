@@ -106,11 +106,13 @@ export async function POST(
   }
   const skipped = [...skippedSet];
 
-  // Apply
-  session.laps = ingested.laps;
+  // Apply — qualifying only needs results; race gets the full set
   session.results = ingested.results;
-  session.incidents = ingested.incidents;
-  session.conditions = ingested.conditions;
+  if (race.Type !== "QUALIFY") {
+    session.laps = ingested.laps;
+    session.incidents = ingested.incidents;
+    session.conditions = ingested.conditions;
+  }
   session.raceDataFile = filename;
   if (round.status === "upcoming") round.status = "done";
   if (session.status === "upcoming") session.status = "done";

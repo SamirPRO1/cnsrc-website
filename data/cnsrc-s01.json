@@ -3594,7 +3594,8 @@
           "raceDataFile": "2024_10_5_22_59_RACE.json"
         }
       ],
-      "status": "done"
+      "status": "done",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M4bR9SUvCRc"
     },
     {
       "id": "cnsrc-s01-r02",
@@ -5091,7 +5092,8 @@
           "raceDataFile": "2024_10_12_22_53_RACE.json"
         }
       ],
-      "status": "done"
+      "status": "done",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wILlfNYeQh0"
     },
     {
       "id": "cnsrc-s01-r03",
@@ -7029,7 +7031,8 @@
           "raceDataFile": "2024_11_2_20_59_RACE.json"
         }
       ],
-      "status": "done"
+      "status": "done",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5xjVwOCDmyg&t=1969s"
     },
     {
       "id": "cnsrc-s01-r04",
@@ -13596,7 +13599,8 @@
           "raceDataFile": "2024_11_15_20_56_RACE.json"
         }
       ],
-      "status": "done"
+      "status": "done",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MmnfGY3hvlI&t=3549s"
     },
     {
       "id": "cnsrc-s01-r07",
@@ -15070,7 +15074,8 @@
           "raceDataFile": "2024_11_23_20_48_RACE.json"
         }
       ],
-      "status": "done"
+      "status": "done",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l-dJs0EBppE"
     },
     {
       "id": "cnsrc-s01-r08",
@@ -18195,7 +18200,8 @@
           "raceDataFile": "2024_11_23_23_6_RACE.json"
         }
       ],
-      "status": "done"
+      "status": "done",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-R9UrN58xNU&t=1431s"
     }
   ],
   "status": "complete",

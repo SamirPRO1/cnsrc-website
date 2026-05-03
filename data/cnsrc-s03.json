@@ -7739,10 +7739,122 @@
             "trackTemp": 0,
             "weather": "—"
           },
-          "results": [],
+          "results": [
+            {
+              "driverId": "d05",
+              "teamId": "t-team-colibri",
+              "classId": "indycar",
+              "pos": 1,
+              "gridPos": 1,
+              "bestLap": "1:37.350",
+              "gap": "—",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d01",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
+              "pos": 2,
+              "gridPos": 2,
+              "bestLap": "1:38.365",
+              "gap": "+1.015",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d07",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
+              "pos": 3,
+              "gridPos": 3,
+              "bestLap": "1:39.018",
+              "gap": "+1.668",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d02",
+              "teamId": "t-team-pote",
+              "classId": "indycar",
+              "pos": 4,
+              "gridPos": 4,
+              "bestLap": "1:40.321",
+              "gap": "+2.971",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d19",
+              "teamId": "t-team-colibri",
+              "classId": "indycar",
+              "pos": 5,
+              "gridPos": 5,
+              "bestLap": "1:40.967",
+              "gap": "+3.617",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d08",
+              "teamId": "t-rusteze",
+              "classId": "indycar",
+              "pos": 6,
+              "gridPos": 6,
+              "bestLap": "1:41.087",
+              "gap": "+3.737",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d26",
+              "teamId": "t-team-simruina",
+              "classId": "indycar",
+              "pos": 7,
+              "gridPos": 7,
+              "bestLap": "1:42.421",
+              "gap": "+5.071",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d06",
+              "teamId": "t-team-colibri",
+              "classId": "indycar",
+              "pos": 8,
+              "gridPos": 8,
+              "bestLap": "1:44.583",
+              "gap": "+7.233",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d24",
+              "teamId": "t-art-motorsport",
+              "classId": "indycar",
+              "pos": 9,
+              "gridPos": 9,
+              "bestLap": "1:56.094",
+              "gap": "+18.744",
+              "points": 0,
+              "status": "finished"
+            },
+            {
+              "driverId": "d35",
+              "teamId": "t-team-jamaica",
+              "classId": "indycar",
+              "pos": 10,
+              "gridPos": 10,
+              "bestLap": "2:14.274",
+              "gap": "+36.924",
+              "points": 0,
+              "status": "finished"
+            }
+          ],
           "laps": [],
           "incidents": [],
-          "status": "upcoming"
+          "status": "done",
+          "raceDataFile": "2026_4_26_14_15_QUALIFY.json"
         },
         {
           "id": "cnsrc-s03-r03-r1",

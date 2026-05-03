@@ -20,6 +20,15 @@ export async function generateStaticParams() {
   return ids;
 }
 
+type QualiRow = {
+  pos: number;
+  name: string;
+  teamName: string;
+  classId: string;
+  bestLap: string;
+  gap: string;
+};
+
 type ResultRow = {
   pos: number;
   grid: number;
@@ -63,10 +72,23 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
     if (c.rounds.some((r) => r.id === id)) { ownerChamp = c; break; }
   }
 
+  const qualiSession = round.sessions.find((s) => s.type === "qualifying") as Session | undefined;
   const raceSessions = round.sessions.filter((s) => s.type === "race");
   const r1 = raceSessions[0] as Session | undefined;
   const r2 = raceSessions[1] as Session | undefined;
   const isMultiClass = (ownerChamp?.classes.length ?? 0) > 1;
+
+  function buildQualiRows(session: Session | undefined): QualiRow[] {
+    if (!session || session.results.length === 0) return [];
+    return session.results.map((r) => ({
+      pos: r.pos,
+      name: getDriver(r.driverId)?.name ?? r.driverId,
+      teamName: getTeam(r.teamId)?.name ?? r.teamId,
+      classId: r.classId,
+      bestLap: r.bestLap,
+      gap: r.gap,
+    }));
+  }
 
   function buildResultRows(session: Session | undefined): ResultRow[] {
     if (!session) return [];
@@ -121,6 +143,15 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
       total: v.r1Pts + v.r2Pts,
     }));
 
+  const qualiCols: Column<QualiRow>[] = [
+    { key: "pos",      label: "POS",       width: 40,  mono: true, accentIfLeader: true },
+    ...(isMultiClass ? [{ key: "classId" as keyof QualiRow, label: "CLASE", width: 56 }] : []),
+    { key: "name",     label: "PILOTO",    align: "left" },
+    { key: "teamName", label: "EQUIPO",    align: "left" },
+    { key: "bestLap",  label: "MEJOR VTA", width: 96,  mono: true, align: "right" },
+    { key: "gap",      label: "GAP",       width: 76,  mono: true, align: "right" },
+  ];
+
   const resultCols: Column<ResultRow>[] = [
     { key: "pos",        label: "POS",       width: 40,  mono: true, accentIfLeader: true },
     ...(isMultiClass ? [{ key: "classId" as keyof ResultRow, label: "CLASE", width: 56 }] : []),
@@ -155,6 +186,7 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
     { key: "total", label: "TOTAL", width: 72,  mono: true, align: "right", accentIfLeader: true },
   ];
 
+  const qualiRows = buildQualiRows(qualiSession);
   const r1Rows = buildResultRows(r1);
   const r2Rows = buildResultRows(r2);
 
@@ -209,6 +241,25 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
           </div>
         </Glass>
         </Reveal>
+
+        {/* Qualifying */}
+        {qualiRows.length > 0 && (
+          <Reveal variant="slide-l" style={{ marginBottom: 24 }}>
+            <SectionHeading
+              eyebrow="CLASIFICACIÓN"
+              title="Resultados de Qualy"
+              right={qualiSession && <Link href={`/sessions/${qualiSession.id}`} className="fx-link-underline" style={SESSION_LINK_STYLE}>VER SESIÓN →</Link>}
+            />
+            <Glass cut={18} pad={0}>
+              <DataTable
+                columns={qualiCols}
+                rows={qualiRows}
+                leaderRowIndex={0}
+                rowBg={isMultiClass ? (row) => row.classId === "am" ? "rgba(34,197,94,0.09)" : "rgba(220,38,38,0.09)" : undefined}
+              />
+            </Glass>
+          </Reveal>
+        )}
 
         {/* R1 + R2 side by side */}
         {(r1Rows.length > 0 || r2Rows.length > 0) && (

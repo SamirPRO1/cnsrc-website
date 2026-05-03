@@ -260,8 +260,8 @@ export default function RoundDetailPage({
                     borderTop: "1px solid var(--border-hairline)",
                   }}
                 >
-                  {/* Race data ingestion (race sessions only) */}
-                  {session.type === "race" && (
+                  {/* Race data ingestion (race and qualifying sessions) */}
+                  {(session.type === "race" || session.type === "qualifying") && (
                     <div style={{ marginTop: 16 }}>
                       <RaceDataPanel
                         championshipId={id}
