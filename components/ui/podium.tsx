@@ -70,7 +70,7 @@ export function PodiumGroup({ podium }: PodiumGroupProps) {
                 <img
                   src={p.picture}
                   alt={p.name}
-                  className={!isP1 ? "podium-pic-sm" : undefined}
+                  className={`fx-portrait ${!isP1 ? "podium-pic-sm" : ""}`.trim()}
                   style={{
                     width: isP1 ? 104 : undefined,
                     height: isP1 ? 104 : undefined,

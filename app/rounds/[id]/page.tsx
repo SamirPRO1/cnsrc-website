@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getRound, listChampionships, getDriver, getTeam } from "@/lib/data";
-import { Backdrop } from "@/components/ui/backdrop";
 import { TopNav } from "@/components/ui/top-nav";
 import { Glass } from "@/components/ui/glass";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
@@ -10,6 +9,9 @@ import { DataTable, type Column } from "@/components/ui/data-table";
 import { CNSRCFooter } from "@/components/ui/footer";
 import { TrackSilhouette } from "@/components/ui/track-silhouette";
 import { Chip } from "@/components/ui/chip";
+import { ParallaxBackdrop } from "@/components/ui/effects/ParallaxBackdrop";
+import { Reveal } from "@/components/ui/effects/Reveal";
+import { TextScramble } from "@/components/ui/effects/TextScramble";
 import type { Session } from "@/lib/types";
 
 export async function generateStaticParams() {
@@ -157,10 +159,10 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
   const r2Rows = buildResultRows(r2);
 
   return (
-    <Backdrop
+    <ParallaxBackdrop
       orbs={[
-        { color: "red",    x: -80,  y: -60, w: 360, h: 360, opacity: 0.7 },
-        { color: "purple", x: 700,  y: 200, w: 300, h: 300, opacity: 0.5 },
+        { color: "red",    x: -80,  y: -60, w: 360, h: 360, opacity: 0.7, depth: 0.7 },
+        { color: "purple", x: 700,  y: 200, w: 300, h: 300, opacity: 0.5, depth: 0.4 },
       ]}
       silhouette={<TrackSilhouette track={round.track.id} opacity={0.07} />}
     >
@@ -177,16 +179,20 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
         />
 
         {/* Header */}
-        <Glass cut={22} heavy stripe pad={22} style={{ marginBottom: 16 }} data-primary-red>
-          <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 20 }}>
+        <Reveal variant="clip">
+        <Glass cut={22} heavy stripe pad={22} style={{ marginBottom: 16, position: "relative", overflow: "hidden" }} data-primary-red className="fx-shine fx-shine--auto fx-glow-red">
+          <div aria-hidden="true" style={{ position: "absolute", right: -40, top: -20, width: 320, height: 220, opacity: 0.6, pointerEvents: "none" }}>
+            <TrackSilhouette track={round.track.id} opacity={0.18} strokeWidth={2} />
+          </div>
+          <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 20, position: "relative" }}>
             <div>
               <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
                 <Chip>{ownerChamp?.season ?? "—"}</Chip>
                 <Chip>Ronda {String(round.index).padStart(2, "0")}</Chip>
                 {round.status === "live" && <Chip tone="live">EN VIVO</Chip>}
               </div>
-              <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 40, textTransform: "uppercase", letterSpacing: "0.02em", margin: 0, color: "var(--text-primary)" }}>
-                {round.track.name}
+              <h1 className="fx-headline" style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 40, textTransform: "uppercase", letterSpacing: "0.02em", margin: 0, color: "var(--text-primary)" }}>
+                <TextScramble text={round.track.name} duration={900} />
               </h1>
               <div style={{ display: "flex", gap: 16, marginTop: 8, alignItems: "center" }}>
                 <span className="mono" style={{ fontSize: 13, color: "var(--text-secondary)" }}>{round.date}</span>
@@ -196,12 +202,13 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
               </div>
             </div>
             {round.youtubeUrl && (
-              <a href={round.youtubeUrl} target="_blank" rel="noopener noreferrer" style={SESSION_LINK_STYLE}>
+              <a href={round.youtubeUrl} target="_blank" rel="noopener noreferrer" style={SESSION_LINK_STYLE} className="fx-link-underline">
                 VER EN YOUTUBE →
               </a>
             )}
           </div>
         </Glass>
+        </Reveal>
 
         {/* R1 + R2 side by side */}
         {(r1Rows.length > 0 || r2Rows.length > 0) && (
@@ -212,11 +219,11 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
             marginBottom: 24,
           }}>
             {r1Rows.length > 0 && (
-              <div>
+              <Reveal variant="slide-l">
                 <SectionHeading
                   eyebrow="CARRERA 1"
                   title={r1?.subLabel ?? "R1"}
-                  right={r1 && <Link href={`/sessions/${r1.id}`} style={SESSION_LINK_STYLE}>VER SESIÓN →</Link>}
+                  right={r1 && <Link href={`/sessions/${r1.id}`} className="fx-link-underline" style={SESSION_LINK_STYLE}>VER SESIÓN →</Link>}
                 />
                 <Glass cut={18} pad={0}>
                   <DataTable
@@ -226,14 +233,14 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
                     rowBg={isMultiClass ? (row) => row.classId === "am" ? "rgba(34,197,94,0.09)" : "rgba(220,38,38,0.09)" : undefined}
                   />
                 </Glass>
-              </div>
+              </Reveal>
             )}
             {r2Rows.length > 0 && (
-              <div>
+              <Reveal variant="slide-r">
                 <SectionHeading
                   eyebrow="CARRERA 2"
                   title={r2?.subLabel ?? "R2"}
-                  right={r2 && <Link href={`/sessions/${r2.id}`} style={SESSION_LINK_STYLE}>VER SESIÓN →</Link>}
+                  right={r2 && <Link href={`/sessions/${r2.id}`} className="fx-link-underline" style={SESSION_LINK_STYLE}>VER SESIÓN →</Link>}
                 />
                 <Glass cut={18} pad={0}>
                   <DataTable
@@ -243,14 +250,14 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
                     rowBg={isMultiClass ? (row) => row.classId === "am" ? "rgba(34,197,94,0.09)" : "rgba(220,38,38,0.09)" : undefined}
                   />
                 </Glass>
-              </div>
+              </Reveal>
             )}
           </div>
         )}
 
         {/* Combined round totals */}
         {totalRows.length > 0 && (
-          <div style={{ marginBottom: 24 }}>
+          <Reveal variant="up" style={{ marginBottom: 24 }}>
             <SectionHeading eyebrow="RESUMEN DE RONDA" title="Puntos totales" />
             <Glass cut={18} pad={0}>
               <DataTable
@@ -260,11 +267,11 @@ export default async function RoundPage({ params }: { params: Promise<{ id: stri
                 rowBg={isMultiClass ? (row) => row.classId === "am" ? "rgba(34,197,94,0.09)" : "rgba(220,38,38,0.09)" : undefined}
               />
             </Glass>
-          </div>
+          </Reveal>
         )}
       </div>
 
       <CNSRCFooter />
-    </Backdrop>
+    </ParallaxBackdrop>
   );
 }

@@ -14,9 +14,11 @@ import {
 import { deriveStandings } from "@/lib/derive/standings";
 import { deriveTrackRecords, lapToMs } from "@/lib/derive/trackRecords";
 import { computeRacePositions } from "@/lib/derive/lapAnalysis";
+import { readBlogFile } from "@/lib/admin/data-io";
 import type {
   Championship,
   StandingsRow,
+  TeamStandingsRow,
   Session,
   Round,
   Driver,
@@ -27,7 +29,23 @@ import type {
   StatEntry,
   DriverProfile,
   TrackDetail,
+  BlogPost,
 } from "@/lib/types";
+
+/* ── Blog ───────────────────────────────────────────────────────
+   Reads from data/blog.json on every server request so admin edits
+   propagate immediately. Public list excludes drafts. */
+export function listPublishedPosts(): BlogPost[] {
+  return readBlogFile()
+    .posts.filter((p) => !p.draft)
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+}
+
+export function getPublishedPost(id: string): BlogPost | null {
+  const post = readBlogFile().posts.find((p) => p.id === id);
+  if (!post || post.draft) return null;
+  return post;
+}
 
 export const listChampionships = cache((): Championship[] => _listChamps());
 
@@ -38,6 +56,43 @@ export const getStandings = cache(
     const champ = _getChamp(championshipId);
     if (!champ) return [];
     return deriveStandings(champ, classId);
+  }
+);
+
+export const getTeamStandings = cache(
+  (championshipId: string, classId: string): TeamStandingsRow[] => {
+    const champ = _getChamp(championshipId);
+    if (!champ) return [];
+    const driverRows = deriveStandings(champ, classId);
+    const teamMap = new Map<string, { pts: number; wins: number; podiums: number; drivers: Set<string>; teamName: string }>();
+    for (const row of driverRows) {
+      const entry = teamMap.get(row.teamId);
+      if (entry) {
+        entry.pts += row.pts;
+        entry.wins += row.wins;
+        entry.podiums += row.podiums;
+        entry.drivers.add(row.driverId);
+      } else {
+        teamMap.set(row.teamId, {
+          pts: row.pts,
+          wins: row.wins,
+          podiums: row.podiums,
+          drivers: new Set([row.driverId]),
+          teamName: row.teamName,
+        });
+      }
+    }
+    return [...teamMap.entries()]
+      .sort((a, b) => b[1].pts - a[1].pts)
+      .map(([teamId, data], i) => ({
+        pos: i + 1,
+        teamId,
+        teamName: data.teamName,
+        pts: data.pts,
+        wins: data.wins,
+        podiums: data.podiums,
+        drivers: data.drivers.size,
+      }));
   }
 );
 

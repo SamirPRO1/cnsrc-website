@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { getSession, listChampionships, getDriver, getTeam } from "@/lib/data";
 import { PointsTableDisplay } from "@/components/ui/points-table";
-import { Backdrop } from "@/components/ui/backdrop";
 import { TopNav } from "@/components/ui/top-nav";
 import { Glass } from "@/components/ui/glass";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
@@ -12,6 +11,10 @@ import { YouTubeBanner } from "@/components/ui/youtube-banner";
 import { TrackSilhouette } from "@/components/ui/track-silhouette";
 import { Chip } from "@/components/ui/chip";
 import SessionViews from "@/components/session/session-views";
+import { ParallaxBackdrop } from "@/components/ui/effects/ParallaxBackdrop";
+import { Reveal } from "@/components/ui/effects/Reveal";
+import { Stagger } from "@/components/ui/effects/Stagger";
+import { TextScramble } from "@/components/ui/effects/TextScramble";
 
 
 export async function generateStaticParams() {
@@ -54,13 +57,16 @@ export default async function SessionPage({ params }: { params: Promise<{ id: st
     teamNames[r.teamId] = getTeam(r.teamId)?.name ?? r.teamId;
   }
 
+  const headerTitle = ownerRound ? `Ronda ${String(ownerRound.index).padStart(2,"0")} · ${ownerRound.track.name}` : id;
+
   return (
-    <Backdrop
+    <ParallaxBackdrop
       orbs={[
-        { color: "red",   x: -80,  y: -60, w: 360, h: 360, opacity: 0.7 },
-        { color: "amber", x: 700,  y: 200, w: 300, h: 300, opacity: 0.5 },
+        { color: "red",   x: -80,  y: -60, w: 360, h: 360, opacity: 0.7, depth: 0.7 },
+        { color: "amber", x: 700,  y: 200, w: 300, h: 300, opacity: 0.5, depth: 0.4 },
       ]}
       silhouette={ownerRound ? <TrackSilhouette track={ownerRound.track.id} opacity={0.07} /> : undefined}
+      speedLines={session.status === "live"}
     >
       <TopNav />
 
@@ -79,7 +85,8 @@ export default async function SessionPage({ params }: { params: Promise<{ id: st
         {ownerRound?.youtubeUrl && <YouTubeBanner url={ownerRound.youtubeUrl} />}
 
         {/* Header */}
-        <Glass cut={22} heavy stripe pad={22} style={{ marginBottom: 16 }} data-primary-red>
+        <Reveal variant="clip">
+        <Glass cut={22} heavy stripe pad={22} style={{ marginBottom: 16 }} data-primary-red className={`fx-shine fx-shine--auto ${session.status === "live" ? "fx-glow-red" : ""}`}>
           <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 20 }}>
             <div>
               <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
@@ -87,12 +94,12 @@ export default async function SessionPage({ params }: { params: Promise<{ id: st
                 {session.subLabel && <Chip>{session.subLabel}</Chip>}
                 {session.status === "live" && <Chip tone="live">EN VIVO</Chip>}
               </div>
-              <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 40, textTransform: "uppercase", letterSpacing: "0.02em", margin: 0, color: "var(--text-primary)" }}>
-                {ownerRound ? `Ronda ${String(ownerRound.index).padStart(2,"0")} · ${ownerRound.track.name}` : id}
+              <h1 className="fx-headline" style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 40, textTransform: "uppercase", letterSpacing: "0.02em", margin: 0, color: "var(--text-primary)" }}>
+                <TextScramble text={headerTitle} duration={900} />
               </h1>
             </div>
             {/* Conditions strip */}
-            <div style={{ display: "flex", gap: 20, flexShrink: 0, alignItems: "flex-end" }}>
+            <Stagger style={{ display: "flex", gap: 20, flexShrink: 0, alignItems: "flex-end" }}>
               {[
                 { label: "AIRE",  value: `${session.conditions.airTemp}°C` },
                 { label: "PISTA", value: `${session.conditions.trackTemp}°C` },
@@ -103,13 +110,14 @@ export default async function SessionPage({ params }: { params: Promise<{ id: st
                   <span className="mono" style={{ fontSize: 15, color: "var(--text-primary)" }}>{c.value}</span>
                 </div>
               ))}
-            </div>
+            </Stagger>
           </div>
         </Glass>
+        </Reveal>
 
         {/* Podium */}
         {hasPodium && (
-          <div style={{ marginBottom: 20 }}>
+          <Reveal variant="up" style={{ marginBottom: 20 }}>
             <SectionHeading eyebrow="RESULTADO" title="Podio" />
             <PodiumGroup
               podium={podiumRaw.map((r) => {
@@ -126,12 +134,12 @@ export default async function SessionPage({ params }: { params: Promise<{ id: st
                 };
               }) as [Parameters<typeof PodiumGroup>[0]["podium"][0], Parameters<typeof PodiumGroup>[0]["podium"][0], Parameters<typeof PodiumGroup>[0]["podium"][0]]}
             />
-          </div>
+          </Reveal>
         )}
 
         {/* Full classification + Consistency + Race positions */}
         {session.results.length > 0 && (
-          <div style={{ marginBottom: 24 }}>
+          <Reveal variant="up" style={{ marginBottom: 24 }}>
             <SectionHeading eyebrow="CLASIFICACIÓN" title="Resultados completos" />
             <Glass cut={18} pad={0} aria-live={session.status === "live" ? "polite" : undefined}>
               <SessionViews
@@ -143,22 +151,22 @@ export default async function SessionPage({ params }: { params: Promise<{ id: st
                 isMultiClass={isMultiClass}
               />
             </Glass>
-          </div>
+          </Reveal>
         )}
 
         {/* Points system */}
         {ownerChamp?.pointsTable && (
-          <div style={{ marginBottom: 24 }}>
+          <Reveal variant="up" style={{ marginBottom: 24 }}>
             <SectionHeading eyebrow="REGLAMENTO" title="Sistema de puntos" />
             <Glass cut={18} pad={0}>
               <PointsTableDisplay table={ownerChamp.pointsTable} />
             </Glass>
-          </div>
+          </Reveal>
         )}
 
       </div>
 
       <CNSRCFooter />
-    </Backdrop>
+    </ParallaxBackdrop>
   );
 }

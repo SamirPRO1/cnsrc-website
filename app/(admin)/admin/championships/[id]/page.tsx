@@ -173,6 +173,15 @@ export default function ChampionshipDetailPage({
             {editingMeta ? "Cancelar" : "Editar"}
           </AdminButton>
         </div>
+        {!editingMeta && (
+          <div style={{ display: "flex", gap: 16, fontSize: 13 }}>
+            <span style={{ color: "var(--text-secondary)" }}>{champ.name}</span>
+            <span style={{ color: "var(--text-tertiary)" }}>{champ.status}</span>
+            <span style={{ color: champ.teamPoints ? "var(--status-success)" : "var(--text-tertiary)" }}>
+              Puntos por equipo: {champ.teamPoints ? "ON" : "OFF"}
+            </span>
+          </div>
+        )}
         {editingMeta && (
           <div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, marginBottom: 12 }}>
@@ -197,6 +206,18 @@ export default function ChampionshipDetailPage({
                   <option value="complete">Complete</option>
                 </select>
               </AdminFormField>
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
+              <label style={{ display: "flex", alignItems: "center", gap: 8, cursor: "pointer", fontSize: 13 }}>
+                <input
+                  type="checkbox"
+                  checked={champ.teamPoints ?? false}
+                  onChange={(e) => { champ.teamPoints = e.target.checked; refetch(); }}
+                  style={{ width: 16, height: 16, accentColor: "var(--accent-red)", cursor: "pointer" }}
+                />
+                <span style={{ color: "var(--text-primary)" }}>Puntos por equipo</span>
+                <span style={{ color: "var(--text-tertiary)", fontSize: 11 }}>Muestra tabla de clasificación por equipos en la página pública</span>
+              </label>
             </div>
             <AdminButton onClick={handleSaveMeta} disabled={saving}>
               {saving ? "Guardando..." : "Guardar Metadatos"}

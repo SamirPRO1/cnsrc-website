@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Driver, Team, TrackRef, Championship } from "@/lib/types";
+import type { Driver, Team, TrackRef, Championship, BlogPost } from "@/lib/types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -71,6 +71,27 @@ export function writeChampionshipFile(
 export function deleteChampionshipFile(id: string): void {
   const p = path.join(DATA_DIR, `${id}.json`);
   if (fs.existsSync(p)) fs.unlinkSync(p);
+}
+
+/* ── Blog (blog.json) ────────────────────────────────────────── */
+
+interface BlogFile {
+  posts: BlogPost[];
+}
+
+export function readBlogFile(): BlogFile {
+  const p = path.join(DATA_DIR, "blog.json");
+  if (!fs.existsSync(p)) return { posts: [] };
+  const raw = fs.readFileSync(p, "utf-8");
+  return JSON.parse(raw) as BlogFile;
+}
+
+export function writeBlogFile(data: BlogFile): void {
+  fs.writeFileSync(
+    path.join(DATA_DIR, "blog.json"),
+    JSON.stringify(data, null, 2),
+    "utf-8",
+  );
 }
 
 /* ── Driver GUIDs (driver-guids.json) ───────────────────────── */

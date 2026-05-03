@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Oswald, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { ScrollProgress } from "@/components/ui/effects/ScrollProgress";
 
 const inter = Inter({
   variable: "--font-body-loaded",
@@ -38,7 +39,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         ["--font-mono" as string]: `var(--font-mono-loaded), ui-monospace, monospace`,
       }}
     >
-      <body style={{ minHeight: "100vh" }}>{children}</body>
+      <body style={{ minHeight: "100vh" }}>
+        <ScrollProgress />
+        {children}
+      </body>
     </html>
   );
 }

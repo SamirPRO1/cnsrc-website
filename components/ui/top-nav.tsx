@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { label: "Pilotos",     href: "/drivers" },
   { label: "Circuitos",   href: "/tracks" },
   { label: "Récords",     href: "/records" },
+  { label: "Blog",        href: "/blog" },
 ] as const;
 
 interface AuthState {

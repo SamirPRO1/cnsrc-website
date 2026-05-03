@@ -55,7 +55,7 @@ export function RegisterForm() {
   }
 
   return (
-    <Glass cut={18} heavy stripe pad={40} style={{ maxWidth: 480, width: "100%" }}>
+    <Glass cut={18} heavy stripe pad={40} style={{ maxWidth: 480, width: "100%" }} className="fx-shine fx-shine--auto fx-glow-red">
       <div className="display" style={{ fontSize: 26, color: "var(--accent-red)", marginBottom: 4 }}>
         CNSRC
       </div>

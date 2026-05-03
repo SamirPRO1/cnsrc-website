@@ -1,9 +1,8 @@
 {
   "id": "cnsrc-s03",
-  "name": "Campeonato Nacional Simracing Cuba 2026",
   "season": "S03",
   "year": 2026,
-  "status": "live",
+  "name": "Campeonato Nacional Simracing Cuba 2026",
   "classes": [
     {
       "id": "indycar",
@@ -1954,7 +1953,7 @@
               "classId": "indycar",
               "bestLap": "1:35.422",
               "gap": "+1:07.896",
-              "points": 0,
+              "points": 6,
               "status": "finished"
             },
             {
@@ -6083,7 +6082,7 @@
               "classId": "indycar",
               "bestLap": "1:51.586",
               "gap": "+55.051",
-              "points": 0,
+              "points": 6,
               "status": "finished"
             },
             {
@@ -6109,7 +6108,8 @@
                 "27.508"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026002
             },
             {
               "driverId": "d19",
@@ -6121,7 +6121,8 @@
                 "27.364"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026112
             },
             {
               "driverId": "d19",
@@ -6133,7 +6134,8 @@
                 "27.657"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026232
             },
             {
               "driverId": "d19",
@@ -6145,7 +6147,8 @@
                 "27.355"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026342
             },
             {
               "driverId": "d19",
@@ -6157,7 +6160,8 @@
                 "27.585"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026453
             },
             {
               "driverId": "d19",
@@ -6169,7 +6173,8 @@
                 "27.301"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026562
             },
             {
               "driverId": "d19",
@@ -6181,7 +6186,8 @@
                 "27.441"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026693
             },
             {
               "driverId": "d19",
@@ -6193,7 +6199,8 @@
                 "27.608"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026804
             },
             {
               "driverId": "d19",
@@ -6205,7 +6212,8 @@
                 "27.468"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026914
             },
             {
               "driverId": "d19",
@@ -6217,7 +6225,8 @@
                 "27.499"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027024
             },
             {
               "driverId": "d19",
@@ -6229,7 +6238,8 @@
                 "27.463"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027135
             },
             {
               "driverId": "d19",
@@ -6241,7 +6251,8 @@
                 "27.531"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027246
             },
             {
               "driverId": "d19",
@@ -6253,7 +6264,8 @@
                 "27.981"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027357
             },
             {
               "driverId": "d05",
@@ -6265,7 +6277,8 @@
                 "27.702"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026004
             },
             {
               "driverId": "d05",
@@ -6277,7 +6290,8 @@
                 "27.517"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026115
             },
             {
               "driverId": "d05",
@@ -6289,7 +6303,8 @@
                 "27.386"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026227
             },
             {
               "driverId": "d05",
@@ -6301,7 +6316,8 @@
                 "27.670"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026338
             },
             {
               "driverId": "d05",
@@ -6313,7 +6329,8 @@
                 "27.337"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026448
             },
             {
               "driverId": "d05",
@@ -6325,7 +6342,8 @@
                 "27.405"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026558
             },
             {
               "driverId": "d05",
@@ -6337,7 +6355,8 @@
                 "27.418"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026668
             },
             {
               "driverId": "d05",
@@ -6349,7 +6368,8 @@
                 "27.616"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026778
             },
             {
               "driverId": "d05",
@@ -6361,7 +6381,8 @@
                 "27.594"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026889
             },
             {
               "driverId": "d05",
@@ -6373,7 +6394,8 @@
                 "27.522"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027000
             },
             {
               "driverId": "d05",
@@ -6385,7 +6407,8 @@
                 "27.373"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027110
             },
             {
               "driverId": "d05",
@@ -6397,7 +6420,8 @@
                 "27.342"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027220
             },
             {
               "driverId": "d05",
@@ -6409,7 +6433,8 @@
                 "28.763"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027331
             },
             {
               "driverId": "d02",
@@ -6421,7 +6446,8 @@
                 "27.752"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026004
             },
             {
               "driverId": "d02",
@@ -6433,7 +6459,8 @@
                 "27.945"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026116
             },
             {
               "driverId": "d02",
@@ -6445,7 +6472,8 @@
                 "27.220"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026226
             },
             {
               "driverId": "d02",
@@ -6457,7 +6485,8 @@
                 "27.319"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026335
             },
             {
               "driverId": "d02",
@@ -6469,7 +6498,8 @@
                 "27.037"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026444
             },
             {
               "driverId": "d02",
@@ -6481,7 +6511,8 @@
                 "27.131"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026553
             },
             {
               "driverId": "d02",
@@ -6493,7 +6524,8 @@
                 "27.202"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026662
             },
             {
               "driverId": "d02",
@@ -6505,7 +6537,8 @@
                 "27.189"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026771
             },
             {
               "driverId": "d02",
@@ -6517,7 +6550,8 @@
                 "27.693"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026886
             },
             {
               "driverId": "d02",
@@ -6529,7 +6563,8 @@
                 "27.608"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026996
             },
             {
               "driverId": "d02",
@@ -6541,7 +6576,8 @@
                 "28.225"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027106
             },
             {
               "driverId": "d02",
@@ -6553,7 +6589,8 @@
                 "27.692"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027217
             },
             {
               "driverId": "d02",
@@ -6565,7 +6602,8 @@
                 "27.608"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027327
             },
             {
               "driverId": "d35",
@@ -6577,7 +6615,8 @@
                 "28.570"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026006
             },
             {
               "driverId": "d35",
@@ -6589,7 +6628,8 @@
                 "27.278"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026127
             },
             {
               "driverId": "d35",
@@ -6601,7 +6641,8 @@
                 "27.927"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026246
             },
             {
               "driverId": "d35",
@@ -6613,7 +6654,8 @@
                 "27.500"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026357
             },
             {
               "driverId": "d35",
@@ -6625,7 +6667,8 @@
                 "27.419"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026466
             },
             {
               "driverId": "d35",
@@ -6637,7 +6680,8 @@
                 "27.755"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026577
             },
             {
               "driverId": "d35",
@@ -6649,7 +6693,8 @@
                 "27.666"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026688
             },
             {
               "driverId": "d35",
@@ -6661,7 +6706,8 @@
                 "35.186"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026805
             },
             {
               "driverId": "d35",
@@ -6673,7 +6719,8 @@
                 "28.124"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026917
             },
             {
               "driverId": "d35",
@@ -6685,7 +6732,8 @@
                 "27.733"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027027
             },
             {
               "driverId": "d35",
@@ -6697,7 +6745,8 @@
                 "36.450"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027156
             },
             {
               "driverId": "d35",
@@ -6709,7 +6758,8 @@
                 "27.765"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027268
             },
             {
               "driverId": "d35",
@@ -6721,7 +6771,8 @@
                 "27.945"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027380
             },
             {
               "driverId": "d08",
@@ -6733,7 +6784,8 @@
                 "28.405"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026006
             },
             {
               "driverId": "d08",
@@ -6745,7 +6797,8 @@
                 "27.926"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026126
             },
             {
               "driverId": "d08",
@@ -6757,7 +6810,8 @@
                 "27.972"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026236
             },
             {
               "driverId": "d08",
@@ -6769,7 +6823,8 @@
                 "27.518"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026346
             },
             {
               "driverId": "d08",
@@ -6781,7 +6836,8 @@
                 "27.532"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026456
             },
             {
               "driverId": "d08",
@@ -6793,7 +6849,8 @@
                 "27.621"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026566
             },
             {
               "driverId": "d08",
@@ -6805,7 +6862,8 @@
                 "27.617"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026677
             },
             {
               "driverId": "d08",
@@ -6817,7 +6875,8 @@
                 "28.404"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026789
             },
             {
               "driverId": "d08",
@@ -6829,7 +6888,8 @@
                 "27.999"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026899
             },
             {
               "driverId": "d08",
@@ -6841,7 +6901,8 @@
                 "27.850"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027010
             },
             {
               "driverId": "d08",
@@ -6853,7 +6914,8 @@
                 "27.450"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027120
             },
             {
               "driverId": "d08",
@@ -6865,7 +6927,8 @@
                 "27.684"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027230
             },
             {
               "driverId": "d08",
@@ -6877,7 +6940,8 @@
                 "27.697"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027341
             },
             {
               "driverId": "d24",
@@ -6889,7 +6953,8 @@
                 "28.160"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026009
             },
             {
               "driverId": "d24",
@@ -6901,7 +6966,8 @@
                 "28.071"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026121
             },
             {
               "driverId": "d24",
@@ -6913,7 +6979,8 @@
                 "28.070"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026234
             },
             {
               "driverId": "d24",
@@ -6925,7 +6992,8 @@
                 "27.815"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026346
             },
             {
               "driverId": "d24",
@@ -6937,7 +7005,8 @@
                 "28.097"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026459
             },
             {
               "driverId": "d24",
@@ -6949,7 +7018,8 @@
                 "27.918"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026571
             },
             {
               "driverId": "d24",
@@ -6961,7 +7031,8 @@
                 "28.080"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026691
             },
             {
               "driverId": "d24",
@@ -6973,7 +7044,8 @@
                 "28.071"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026813
             },
             {
               "driverId": "d24",
@@ -6985,7 +7057,8 @@
                 "28.121"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026926
             },
             {
               "driverId": "d24",
@@ -6997,7 +7070,8 @@
                 "28.062"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027037
             },
             {
               "driverId": "d24",
@@ -7009,7 +7083,8 @@
                 "28.377"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027157
             },
             {
               "driverId": "d24",
@@ -7021,7 +7096,8 @@
                 "28.053"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027270
             },
             {
               "driverId": "d24",
@@ -7033,7 +7109,8 @@
                 "28.799"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027383
             },
             {
               "driverId": "d06",
@@ -7045,7 +7122,8 @@
                 "28.323"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026010
             },
             {
               "driverId": "d06",
@@ -7057,7 +7135,8 @@
                 "28.468"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026134
             },
             {
               "driverId": "d06",
@@ -7069,7 +7148,8 @@
                 "28.044"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026250
             },
             {
               "driverId": "d06",
@@ -7081,7 +7161,8 @@
                 "27.706"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026363
             },
             {
               "driverId": "d06",
@@ -7093,7 +7174,8 @@
                 "28.170"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026481
             },
             {
               "driverId": "d06",
@@ -7105,7 +7187,8 @@
                 "28.039"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026595
             },
             {
               "driverId": "d06",
@@ -7117,7 +7200,8 @@
                 "27.558"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026709
             },
             {
               "driverId": "d06",
@@ -7129,7 +7213,8 @@
                 "28.529"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026830
             },
             {
               "driverId": "d06",
@@ -7141,7 +7226,8 @@
                 "28.291"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026943
             },
             {
               "driverId": "d06",
@@ -7153,7 +7239,8 @@
                 "28.098"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027057
             },
             {
               "driverId": "d06",
@@ -7165,7 +7252,8 @@
                 "28.971"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027175
             },
             {
               "driverId": "d06",
@@ -7177,7 +7265,8 @@
                 "27.918"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027289
             },
             {
               "driverId": "d06",
@@ -7189,7 +7278,8 @@
                 "28.454"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027408
             },
             {
               "driverId": "d26",
@@ -7201,7 +7291,8 @@
                 "27.878"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026011
             },
             {
               "driverId": "d26",
@@ -7213,7 +7304,8 @@
                 "27.504"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026124
             },
             {
               "driverId": "d26",
@@ -7225,7 +7317,8 @@
                 "27.217"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026234
             },
             {
               "driverId": "d26",
@@ -7237,7 +7330,8 @@
                 "27.622"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026344
             },
             {
               "driverId": "d26",
@@ -7249,7 +7343,8 @@
                 "27.171"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026454
             },
             {
               "driverId": "d26",
@@ -7261,7 +7356,8 @@
                 "27.014"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026563
             },
             {
               "driverId": "d26",
@@ -7273,7 +7369,8 @@
                 "27.477"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026673
             },
             {
               "driverId": "d26",
@@ -7285,7 +7382,8 @@
                 "27.400"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026782
             },
             {
               "driverId": "d26",
@@ -7297,7 +7395,8 @@
                 "27.301"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026892
             },
             {
               "driverId": "d26",
@@ -7309,7 +7408,8 @@
                 "27.275"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027001
             },
             {
               "driverId": "d26",
@@ -7321,7 +7421,8 @@
                 "27.324"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027111
             },
             {
               "driverId": "d26",
@@ -7333,7 +7434,8 @@
                 "39.010"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027233
             },
             {
               "driverId": "d26",
@@ -7345,7 +7447,8 @@
                 "28.098"
               ],
               "compound": "M",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027346
             },
             {
               "driverId": "d07",
@@ -7357,7 +7460,8 @@
                 "38.192"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026014
             },
             {
               "driverId": "d07",
@@ -7369,7 +7473,8 @@
                 "27.545"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026126
             },
             {
               "driverId": "d07",
@@ -7381,7 +7486,8 @@
                 "27.446"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026236
             },
             {
               "driverId": "d07",
@@ -7393,7 +7499,8 @@
                 "27.805"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026347
             },
             {
               "driverId": "d07",
@@ -7405,7 +7512,8 @@
                 "27.738"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026456
             },
             {
               "driverId": "d07",
@@ -7417,7 +7525,8 @@
                 "27.301"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026565
             },
             {
               "driverId": "d07",
@@ -7429,7 +7538,8 @@
                 "27.391"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026675
             },
             {
               "driverId": "d07",
@@ -7441,7 +7551,8 @@
                 "27.310"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026785
             },
             {
               "driverId": "d07",
@@ -7453,7 +7564,8 @@
                 "27.356"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776026895
             },
             {
               "driverId": "d07",
@@ -7465,7 +7577,8 @@
                 "27.230"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027005
             },
             {
               "driverId": "d07",
@@ -7477,7 +7590,8 @@
                 "37.445"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027125
             },
             {
               "driverId": "d07",
@@ -7489,7 +7603,8 @@
                 "28.076"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027236
             },
             {
               "driverId": "d07",
@@ -7501,7 +7616,8 @@
                 "27.261"
               ],
               "compound": "S",
-              "cut": false
+              "cut": false,
+              "timestamp": 1776027346
             }
           ],
           "incidents": [
@@ -10640,22 +10756,20 @@
     {
       "id": "cnsrc-s03-r04",
       "index": 4,
-      "status": "upcoming",
-      "date": "—",
       "track": {
         "id": "miami",
         "name": "Miami International Autodrome",
         "short": "MIA",
         "country": "EE.UU.",
+        "layout": "Callejero",
         "lengthKm": 5.412,
-        "turns": 19,
-        "layout": "Callejero"
+        "turns": 19
       },
+      "date": "3 may 2026",
       "sessions": [
         {
           "id": "cnsrc-s03-r04-q",
           "type": "qualifying",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10663,13 +10777,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r04-r1",
           "type": "race",
           "subLabel": "R1",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10677,13 +10791,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r04-r2",
           "type": "race",
           "subLabel": "R2",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10691,29 +10805,29 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         }
-      ]
+      ],
+      "status": "upcoming"
     },
     {
       "id": "cnsrc-s03-r05",
       "index": 5,
-      "status": "upcoming",
-      "date": "—",
       "track": {
         "id": "montreal",
         "name": "Circuit Gilles-Villeneuve",
         "short": "MCL",
         "country": "Canadá",
+        "layout": "Semicallejero",
         "lengthKm": 4.361,
-        "turns": 14,
-        "layout": "Semicallejero"
+        "turns": 14
       },
+      "date": "24 may 2026",
       "sessions": [
         {
           "id": "cnsrc-s03-r05-q",
           "type": "qualifying",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10721,13 +10835,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r05-r1",
           "type": "race",
           "subLabel": "R1",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10735,13 +10849,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r05-r2",
           "type": "race",
           "subLabel": "R2",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10749,29 +10863,29 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         }
-      ]
+      ],
+      "status": "upcoming"
     },
     {
       "id": "cnsrc-s03-r06",
       "index": 6,
-      "status": "upcoming",
-      "date": "—",
       "track": {
         "id": "barcelona",
         "name": "Circuit de Barcelona-Catalunya",
         "short": "BCN",
         "country": "España",
+        "layout": "Grand Prix",
         "lengthKm": 4.675,
-        "turns": 16,
-        "layout": "Grand Prix"
+        "turns": 16
       },
+      "date": "14 jun 2026",
       "sessions": [
         {
           "id": "cnsrc-s03-r06-q",
           "type": "qualifying",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10779,13 +10893,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r06-r1",
           "type": "race",
           "subLabel": "R1",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10793,13 +10907,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r06-r2",
           "type": "race",
           "subLabel": "R2",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10807,29 +10921,29 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         }
-      ]
+      ],
+      "status": "upcoming"
     },
     {
       "id": "cnsrc-s03-r07",
       "index": 7,
-      "status": "upcoming",
-      "date": "—",
       "track": {
         "id": "zandvoort",
         "name": "Circuit Zandvoort",
         "short": "ZAN",
         "country": "Países Bajos",
+        "layout": "Grand Prix",
         "lengthKm": 4.259,
-        "turns": 14,
-        "layout": "Grand Prix"
+        "turns": 14
       },
+      "date": "28 jun 2026",
       "sessions": [
         {
           "id": "cnsrc-s03-r07-q",
           "type": "qualifying",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10837,13 +10951,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r07-r1",
           "type": "race",
           "subLabel": "R1",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10851,13 +10965,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r07-r2",
           "type": "race",
           "subLabel": "R2",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10865,29 +10979,29 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         }
-      ]
+      ],
+      "status": "upcoming"
     },
     {
       "id": "cnsrc-s03-r08",
       "index": 8,
-      "status": "upcoming",
-      "date": "—",
       "track": {
         "id": "nurburgring",
         "name": "Nürburgring Grand Prix",
         "short": "NUR",
         "country": "Alemania",
+        "layout": "Grand Prix",
         "lengthKm": 5.148,
-        "turns": 15,
-        "layout": "Grand Prix"
+        "turns": 15
       },
+      "date": "12 jul 2026",
       "sessions": [
         {
           "id": "cnsrc-s03-r08-q",
           "type": "qualifying",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10895,13 +11009,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r08-r1",
           "type": "race",
           "subLabel": "R1",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10909,13 +11023,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r08-r2",
           "type": "race",
           "subLabel": "R2",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10923,29 +11037,29 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         }
-      ]
+      ],
+      "status": "upcoming"
     },
     {
       "id": "cnsrc-s03-r09",
       "index": 9,
-      "status": "upcoming",
-      "date": "—",
       "track": {
         "id": "hungaroring",
         "name": "Hungaroring",
         "short": "HUN",
         "country": "Hungría",
+        "layout": "Grand Prix",
         "lengthKm": 4.381,
-        "turns": 14,
-        "layout": "Grand Prix"
+        "turns": 14
       },
+      "date": "26 jul 2026",
       "sessions": [
         {
           "id": "cnsrc-s03-r09-q",
           "type": "qualifying",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10953,13 +11067,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r09-r1",
           "type": "race",
           "subLabel": "R1",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10967,13 +11081,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r09-r2",
           "type": "race",
           "subLabel": "R2",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -10981,29 +11095,29 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         }
-      ]
+      ],
+      "status": "upcoming"
     },
     {
       "id": "cnsrc-s03-r10",
       "index": 10,
-      "status": "upcoming",
-      "date": "—",
       "track": {
         "id": "brandshatch",
         "name": "Brands Hatch",
         "short": "BRH",
         "country": "Reino Unido",
+        "layout": "Grand Prix",
         "lengthKm": 3.908,
-        "turns": 9,
-        "layout": "Grand Prix"
+        "turns": 9
       },
+      "date": "9 ago 2026",
       "sessions": [
         {
           "id": "cnsrc-s03-r10-q",
           "type": "qualifying",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -11011,13 +11125,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r10-r1",
           "type": "race",
           "subLabel": "R1",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -11025,13 +11139,13 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         },
         {
           "id": "cnsrc-s03-r10-r2",
           "type": "race",
           "subLabel": "R2",
-          "status": "upcoming",
           "conditions": {
             "airTemp": 0,
             "trackTemp": 0,
@@ -11039,11 +11153,14 @@
           },
           "results": [],
           "laps": [],
-          "incidents": []
+          "incidents": [],
+          "status": "upcoming"
         }
-      ]
+      ],
+      "status": "upcoming"
     }
   ],
+  "status": "live",
   "pointsTable": {
     "r1": [
       25,
@@ -11062,9 +11179,11 @@
       18,
       15,
       12,
-      9
+      9,
+      6
     ],
     "fastestLapR1": 1,
     "fastestLapR2": 1.5
-  }
+  },
+  "teamPoints": true
 }

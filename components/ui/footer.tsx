@@ -3,10 +3,9 @@ import Image from "next/image";
 const SPONSORS: { src: string | null; href?: string }[] = [
   { src: "/sponsors/acc.png", href: "https://www.instagram.com/automovil_club_de_cuba/" },
   { src: "/sponsors/adec.png", href: "https://adecesports.com/" },
-  { src: null },
-  { src: null },
-  { src: null },
-  { src: null },
+  { src: "/sponsors/fia.png", href: "https://fia.com" },
+  { src: "/sponsors/epic.png", href: "https://epicmotorsports.mx/" },
+  { src: "/sponsors/fsc.png", href: "https://www.facebook.com/FSCesports/" },
 ];
 
 export function CNSRCFooter() {

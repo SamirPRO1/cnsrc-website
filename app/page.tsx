@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { listChampionships, getStandings, getDriver, getTeam } from "@/lib/data";
-import { Backdrop } from "@/components/ui/backdrop";
 import { TopNav } from "@/components/ui/top-nav";
 import { Glass } from "@/components/ui/glass";
 import { LiveChip, Chip } from "@/components/ui/chip";
@@ -9,6 +8,13 @@ import { PodiumGroup } from "@/components/ui/podium";
 import { CNSRCFooter } from "@/components/ui/footer";
 import { CompoundSilhouettes } from "@/components/ui/track-silhouette";
 import { HeroRoundStrip } from "@/components/ui/hero-round-strip";
+import { ParallaxBackdrop } from "@/components/ui/effects/ParallaxBackdrop";
+import { Reveal } from "@/components/ui/effects/Reveal";
+import { Stagger } from "@/components/ui/effects/Stagger";
+import { AnimatedNumber } from "@/components/ui/effects/AnimatedNumber";
+import { TextScramble } from "@/components/ui/effects/TextScramble";
+import { LiveClock } from "@/components/ui/effects/LiveClock";
+import { Marquee } from "@/components/ui/effects/Marquee";
 import type { StandingsRow } from "@/lib/types";
 
 
@@ -55,12 +61,12 @@ export default async function HomePage() {
 
   if (!active) {
     return (
-      <Backdrop orbs={[]}>
+      <ParallaxBackdrop orbs={[]}>
         <TopNav />
         <div style={{ padding: 48, textAlign: "center", color: "var(--text-secondary)", fontSize: 16 }}>
           No se encontraron datos del campeonato.
         </div>
-      </Backdrop>
+      </ParallaxBackdrop>
     );
   }
 
@@ -95,12 +101,22 @@ export default async function HomePage() {
   const rawPodium = latestSession?.results.slice(0, 3) ?? [];
   const hasPodium = rawPodium.length === 3;
 
+  const tickerItems = [
+    `CAMPEONATO ACTIVO · ${active.season}`,
+    `${completedRounds}/${active.rounds.length} RONDAS`,
+    `${totalRaces} CARRERAS`,
+    ...active.classes.map((c) => `CLASE · ${c.label}`),
+    `ÚLT. ACTUALIZACIÓN · ${latestRound?.date ?? "—"}`,
+    "ASSETTO CORSA",
+    "SIMRACING CUBA",
+  ];
+
   return (
-    <Backdrop
+    <ParallaxBackdrop
       orbs={[
-        { color: "red",    x: -140, y: -80, w: 540, h: 540, opacity: 0.9 },
-        { color: "purple", x: 900,  y: 60,  w: 460, h: 460, opacity: 0.7 },
-        { color: "amber",  x: 520,  y: 680, w: 320, h: 320, opacity: 0.4 },
+        { color: "red",    x: -140, y: -80, w: 540, h: 540, opacity: 0.9, depth: 0.8 },
+        { color: "purple", x: 900,  y: 60,  w: 460, h: 460, opacity: 0.7, depth: 0.5 },
+        { color: "amber",  x: 520,  y: 680, w: 320, h: 320, opacity: 0.4, depth: 0.3 },
       ]}
       silhouette={
         <CompoundSilhouettes
@@ -109,22 +125,35 @@ export default async function HomePage() {
         />
       }
       bracketCorners
+      speedLines
     >
       <TopNav />
 
-      {/* ticker */}
-      <div className="home-ticker">
-        <span className="label">CAMPEONATO ACTIVO · {active.season}</span>
-        <span className="label" style={{ marginLeft: "auto", color: "var(--text-tertiary)", whiteSpace: "nowrap" }}>
-          ÚLT. ACTUALIZACIÓN · <span className="mono">{latestRound?.date ?? "—"}</span>
-        </span>
+      {/* marquee ticker */}
+      <div style={{ padding: "6px 0 12px", borderBottom: "0.5px dashed rgba(255,255,255,0.05)", marginBottom: 16 }}>
+        <Marquee duration={32}>
+          {tickerItems.map((t, i) => (
+            <span
+              key={i}
+              className="label"
+              style={{ display: "inline-flex", alignItems: "center", gap: 10, color: "var(--text-tertiary)" }}
+            >
+              <span style={{ display: "inline-block", width: 4, height: 4, background: "var(--accent-red)", borderRadius: "50%" }} />
+              {t}
+            </span>
+          ))}
+          <span className="label" style={{ display: "inline-flex", alignItems: "center", gap: 10, color: "var(--accent-red)" }}>
+            <LiveClock />
+          </span>
+        </Marquee>
       </div>
 
       {/* hero grid */}
       <div className="home-hero-grid">
         {/* left column: hero glass + round strip */}
         <div style={{ display: "flex", flexDirection: "column", minWidth: 0 }}>
-        <Glass cut={22} heavy stripe pad={0} data-primary-red>
+        <Reveal variant="clip">
+        <Glass cut={22} heavy stripe pad={0} data-primary-red className="fx-shine fx-shine--auto fx-glow-red">
           <div className="home-hero-inner">
             {/* title + stats */}
             <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
@@ -133,24 +162,32 @@ export default async function HomePage() {
                 <Chip>{active.season}</Chip>
                 <Chip>{active.classes.map((c) => c.label).join(" · ")}</Chip>
               </div>
-              <h1 className="home-h1" style={{ fontFamily: "var(--font-display)", fontWeight: 800, lineHeight: 0.95, letterSpacing: "0.01em", textTransform: "uppercase", margin: 0, color: "var(--text-primary)" }}>
-                Campeonato<br />Nacional<br />
-                <span style={{ color: "var(--accent-red)" }}>Simracing Cuba</span>
+              <h1 className="home-h1 fx-headline" style={{ fontFamily: "var(--font-display)", fontWeight: 800, lineHeight: 0.95, letterSpacing: "0.01em", textTransform: "uppercase", margin: 0, color: "var(--text-primary)" }}>
+                <TextScramble text="Campeonato" duration={700} /><br />
+                <TextScramble text="Nacional" startDelay={200} duration={700} /><br />
+                <span className="fx-text-gradient" style={{ color: "var(--accent-red)" }}>
+                  <TextScramble text="Simracing Cuba" startDelay={500} duration={900} />
+                </span>
               </h1>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+              <Stagger style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
                 {[
-                  { label: "RONDAS DISPUTADAS", value: String(completedRounds).padStart(2,"0"), sub: `/ ${active.rounds.length}` },
-                  { label: "CARRERAS",          value: String(totalRaces).padStart(2,"0"),       sub: "sesiones totales" },
-                  { label: "CLASES",            value: String(active.classes.length).padStart(2,"0"), sub: active.classes.map(c=>c.label).join(" · ") },
-                  { label: "ESTADO",            value: active.status.toUpperCase(), sub: `Ronda ${completedRounds}`, accent: true },
+                  { label: "RONDAS DISPUTADAS", num: completedRounds, pad: 2, sub: `/ ${active.rounds.length}` },
+                  { label: "CARRERAS",          num: totalRaces,       pad: 2, sub: "sesiones totales" },
+                  { label: "CLASES",            num: active.classes.length, pad: 2, sub: active.classes.map(c=>c.label).join(" · ") },
+                  { label: "ESTADO",            text: active.status.toUpperCase(), sub: `Ronda ${completedRounds}`, accent: true },
                 ].map((s, i) => (
                   <div key={i} style={{ display: "flex", flexDirection: "column" }}>
                     <span className="label">{s.label}</span>
-                    <span className="home-stat-value" style={{ fontFamily: "var(--font-display)", fontWeight: 800, letterSpacing: "0.01em", lineHeight: 1, color: s.accent ? "var(--accent-red)" : "var(--text-primary)", fontVariantNumeric: "tabular-nums", marginTop: 4 }}>{s.value}</span>
+                    <span className="home-stat-value" style={{ fontFamily: "var(--font-display)", fontWeight: 800, letterSpacing: "0.01em", lineHeight: 1, color: s.accent ? "var(--accent-red)" : "var(--text-primary)", fontVariantNumeric: "tabular-nums", marginTop: 4 }}>
+                      {"text" in s
+                        ? s.text
+                        : <AnimatedNumber value={s.num!} pad={s.pad} />
+                      }
+                    </span>
                     <span style={{ fontSize: 13, color: "var(--text-tertiary)", marginTop: 4 }}>{s.sub}</span>
                   </div>
                 ))}
-              </div>
+              </Stagger>
               <div style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 13, color: "var(--text-secondary)", flexWrap: "wrap" }}>
                 <span className="mono" style={{ color: "var(--text-primary)" }}>{active.season}</span>
                 <span style={{ color: "var(--text-tertiary)" }}>/</span>
@@ -163,7 +200,7 @@ export default async function HomePage() {
             <div className="home-hero-divider" />
 
             {/* Discord community panel */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+            <Reveal variant="slide-r" delay={120} style={{ display: "flex", flexDirection: "column", gap: 14 }}>
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                 <span className="label" style={{ color: "var(--text-secondary)" }}>COMUNIDAD · DISCORD</span>
                 {discord && (
@@ -260,7 +297,7 @@ export default async function HomePage() {
               ) : (
                 <span className="label" style={{ color: "var(--text-tertiary)" }}>NO DISPONIBLE</span>
               )}
-            </div>
+            </Reveal>
           </div>
 
           {/* compass ruler */}
@@ -272,8 +309,10 @@ export default async function HomePage() {
             </div>
           </div>
         </Glass>
+        </Reveal>
 
         {/* round strip — outside Glass so clip-path doesn't clip the scrollbar */}
+        <Reveal variant="fade" delay={300}>
         <div style={{
           background: "rgba(255,255,255,0.02)",
           border: "0.5px solid rgba(255,255,255,0.08)",
@@ -283,46 +322,49 @@ export default async function HomePage() {
         }}>
           <HeroRoundStrip rounds={roundItems} />
         </div>
+        </Reveal>
         </div>
 
         {/* side standings */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 10, minWidth: 0 }}>
+        <Reveal variant="slide-r" style={{ display: "flex", flexDirection: "column", gap: 10, minWidth: 0 }}>
           {classStandings.map((cs) => (
             <StandingsSide key={cs.classId} heading={cs.label} rows={cs.rows} total={active.rounds.length} done={completedRounds} champId={active.id} />
           ))}
-        </div>
+        </Reveal>
       </div>
 
       {/* latest result */}
       {latestSession && hasPodium && (
-        <div className="home-section-pad" style={{ paddingTop: 20 }}>
+        <Reveal variant="up" className="home-section-pad" style={{ paddingTop: 20 }}>
           <SectionHeading
             eyebrow={`ÚLTIMO RESULTADO · ${latestRound!.date}`}
             title={`Ronda ${String(latestRound!.index).padStart(2,"0")} · ${latestRound!.track.name} · ${latestSession.subLabel ?? "Carrera"}`}
             right={
-              <Link href={`/sessions/${latestSession.id}`} style={{ fontFamily: "var(--font-display)", fontSize: 12, letterSpacing: "0.2em", color: "var(--accent-red)", textDecoration: "none" }}>
+              <Link href={`/sessions/${latestSession.id}`} className="fx-link-underline" style={{ fontFamily: "var(--font-display)", fontSize: 12, letterSpacing: "0.2em", color: "var(--accent-red)", textDecoration: "none" }}>
                 VER SESIÓN →
               </Link>
             }
           />
           <Glass cut={18} pad={20}>
             <div className="home-result-grid">
-              <PodiumGroup
-                podium={rawPodium.map((r) => {
-                  const driver = getDriver(r.driverId);
-                  return {
-                    pos: r.pos,
-                    grid: r.gridPos,
-                    delta: r.gridPos - r.pos,
-                    name: driver?.name ?? r.driverId,
-                    team: getTeam(r.teamId)?.name ?? r.teamId,
-                    best: r.bestLap,
-                    gap: r.gap,
-                    picture: driver?.picture,
-                  };
-                }) as [Parameters<typeof PodiumGroup>[0]["podium"][0], Parameters<typeof PodiumGroup>[0]["podium"][0], Parameters<typeof PodiumGroup>[0]["podium"][0]]}
-              />
-              <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              <Stagger>
+                <PodiumGroup
+                  podium={rawPodium.map((r) => {
+                    const driver = getDriver(r.driverId);
+                    return {
+                      pos: r.pos,
+                      grid: r.gridPos,
+                      delta: r.gridPos - r.pos,
+                      name: driver?.name ?? r.driverId,
+                      team: getTeam(r.teamId)?.name ?? r.teamId,
+                      best: r.bestLap,
+                      gap: r.gap,
+                      picture: driver?.picture,
+                    };
+                  }) as [Parameters<typeof PodiumGroup>[0]["podium"][0], Parameters<typeof PodiumGroup>[0]["podium"][0], Parameters<typeof PodiumGroup>[0]["podium"][0]]}
+                />
+              </Stagger>
+              <Stagger style={{ display: "flex", flexDirection: "column", gap: 8 }}>
                 <div className="label">DATOS DE SESIÓN</div>
                 {[
                   ["CIRCUITO",   `${latestRound!.track.name} · ${latestRound!.track.lengthKm} km`],
@@ -335,15 +377,15 @@ export default async function HomePage() {
                     <span className="mono" style={{ fontSize: 13, color: "var(--text-primary)" }}>{v}</span>
                   </div>
                 ))}
-              </div>
+              </Stagger>
             </div>
           </Glass>
-        </div>
+        </Reveal>
       )}
 
 
       <CNSRCFooter />
-    </Backdrop>
+    </ParallaxBackdrop>
   );
 }
 
@@ -354,21 +396,24 @@ function StandingsSide({ heading, rows, total, done, champId }: { heading: strin
         <span className="label" style={{ color: "var(--text-secondary)" }}>CLASIFICACIÓN · {heading}</span>
         <span className="mono" style={{ fontSize: 11, color: "var(--text-tertiary)" }}>R{String(done).padStart(2,"0")}/{total}</span>
       </div>
-      <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+      <Stagger style={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {rows.length === 0 && <div className="label" style={{ color: "var(--text-tertiary)", padding: "6px 0" }}>Sin datos</div>}
         {rows.map((r) => (
-          <div key={r.pos} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 6px", background: r.pos===1 ? "var(--bg-surface-p1)" : "transparent", borderTop: r.pos===1 ? "0.5px solid var(--border-accent)" : "0.5px solid transparent" }}>
+          <div key={r.pos} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 6px", background: r.pos===1 ? "var(--bg-surface-p1)" : "transparent", borderTop: r.pos===1 ? "0.5px solid var(--border-accent)" : "0.5px solid transparent", transition: "background 200ms ease, transform 200ms ease" }}
+               onMouseEnter={undefined}>
             <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 17, color: r.pos===1 ? "var(--accent-red)" : "var(--text-primary)", width: 26, fontVariantNumeric: "tabular-nums" }}>{String(r.pos).padStart(2,"0")}</span>
             <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 1 }}>
               <span style={{ fontSize: 14, color: "var(--text-primary)" }}>{r.name}</span>
               <span style={{ fontSize: 12, color: "var(--text-secondary)" }}>{r.teamName}</span>
             </div>
-            <span className="mono" style={{ fontSize: 14, color: "var(--text-primary)" }}>{r.pts}</span>
+            <span className="mono" style={{ fontSize: 14, color: "var(--text-primary)" }}>
+              <AnimatedNumber value={r.pts} duration={900} />
+            </span>
           </div>
         ))}
-      </div>
+      </Stagger>
       <div style={{ marginTop: 10, paddingTop: 10, borderTop: "0.5px dashed rgba(255,255,255,0.08)", textAlign: "right" }}>
-        <Link href={`/championships/${champId}`} style={{ fontFamily: "var(--font-display)", fontSize: 12, letterSpacing: "0.18em", color: "var(--text-secondary)", textDecoration: "none" }}>VER TABLA →</Link>
+        <Link href={`/championships/${champId}`} className="fx-link-underline" style={{ fontFamily: "var(--font-display)", fontSize: 12, letterSpacing: "0.18em", color: "var(--text-secondary)", textDecoration: "none" }}>VER TABLA →</Link>
       </div>
     </Glass>
   );

@@ -93,6 +93,7 @@ export const ChampionshipSchema = z.object({
   rounds: z.array(RoundSchema),
   status: z.enum(["upcoming", "live", "complete"]),
   pointsTable: PointsTableSchema.optional(),
+  teamPoints: z.boolean().optional().default(false),
 });
 
 export const DriverSchema = z.object({
@@ -114,6 +115,18 @@ export const TeamSchema = z.object({
   colors: z.tuple([z.string(), z.string()]).optional(),
 });
 
+export const BlogPostSchema = z.object({
+  id: z.string().min(1).regex(/^[a-z0-9-]+$/, "Solo minúsculas, números y guiones"),
+  title: z.string().min(1),
+  excerpt: z.string().default(""),
+  body: z.string().default(""),
+  author: z.string().default(""),
+  coverImage: z.string().optional(),
+  tags: z.array(z.string()).optional().default([]),
+  publishedAt: z.string(),   // ISO datetime
+  draft: z.boolean().default(false),
+});
+
 // ── Derived view types ────────────────────────────────────────────
 export const StandingsRowSchema = z.object({
   pos: z.number(),
@@ -130,6 +143,16 @@ export const StandingsRowSchema = z.object({
   dnfs: z.number(),
 });
 
+export interface TeamStandingsRow {
+  pos: number;
+  teamId: string;
+  teamName: string;
+  pts: number;
+  wins: number;
+  podiums: number;
+  drivers: number;
+}
+
 export type Conditions     = z.infer<typeof ConditionsSchema>;
 export type ClassDef       = z.infer<typeof ClassDefSchema>;
 export type Result         = z.infer<typeof ResultSchema>;
@@ -142,6 +165,7 @@ export type Championship   = z.infer<typeof ChampionshipSchema>;
 export type PointsTable    = z.infer<typeof PointsTableSchema>;
 export type Driver         = z.infer<typeof DriverSchema>;
 export type Team           = z.infer<typeof TeamSchema>;
+export type BlogPost       = z.infer<typeof BlogPostSchema>;
 export type StandingsRow   = z.infer<typeof StandingsRowSchema>;
 
 export interface DriverSeasonStats {

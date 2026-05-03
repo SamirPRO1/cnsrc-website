@@ -13,7 +13,7 @@ interface Props {
 
 const DEFAULT_TABLE: PointsTable = {
   r1: [25, 18, 15, 12, 10, 8, 6, 4],
-  r2: [37.5, 27, 22.5, 18, 15, 12, 9],
+  r2: [37.5, 27, 22.5, 18, 15, 12, 9, 6],
   fastestLapR1: 1,
   fastestLapR2: 1.5,
 };
